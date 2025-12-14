@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-.app-main-container {
-  height: 100vh;     
-  overflow-y: scroll;     
-  scrollbar-width: none;  
-}
-
-.app-main-container::-webkit-scrollbar, .nav-bar-container::-webkit-scrollbar {
-  display: none;
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -17,17 +15,23 @@ body {
     margin: 0;
 }
 
-.menu-content {
-    padding-bottom: 10px;
+.app-main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    overflow-y: auto;
 }
 
-.main-footer {
-    text-align: center;
-    padding: 15px 0 50px;
-    background-color: #e1e1e1;
-    color: #555555;
-    font-size: 0.9em;
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+@supports not (height: 100dvh) {
+    .app-main-container {
+        /* L'hack standard di iOS per 100vh */
+        height: -webkit-fill-available;
+    }
+}
+
+.menu-content {
+    flex-grow: 1;
+    padding-bottom: 10px;
 }
 
 .social-logo {
@@ -47,9 +51,13 @@ body {
 .main-header {
     position: sticky;
     top: 0;
+    flex-shrink: 0;
     z-index: 10;
     background-color: #ffffff;
-    padding: 15px 0;
+    padding-top: max(10px, env(safe-area-inset-top, 10px));
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -248,6 +256,110 @@ body {
     text-align: start;
 }
 
+.main-footer {
+    background-color: #313131;
+    color: rgb(235, 235, 235);
+    padding: 0px 15px 10px;
+    font-size: 0.9em;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    gap: 30px;
+}
+
+.footer-section {
+    flex-basis: 100%;
+}
+
+.footer-section h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #a7a7a7;
+    padding-bottom: 5px;
+}
+
+.hours-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hours-list li {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.footer-map a,
+.footer-phone a,
+.footer-social a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-map,
+.footer-phone,
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.reservation-button {
+    background-color: rgb(248, 248, 248);
+    color: #313131;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+.reservation-button:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.footer-bottom {
+    border-top: 1px solid #a7a7a7;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.copyright-text {
+    margin-bottom: 10px;
+}
+
+/* Media Query per Desktop/Tablet */
+@media (min-width: 768px) {
+    .footer-section {
+        flex-basis: calc(33.333% - 20px);
+        /* 3 colonne */
+    }
+
+    .reservation-button {
+        width: auto;
+        /* Togli il full-width su desktop */
+    }
+
+    .legal-links {
+        display: inline-block;
+        margin-top: 0;
+    }
+}
 
 @media (min-width: 375px) {
     .language-menu {
@@ -286,34 +398,44 @@ body {
         width: 70%;
     }
 }
+
 @media (min-width: 800px) {
     .logo-svg {
         width: 60%;
     }
 }
+
 @media (min-width: 900px) {
     .logo-svg {
         width: 50%;
     }
 }
+
 @media (min-width: 1000px) {
     .logo-svg {
         width: 40%;
     }
 }
-@media (min-width: 1430px) {
-    .category-tabs
-    {
-        justify-content: center;
-    }
-}
+
 @media (min-width: 1500px) {
     .logo-svg {
         width: 35%;
     }
 }
+
+@media (min-width: 1550px) {
+    .category-tabs-aperitif {
+        justify-content: center;
+    }
+}
 @media (min-width: 1800px) {
     .logo-svg {
         width: 30%;
+    }
+}
+
+@media (min-width: 1960px) {
+    .category-tabs-night {
+        justify-content: center;
     }
 }

@@ -1,4 +1,5 @@
 import { getSeasonKey } from '../data/menuData';
+import {getActiveMenu} from '../App';
 
 const NavigationMenu = ({ categoriesMeta, activeCategoryKey, onCategorySelect, currentLang }) => {
 
@@ -18,11 +19,11 @@ const NavigationMenu = ({ categoriesMeta, activeCategoryKey, onCategorySelect, c
   });
 
   const seasonClass = getSeasonKey();
-
+  const activeMenu = getActiveMenu();
 
   return (
     <div className="nav-bar-container">
-      <nav className="category-tabs">
+      <nav className={`category-tabs category-tabs-${activeMenu}`}>
         {categoryList.map((category) => (
           <button
             key={category.key}

@@ -4791,9 +4791,9 @@ export const categoriesMetaAperitif = {
   },
   birreBott: {
     title: {
-      it: "Bottiglia",
-      en: "Bottled",
-      fr: "Bouteille"
+      it: "Bottiglie",
+      en: "Bottles",
+      fr: "Bouteilles"
     },
     subtitle: {
       it: "Le nostre birre in bottiglia, da sorseggiare fredde e condividere con gli amici durante l'aperitivo.",
@@ -4802,15 +4802,15 @@ export const categoriesMetaAperitif = {
     },
     icon: '/icone/birrebottiglia.png',
     shortTitle: {
-      it: 'Bottiglia',
-      en: 'Bottled',
-      fr: 'Bouteille'
+      it: 'Bottiglie',
+      en: 'Bottles',
+      fr: 'Bouteilles'
     }
   },
   bibite: {
     title: {
       it: "Bibite",
-      en: "Can",
+      en: "Cans",
       fr: "Boissons"
     },
     subtitle: {
@@ -4821,7 +4821,7 @@ export const categoriesMetaAperitif = {
     icon: '/icone/lattine.png',
     shortTitle: {
       it: 'Bibite',
-      en: 'Can',
+      en: 'Cans',
       fr: 'Boissons'
     }
   },
@@ -4991,9 +4991,9 @@ export const categoriesMetaNight = {
   },
   birreBott: {
     title: {
-      it: "Bottiglia",
-      en: "Bottled",
-      fr: "Bouteille"
+      it: "Bottiglie",
+      en: "Bottles",
+      fr: "Bouteilles"
     },
     subtitle: {
       it: "Birre in bottiglia, nazionali e internazionali, da gustare fredde in ogni momento della serata",
@@ -5002,15 +5002,15 @@ export const categoriesMetaNight = {
     },
     icon: '/icone/birrebottiglia.png',
     shortTitle: {
-      it: 'Bottiglia',
-      en: 'Bottled',
-      fr: 'Bouteille'
+      it: 'Bottiglie',
+      en: 'Bottles',
+      fr: 'Bouteilles'
     }
   },
   bibite: {
     title: {
       it: "Bibite",
-      en: "Can",
+      en: "Cans",
       fr: "Boissons"
     },
     subtitle: {
@@ -5021,7 +5021,7 @@ export const categoriesMetaNight = {
     icon: '/icone/lattine.png',
     shortTitle: {
       it: 'Bibite',
-      en: 'Can',
+      en: 'Cans',
       fr: 'Boissons'
     }
   },
@@ -5081,7 +5081,7 @@ export const categoriesMetaNight = {
   },
   amari: {
     title: {
-      it: "Degestivi e Affiini",
+      it: "Degestivi e Affini",
       en: "Digestifs and Similar",
       fr: "Digestifs et Similaires"
     },

@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import './App.css';
 import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher';
 
-const getActiveMenu = () => {
+export function getActiveMenu() {
   const currentHour = new Date().getHours();
   if (currentHour >= 6 && currentHour < 21) {
     return 'aperitif';
@@ -136,7 +136,7 @@ function App() {
           currentLang={currentLang}
         />
       </main>
-      <Footer />
+      <Footer currentLang={currentLang}/>
     </div>
     </>
   );
