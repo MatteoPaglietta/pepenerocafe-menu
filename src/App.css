@@ -23,7 +23,7 @@ body {
 
 .main-footer {
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 0 50px;
     background-color: #e1e1e1;
     color: #555555;
     font-size: 0.9em;
@@ -49,7 +49,7 @@ body {
     top: 0;
     z-index: 10;
     background-color: #ffffff;
-    padding: 10px 0;
+    padding: 15px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
