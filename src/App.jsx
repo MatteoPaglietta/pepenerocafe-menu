@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Section from './components/Section';
 import NavigationMenu from './components/NavigationMenu';
 import { InstagramIcon } from './components/AnimatedInstagram';
 import { productsAperitif, productsNight, categoriesMetaAperitif, categoriesMetaNight } from './data/menuData';
 import LogoSVG from './components/LogoSVG';
+import Footer from './components/Footer';
 
 import './App.css';
 import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher';
@@ -27,6 +28,8 @@ function App() {
   const [activeMenuType, setActiveMenuType] = useState(getActiveMenu);
   const [currentLang, setCurrentLang] = useState(getBrowserDefaultLanguage);
 
+  const containerRef = useRef(null);
+
   const allCategoriesMeta = activeMenuType === 'aperitif' ? categoriesMetaAperitif : categoriesMetaNight;
   const allProducts = activeMenuType === 'aperitif' ? productsAperitif : productsNight;
 
@@ -38,7 +41,9 @@ function App() {
   }, [activeMenuType, allCategoriesMeta]);
 
   const handleCategorySelect = (key) => {
-    scrollTo(0,0);
+    if (containerRef.current) {
+        containerRef.current.scrollTop = 0;
+    }
     setActiveCategoryKey(key);
   };
 
@@ -95,7 +100,8 @@ function App() {
   }
 
   return (
-    <div className="app-main-container">
+    <>
+    <div className="app-main-container" ref={containerRef}>
       <header className="main-header">
         <div className="social-logo">
           <a
@@ -130,7 +136,9 @@ function App() {
           currentLang={currentLang}
         />
       </main>
+      <Footer />
     </div>
+    </>
   );
 }
 
