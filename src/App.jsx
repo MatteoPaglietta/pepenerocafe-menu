@@ -11,7 +11,7 @@ import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/Langua
 const getActiveMenu = () => {
   const currentHour = new Date().getHours();
   if (currentHour >= 6 && currentHour < 21) {
-    return 'night';
+    return 'aperitif';
   } else {
     return 'night';
   }
