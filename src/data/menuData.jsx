@@ -656,6 +656,36 @@ export const productsAperitif = {
   spritz: [
     {
       id: "spz1",
+      name: "Spritz Aperol",
+      ingredients: {
+        it: ["Aperol", "Prosecco", "Soda"],
+        en: ["Aperol", "Prosecco", "Soda"],
+        fr: ["Aperol", "Prosecco", "Soda"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: spritzVenturoImage,
+    },
+    {
+      id: "spz2",
+      name: "Spritz Campari",
+      ingredients: {
+        it: ["Campari", "Prosecco", "Soda"],
+        en: ["Campari", "Prosecco", "Soda"],
+        fr: ["Campari", "Prosecco", "Soda"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: spritzVenturoImage,
+    },
+    {
+      id: "spz3",
       name: "Spritz Venturo",
       ingredients: {
         it: ["Venturo", "Prosecco", "Soda"],
@@ -670,7 +700,7 @@ export const productsAperitif = {
       image: spritzVenturoImage,
     },
     {
-      id: "spz2",
+      id: "spz4",
       name: "Spritz alla Viola",
       ingredients: {
         it: ["Sciroppo alla viola", "Prosecco", "Soda"],
@@ -685,7 +715,7 @@ export const productsAperitif = {
       image: spritzViolaImage,
     },
     {
-      id: "spz3",
+      id: "spz5",
       name: "Spritz alla Fragola",
       ingredients: {
         it: ["Aperol", "Prosecco", "Soda", "Polpa di fragola"],
@@ -700,7 +730,7 @@ export const productsAperitif = {
       image: spritzFragolaImage,
     },
     {
-      id: "spz4",
+      id: "spz6",
       name: "Spritz allo Zenzero",
       ingredients: {
         it: ["Aperol", "Prosecco", "Soda", "Sciroppo allo zenzero"],
@@ -715,7 +745,7 @@ export const productsAperitif = {
       image: spritzZenzeroImage,
     },
     {
-      id: "spz5",
+      id: "spz7",
       name: "Spritz al Limone",
       ingredients: {
         it: ["Prosecco", "Limone", "Tonica", "Menta in foglie"],
@@ -730,8 +760,8 @@ export const productsAperitif = {
       image: spritzLimoneImage,
     },
     {
-      id: "spz6",
-      name: "Hugo",
+      id: "spz8",
+      name: "Spritz Hugo",
       ingredients: {
         it: ["Sciroppo di sambuco", "Prosecco", "Soda", "Menta in foglie"],
         en: ["Elderflower Syrup", "Prosecco", "Soda", "Mint Leaves"],
@@ -745,7 +775,7 @@ export const productsAperitif = {
       image: hugoImage,
     },
     {
-      id: "spz7",
+      id: "spz9",
       name: "Spritz ai Frutti di Bosco",
       ingredients: {
         it: ["Aperol", "Prosecco", "Soda", "Sciroppo ai frutti di bosco"],
@@ -760,7 +790,7 @@ export const productsAperitif = {
       image: spritzFruttiBoscoImage,
     },
     {
-      id: "spz8",
+      id: "spz10",
       name: "Spritz alla Rosa",
       ingredients: {
         it: ["Sciroppo di rosa", "Prosecco", "Soda"],
@@ -775,7 +805,7 @@ export const productsAperitif = {
       image: spritzRosaImage,
     },
     {
-      id: "spz9",
+      id: "spz11",
       name: "Spritz Esotico",
       ingredients: {
         it: ["Aperol", "Prosecco", "Soda", "Polpa di mango"],
@@ -790,7 +820,7 @@ export const productsAperitif = {
       image: spritzEsoticoImage,
     },
     {
-      id: "spz10",
+      id: "spz12",
       name: "Spritz Chinotto",
       ingredients: {
         it: ["Aperol", "Prosecco", "Chinotto"],
@@ -808,6 +838,21 @@ export const productsAperitif = {
   negroni: [
     {
       id: "neg1",
+      name: "Negroni",
+      ingredients: {
+        it: ["Vermouth rosso", "Campari", "Gin"],
+        en: ["Red Vermouth", "Campari", "Gin"],
+        fr: ["Vermouth rouge", "Campari", "Gin"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: negritoImage,
+    },
+    {
+      id: "neg2",
       name: "Negrito",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Rum Zacapa"],
@@ -822,7 +867,7 @@ export const productsAperitif = {
       image: negritoImage,
     },
     {
-      id: "neg2",
+      id: "neg3",
       name: "Negroni Sbagliato",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Prosecco"],
@@ -837,7 +882,7 @@ export const productsAperitif = {
       image: negroniSbagliatoImage,
     },
     {
-      id: "neg3",
+      id: "neg4",
       name: "Negrosky",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Vodka"],
@@ -852,7 +897,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "neg4",
+      id: "neg5",
       name: "Negrotto",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Chinotto Lurisia"],
@@ -867,7 +912,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "neg5",
+      id: "neg6",
       name: "Negroni Frutti di Bosco",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Gin", "Frutti di bosco"],
@@ -882,7 +927,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwZnJ1dHRpJTIwZGklMjBib3Njb3xlbnwxfHx8fDE3NjM5NjU0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "neg6",
+      id: "neg7",
       name: "Americano",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Soda"],
@@ -897,7 +942,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1631527756184-7a3562637f95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbWVyaWNhbm8lMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjM5NjU0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "neg7",
+      id: "neg8",
       name: "Negroni Esotico",
       ingredients: {
         it: ["Vermouth rosso", "Campari", "Gin", "Polpa di mango"],
@@ -4280,6 +4325,323 @@ export const productsNight = {
       "image": "obanImage"
     }
   ],
+  amari: [
+  {
+    id: "a1",
+    name: "Limoncello",
+    ingredients: {
+      it: ["Liquore al limone, dolce e profumato."],
+      en: ["Lemon liqueur, sweet and aromatic."],
+      fr: ["Liqueur de citron, douce et parfumée."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "limoncelloImage"
+  },
+  {
+    id: "a2",
+    name: "Anima Amara",
+    ingredients: {
+      it: ["Amaro dal gusto intenso e leggermente amaro."],
+      en: ["Bitter liqueur with an intense and slightly bitter taste."],
+      fr: ["Amaro au goût intense et légèrement amer."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "animaAmaraImage"
+  },
+  {
+    id: "a3",
+    name: "Montenegro",
+    ingredients: {
+      it: ["Amaro dolce e aromatico, con note speziate."],
+      en: ["Sweet and aromatic amaro, with spiced notes."],
+      fr: ["Amaro doux et aromatique, avec des notes épicées."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "montenegroImage"
+  },
+  {
+    id: "a4",
+    name: "San Simone",
+    ingredients: {
+      it: ["Amaro classico italiano, equilibrato e aromatico."],
+      en: ["Classic Italian amaro, balanced and aromatic."],
+      fr: ["Amaro italien classique, équilibré et aromatique."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "sanSimoneImage"
+  },
+  {
+    id: "a5",
+    name: "Amaretto Disaronno",
+    ingredients: {
+      it: ["Liquore alle mandorle, dolce e aromatico."],
+      en: ["Almond liqueur, sweet and aromatic."],
+      fr: ["Liqueur aux amandes, douce et aromatique."]
+    },
+    price: {
+      it: ["€5,00"],
+      en: ["€5,00"],
+      fr: ["€5,00"]
+    },
+    image: "disaronnoImage"
+  },
+  {
+    id: "a6",
+    name: "Jägermeister",
+    ingredients: {
+      it: ["Liquore alle erbe aromatiche, intenso e speziato."],
+      en: ["Herbal liqueur, intense and spiced."],
+      fr: ["Liqueur aux herbes, intense et épicée."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "jagermeisterImage"
+  },
+  {
+    id: "a7",
+    name: "Sambuca",
+    ingredients: {
+      it: ["Liquore all'anice, dolce e aromatico."],
+      en: ["Anise liqueur, sweet and aromatic."],
+      fr: ["Liqueur à l'anis, douce et aromatique."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "sambucaImage"
+  },
+  {
+    id: "a8",
+    name: "Baileys",
+    ingredients: {
+      it: ["Liquore alla crema e whisky, dolce e cremoso."],
+      en: ["Cream and whiskey liqueur, sweet and creamy."],
+      fr: ["Liqueur crème et whisky, douce et crémeuse."]
+    },
+    price: {
+      it: ["€5,00"],
+      en: ["€5,00"],
+      fr: ["€5,00"]
+    },
+    image: "baileysImage"
+  },
+  {
+    id: "a9",
+    name: "Unicum",
+    ingredients: {
+      it: ["Amaro ungherese a base di erbe, intenso e aromatico."],
+      en: ["Hungarian herbal amaro, intense and aromatic."],
+      fr: ["Amaro hongrois aux herbes, intense et aromatique."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "unicumImage"
+  },
+  {
+    id: "a10",
+    name: "Amaro Lucano",
+    ingredients: {
+      it: ["Amaro classico italiano, dolce e aromatico."],
+      en: ["Classic Italian amaro, sweet and aromatic."],
+      fr: ["Amaro italien classique, doux et aromatique."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "amaroLucanoImage"
+  },
+  {
+    id: "a11",
+    name: "Cynar",
+    ingredients: {
+      it: ["Amaro a base di carciofo, amaro e aromatico."],
+      en: ["Artichoke-based amaro, bitter and aromatic."],
+      fr: ["Amaro à base d’artichaut, amer et aromatique."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "cynarImage"
+  },
+  {
+    id: "a12",
+    name: "Amaro Ramazzotti",
+    ingredients: {
+      it: ["Amaro classico italiano, aromatico e leggermente dolce."],
+      en: ["Classic Italian amaro, aromatic and slightly sweet."],
+      fr: ["Amaro italien classique, aromatique et légèrement sucré."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "ramazzottiImage"
+  },
+  {
+    id: "a13",
+    name: "China Martini",
+    ingredients: {
+      it: ["Amaro a base di erbe cinesi, aromatico e amarognolo."],
+      en: ["Chinese herbal amaro, aromatic and slightly bitter."],
+      fr: ["Amaro aux herbes chinoises, aromatique et légèrement amer."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "chinaMartiniImage"
+  },
+  {
+    id: "a14",
+    name: "Fernet Branca",
+    ingredients: {
+      it: ["Amaro intenso e aromatico, a base di erbe e spezie."],
+      en: ["Intense and aromatic amaro, made with herbs and spices."],
+      fr: ["Amaro intense et aromatique, à base de plantes et épices."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "fernetBrancaImage"
+  },
+  {
+    id: "a15",
+    name: "Mirto Zedda Piras",
+    ingredients: {
+      it: ["Liquore al mirto Sardo, dolce e aromatico."],
+      en: ["Sardinian myrtle liqueur, sweet and aromatic."],
+      fr: ["Liqueur de myrte Sarde, douce et aromatique."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "mirtoZeddaPirasImage"
+  },
+  {
+    id: "a16",
+    name: "Amaro del Capo",
+    ingredients: {
+      it: ["Amaro Calabrese, aromatico e leggermente dolce."],
+      en: ["Calabrian amaro, aromatic and slightly sweet."],
+      fr: ["Amaro Calabrais, aromatique et légèrement sucré."]
+    },
+    price: {
+      it: ["€4,00"],
+      en: ["€4,00"],
+      fr: ["€4,00"]
+    },
+    image: "amaroDelCapoImage"
+  },
+  {
+    id: "a17",
+    name: "Grappa Barricata",
+    ingredients: {
+      it: ["Grappa invecchiata in botti di legno, aromatica e intensa."],
+      en: ["Aged grappa in wooden barrels, aromatic and intense."],
+      fr: ["Grappa vieillie en fûts de bois, aromatique et intense."]
+    },
+    price: {
+      it: ["€6,00"],
+      en: ["€6,00"],
+      fr: ["€6,00"]
+    },
+    image: "grappaBarricataImage"
+  },
+  {
+    id: "a18",
+    name: "Grappa",
+    ingredients: {
+      it: ["Grappa tradizionale, aromatica e morbida."],
+      en: ["Traditional grappa, aromatic and smooth."],
+      fr: ["Grappa traditionnelle, aromatique et douce."]
+    },
+    price: {
+      it: ["€5,00"],
+      en: ["€5,00"],
+      fr: ["€5,00"]
+    },
+    image: "grappaImage"
+  },
+  {
+    id: "a19",
+    name: "Grappa alla Pera",
+    ingredients: {
+      it: ["Grappa aromatizzata alla pera, dolce e fruttata."],
+      en: ["Pear-flavored grappa, sweet and fruity."],
+      fr: ["Grappa aromatisée à la poire, douce et fruitée."]
+    },
+    price: {
+      it: ["€5,00"],
+      en: ["€5,00"],
+      fr: ["€5,00"]
+    },
+    image: "grappaPeraImage"
+  },
+  {
+    id: "a20",
+    name: "Genepy Serpillo",
+    ingredients: {
+      it: ["Liquore alle erbe alpine, aromatico e speziato."],
+      en: ["Alpine herb liqueur, aromatic and spiced."],
+      fr: ["Liqueur aux herbes alpines, aromatique et épicée."]
+    },
+    price: {
+      it: ["€5,00"],
+      en: ["€5,00"],
+      fr: ["€5,00"]
+    },
+    image: "genepySerpilloImage"
+  },
+  {
+    id: "a21",
+    name: "Genziana",
+    ingredients: {
+      it: ["Liquore alle radici di genziana, amarognolo e aromatico."],
+      en: ["Gentian root liqueur, bitter and aromatic."],
+      fr: ["Liqueur de racines de gentiane, amère et aromatique."]
+    },
+    price: {
+      it: ["€5,00"],
+      en: ["€5,00"],
+      fr: ["€5,00"]
+    },
+    image: "genzianaImage"
+  }
+]
 };
 
 export const categoriesMetaAperitif = {
@@ -4290,9 +4652,9 @@ export const categoriesMetaAperitif = {
       fr: "Classiques Contemporains"
     },
     subtitle: {
-      it: "Cocktail internazionali intramontabili",
-      en: "Timeless international cocktails",
-      fr: "Cocktails internationaux intemporels"
+      it: "Drink equilibrati, colorati e pieni di personalità, perfetti per un momento di aperitivo. Scegli il tuo preferito e brinda con stile",
+      en: "Balanced, colorful drinks full of character, perfect for your aperitif moment. Pick your favorite and raise a glass in style.",
+      fr: "Des cocktails équilibrés, colorés et pleins de caractère, parfaits pour un moment apéro. Choisis ton préféré et trinque avec style."
     },
     icon: '/icone/classici.png',
     shortTitle: {
@@ -4308,9 +4670,9 @@ export const categoriesMetaAperitif = {
       fr: "Spritz et Similaires"
     },
     subtitle: {
-      it: "Le nostre varianti dell'aperitivo per eccellenza",
-      en: "Our variations of the quintessential aperitif",
-      fr: "Nos variations de l'apéritif par excellence"
+      it: "Freschi, leggeri e pieni di bollicine. Gli spritz e affini sono l'aperitivo perfetto da sorseggiare in compagnia.",
+      en: "Fresh, light, and bubbly. Spritz-style drinks made for easy aperitif moments with friends.",
+      fr: "Frais, légers et pleins de bulles. Les spritz et boissons similaires, parfaits pour l'apéro entre amis."
     },
     icon: '/icone/vino.png',
     shortTitle: {
@@ -4326,9 +4688,9 @@ export const categoriesMetaAperitif = {
       fr: "Negroni et Similaires"
     },
     subtitle: {
-      it: "Le nostre varianti del celebre cocktail italiano",
-      en: "Our variations of the famous Italian cocktail",
-      fr: "Nos variations du célèbre cocktail italien"
+      it: "Le nostre varianti del celebre cocktail italiano, pensate per l'aperitivo e da gustare senza fretta.",
+      en: "Our versions of the iconic Italian cocktail, made to enjoy during aperitif time.",
+      fr: "Nos variations du célèbre cocktail italien, à savourer pendant l'apéro."
     },
     icon: '/icone/negroni.png',
     shortTitle: {
@@ -4344,9 +4706,9 @@ export const categoriesMetaAperitif = {
       fr: "Sans Alcool"
     },
     subtitle: {
-      it: "Proposte fresche senza alcool",
-      en: "Fresh non-alcoholic options",
-      fr: "Propositions fraîches sans alcool"
+      it: "Le nostre proposte analcoliche, fresche e gustose, perfette per l'aperitivo senza alcol.",
+      en: "Our alcohol-free creations, fresh and full of flavor, perfect for an easy aperitif.",
+      fr: "Nos créations sans alcool, fraîches et savoureuses, parfaites pour un apéro sans alcool."
     },
     icon: '/icone/analcolici.png',
     shortTitle: {
@@ -4362,9 +4724,9 @@ export const categoriesMetaAperitif = {
       fr: "Sans Alcool Premium"
     },
     subtitle: {
-      it: "I drink più classici senza alcol",
-      en: "The most classic alcohol-free drinks",
-      fr: "Les boissons sans alcool les plus classiques"
+      it: "Le nostre versioni analcoliche premium di grandi classici pensate per l'aperitivo.",
+      en: "Our premium alcohol-free versions of great classics made for aperitif time.",
+      fr: "Nos versions premium sans alcool de grands classiques idéales pour l'apéro."
     },
     icon: '/icone/analcolici.png',
     shortTitle: {
@@ -4380,9 +4742,9 @@ export const categoriesMetaAperitif = {
       fr: "Saisonniers"
     },
     subtitle: {
-      it: "Mix vivaci e colorati",
-      en: "Vibrant and colorful mixes",
-      fr: "Mélanges vifs et colorés"
+      it: "Le nostre proposte stagionali, create con ingredienti del momento e pensate per l'aperitivo.",
+      en: "Our seasonal drinks, crafted with fresh ingredients and made for aperitif time.",
+      fr: "Nos créations de saison, élaborées avec des ingrédients du moment, parfaites pour l'apéro."
     },
     icon: '/icone/stagionali.png',
     shortTitle: {
@@ -4398,9 +4760,9 @@ export const categoriesMetaAperitif = {
       fr: "Vins"
     },
     subtitle: {
-      it: "Selezione di rossi, bianchi e bollicine",
-      en: "Selection of reds, whites, and sparkling wines",
-      fr: "Sélection de vins rouges, blancs et pétillants"
+      it: "La nostra selezione di vini bianchi, rossi e rosè perfetta da gustare da sola o durante l'aperitivo in compagnia.",
+      en: "Our selection of white, red, and rosé wines, perfect to enjoy on their own or during an aperitif with friends.",
+      fr: "Notre sélection de vins blancs, rouges et rosés, idéale à déguster seule ou pendant l'apéro entre amis."
     },
     icon: '/icone/vino.png',
     shortTitle: {
@@ -4416,9 +4778,9 @@ export const categoriesMetaAperitif = {
       fr: "Bières Pression"
     },
     subtitle: {
-      it: "Le nostre selezioni alla spina",
-      en: "Our draft selections",
-      fr: "Nos sélections à la pression"
+      it: "Le nostre birre alla spina, selezionate per freschezza e gusto, perfette per accompagnare l'aperitivo con gli amici.",
+      en: "Our draft beers, chosen for freshness and flavor, perfect to enjoy with friends during aperitif time.",
+      fr: "Nos bières pression, sélectionnées pour leur fraîcheur et leur goût, parfaites pour accompagner l'apéro entre amis."
     },
     icon: '/icone/birrespina.png',
     shortTitle: {
@@ -4434,9 +4796,9 @@ export const categoriesMetaAperitif = {
       fr: "Bouteille"
     },
     subtitle: {
-      it: "Birre nazionali ed internazionali",
-      en: "National and international beers",
-      fr: "Bières nationales et internationales"
+      it: "Le nostre birre in bottiglia, da sorseggiare fredde e condividere con gli amici durante l'aperitivo.",
+      en: "Our bottled beers, best enjoyed cold and shared with friends during aperitif time.",
+      fr: "Nos bières en bouteille, à déguster bien fraîches et à partager entre amis pendant l'apéro."
     },
     icon: '/icone/birrebottiglia.png',
     shortTitle: {
@@ -4452,9 +4814,9 @@ export const categoriesMetaAperitif = {
       fr: "Boissons"
     },
     subtitle: {
-      it: "Bevande in lattina e succhi di frutta",
-      en: "Canned drinks and fruit juices",
-      fr: "Boissons en canette et jus de fruits"
+      it: "Bibite leggere e dissetanti, ideali per rinfrescarti e accompagnare l’aperitivo in ogni momento.",
+      en: "Light and refreshing soft drinks, perfect to cool off and enjoy with aperitivo anytime.",
+      fr: "Boissons légères et désaltérantes, parfaites pour se rafraîchir et accompagner l’apéro à tout moment."
     },
     icon: '/icone/lattine.png',
     shortTitle: {
@@ -4472,9 +4834,9 @@ export const categoriesMetaNight = {
       fr: "Classiques Contemporains"
     },
     subtitle: {
-      it: "Cocktail internazionali intramontabili",
-      en: "Timeless international cocktails",
-      fr: "Cocktails internationaux intemporels"
+      it: "Cocktail intramontabili da gustare in ogni serata, perfetti per chi ama i grandi classici",
+      en: "Timeless cocktails to enjoy any evening, perfect for those who love the classics",
+      fr: "Cocktails intemporels à savourer en soirée, parfaits pour les amateurs de classiques"
     },
     icon: '/icone/classici.png',
     shortTitle: {
@@ -4490,9 +4852,9 @@ export const categoriesMetaNight = {
       fr: "Cocktails Pilés"
     },
     subtitle: {
-      it: "I nostri drink freschi con frutta pestata",
-      en: "Our fresh muddled fruit drinks",
-      fr: "Nos boissons fraîches aux fruits pilés"
+      it: "Drink freschi con frutta pestata, ideali da assaporare durante la serata con amici",
+      en: "Fresh fruit drinks, ideal to savor during the evening with friends",
+      fr: "Boissons fraîches aux fruits pilés, idéales à déguster en soirée entre amis"
     },
     icon: '/icone/negroni.png',
     shortTitle: {
@@ -4508,9 +4870,9 @@ export const categoriesMetaNight = {
       fr: "Thé Glacé"
     },
     subtitle: {
-      it: "I nostri cocktail a base di Iced Tea",
-      en: "Our Iced Tea based cocktails",
-      fr: "Nos cocktails à base de Thé Glacé"
+      it: "Cocktail a base di Iced Tea, leggeri e frizzanti, perfetti per accompagnare la serata",
+      en: "Iced Tea based cocktails, light and refreshing, perfect for enjoying during the evening",
+      fr: "Cocktails à base de Thé Glacé, légers et pétillants, parfaits pour accompagner la soirée"
     },
     icon: '/icone/analcolici.png',
     shortTitle: {
@@ -4526,9 +4888,9 @@ export const categoriesMetaNight = {
       fr: "Sexy Drink"
     },
     subtitle: {
-      it: "Mix vivaci e colorati",
-      en: "Vibrant and colorful mixes",
-      fr: "Mélanges vifs et colorés"
+      it: "Mix vivaci e colorati, pensati per rendere la tua serata più speciale e divertente",
+      en: "Vibrant and colorful mixes, designed to make your evening more fun and special",
+      fr: "Mélanges vifs et colorés, pensés pour rendre votre soirée plus amusante et spéciale"
     },
     icon: '/icone/sexydrinks.png',
     shortTitle: {
@@ -4544,9 +4906,9 @@ export const categoriesMetaNight = {
       fr: "Sans Alcool"
     },
     subtitle: {
-      it: "Proposte fresche senza alcool",
-      en: "Fresh non-alcoholic options",
-      fr: "Propositions fraîches sans alcool"
+      it: "Proposte fresche e leggere senza alcool, perfette per chi vuole godersi la serata senza esagerare",
+      en: "Fresh and light non-alcoholic options, perfect for enjoying the evening without overdoing it",
+      fr: "Propositions fraîches et légères sans alcool, parfaites pour profiter de la soirée sans excès"
     },
     icon: '/icone/analcolici.png',
     shortTitle: {
@@ -4562,9 +4924,9 @@ export const categoriesMetaNight = {
       fr: "Sans Alcool Premium"
     },
     subtitle: {
-      it: "I drink più classici senza alcol",
-      en: "The most classic alcohol-free drinks",
-      fr: "Les boissons sans alcool les plus classiques"
+      it: "Versioni classiche dei drink più famosi, senza alcool ma con tutto il gusto, ideali per la serata",
+      en: "Classic versions of the most famous drinks, alcohol-free but full of flavor, perfect for the evening",
+      fr: "Versions classiques des boissons les plus célèbres, sans alcool mais pleines de saveur, idéales pour la soirée"
     },
     icon: '/icone/analcolici.png',
     shortTitle: {
@@ -4580,9 +4942,9 @@ export const categoriesMetaNight = {
       fr: "Saisonniers"
     },
     subtitle: {
-      it: "Mix vivaci e colorati",
-      en: "Vibrant and colorful mixes",
-      fr: "Mélanges vifs et colorés"
+      it: "Drink creativi con ingredienti del momento, pensati per sorprendere e rendere la serata unica",
+      en: "Creative drinks with seasonal ingredients, designed to surprise and make the evening special",
+      fr: "Boissons créatives avec ingrédients de saison, pensées pour surprendre et rendre la soirée unique"
     },
     icon: '/icone/stagionali.png',
     shortTitle: {
@@ -4598,9 +4960,9 @@ export const categoriesMetaNight = {
       fr: "Vins"
     },
     subtitle: {
-      it: "Selezione di rossi, bianchi e bollicine",
-      en: "Selection of reds, whites, and sparkling wines",
-      fr: "Sélection de vins rouges, blancs et pétillants"
+      it: "Selezione di rossi, bianchi e rosè, perfetti da gustare a cena o in compagnia",
+      en: "Selection of reds, whites, and rosè wines, perfect to enjoy at dinner or with company",
+      fr: "Sélection de vins rouges, blancs et rosè, parfaits à déguster au dîner ou entre amis"
     },
     icon: '/icone/vino.png',
     shortTitle: {
@@ -4616,9 +4978,9 @@ export const categoriesMetaNight = {
       fr: "Bières Pression"
     },
     subtitle: {
-      it: "Le nostre selezioni alla spina",
-      en: "Our draft selections",
-      fr: "Nos sélections à la pression"
+      it: "Birre alla spina fresche e dissetanti, ideali da sorseggiare durante la serata",
+      en: "Fresh and refreshing draft beers, ideal to sip throughout the evening",
+      fr: "Bières pression fraîches et désaltérantes, idéales à déguster pendant la soirée"
     },
     icon: '/icone/birrespina.png',
     shortTitle: {
@@ -4634,9 +4996,9 @@ export const categoriesMetaNight = {
       fr: "Bouteille"
     },
     subtitle: {
-      it: "Birre nazionali ed internazionali",
-      en: "National and international beers",
-      fr: "Bières nationales et internationales"
+      it: "Birre in bottiglia, nazionali e internazionali, da gustare fredde in ogni momento della serata",
+      en: "Bottled beers, national and international, best enjoyed cold at any moment of the evening",
+      fr: "Bières en bouteille, nationales et internationales, à déguster fraîches à tout moment de la soirée"
     },
     icon: '/icone/birrebottiglia.png',
     shortTitle: {
@@ -4652,9 +5014,9 @@ export const categoriesMetaNight = {
       fr: "Boissons"
     },
     subtitle: {
-      it: "Bevande in lattina e succhi di frutta",
-      en: "Canned drinks and fruit juices",
-      fr: "Boissons en canette et jus de fruits"
+      it: "Bibite leggere e dissetanti, perfette per rinfrescarsi e accompagnare ogni momento della serata",
+      en: "Light and refreshing drinks, perfect to cool off and enjoy throughout the evening",
+      fr: "Boissons légères et désaltérantes, parfaites pour se rafraîchir et accompagner tous les moments de la soirée"
     },
     icon: '/icone/lattine.png',
     shortTitle: {
@@ -4670,9 +5032,9 @@ export const categoriesMetaNight = {
       fr: "Gin"
     },
     subtitle: {
-      it: "Tutti i gin presenti",
-      en: "All available gins",
-      fr: "Tous les gins disponibles"
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
+      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
+      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
     },
     icon: '/icone/negroni.png',
     shortTitle: {
@@ -4688,9 +5050,9 @@ export const categoriesMetaNight = {
       fr: "Rhum"
     },
     subtitle: {
-      it: "Tutti i rum presenti",
-      en: "All available rums",
-      fr: "Tous les rhums disponibles"
+      it: "Tutti i nostri rum, perfetti da sorseggiare o in miscele creative durante la serata",
+      en: "All our rums, perfect to sip neat or in creative mixes during the evening",
+      fr: "Tous nos rhums, parfaits à déguster purs ou en mélanges créatifs pendant la soirée"
     },
     icon: '/icone/negroni.png',
     shortTitle: {
@@ -4701,20 +5063,38 @@ export const categoriesMetaNight = {
   },
   whisky: {
     title: {
-      it: "Whiskey",
+      it: "Whisky",
       en: "Whiskey",
       fr: "Whisky"
     },
     subtitle: {
-      it: "Tutti i whisky presenti",
-      en: "All available whiskys",
-      fr: "Tous les whiskies disponibles"
+      it: "Tutti i nostri whisky, da assaporare lentamente e godersi con calma durante la serata",
+      en: "All our whiskeys, best savored slowly and enjoyed throughout the evening",
+      fr: "Tous nos whiskies, à savourer lentement et à apprécier pendant la soirée"
     },
     icon: '/icone/negroni.png',
     shortTitle: {
-      it: 'Whiskey',
+      it: 'Whisky',
       en: 'Whiskey',
       fr: 'Whisky'
+    }
+  },
+  amari: {
+    title: {
+      it: "Degestivi e Affiini",
+      en: "Digestifs and Similar",
+      fr: "Digestifs et Similaires"
+    },
+    subtitle: {
+      it: "Digestivi e affini, ideali per chiudere la serata con gusto e stile",
+      en: "Digestifs and similar drinks, perfect to end the evening in style and flavor",
+      fr: "Digestifs et similaires, idéaux pour finir la soirée avec goût et style"
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Degestivi & Co.',
+      en: 'Digestifs & Co.',
+      fr: 'Digestifs & Co.'
     }
   },
 };

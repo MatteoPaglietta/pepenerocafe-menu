@@ -6,12 +6,12 @@ import { productsAperitif, productsNight, categoriesMetaAperitif, categoriesMeta
 import LogoSVG from './components/LogoSVG';
 
 import './App.css';
-import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher'; // IMPORT MODIFICATO: aggiunto getBrowserDefaultLanguage
+import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher';
 
 const getActiveMenu = () => {
   const currentHour = new Date().getHours();
   if (currentHour >= 6 && currentHour < 21) {
-    return 'aperitif';
+    return 'night';
   } else {
     return 'night';
   }

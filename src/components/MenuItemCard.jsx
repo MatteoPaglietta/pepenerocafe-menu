@@ -25,14 +25,14 @@ const MenuItemCard = ({ item, currentLang }) => {
 
   return (
     <div className="menu-item-card">
-      <div className="item-image-container">
+      {/* <div className="item-image-container">
         <img
           src={item.image}
           alt={nameToDisplay}
           className="item-image"
           loading="lazy"
         />
-      </div>
+      </div> */}
       <div className="item-details">
         <div className="item-header">
           <h3 className="item-name">

@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
+.app-main-container {
+  height: 100vh;     
+  overflow-y: scroll;     
+  scrollbar-width: none;  
+}
+
+.app-main-container::-webkit-scrollbar, .nav-bar-container::-webkit-scrollbar {
+  display: none;
+}
+
 body {
     background-color: #ffffff;
     color: #1d1d1d;
@@ -276,6 +286,12 @@ body {
 @media (min-width: 1000px) {
     .logo-svg {
         width: 40%;
+    }
+}
+@media (min-width: 1430px) {
+    .category-tabs
+    {
+        justify-content: center;
     }
 }
 @media (min-width: 1500px) {
