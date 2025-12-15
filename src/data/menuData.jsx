@@ -92,7 +92,7 @@ export function getSeasonKey(date = new Date()) {
   } else if (date >= estateStart && date < autunnoStart) {
     return "estate";
   } else if (date >= autunnoStart && date < invernoStart) {
-    return "estate";
+    return "autunno";
   } else {
     if (date >= invernoStart || date < nextPrimaveraStart) {
       return "inverno";
