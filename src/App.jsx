@@ -5,6 +5,7 @@ import { InstagramIcon } from './components/AnimatedInstagram';
 import { productsAperitif, productsNight, categoriesMetaAperitif, categoriesMetaNight, getSeasonKey, categoriesMetaAperitifHot, categoriesMetaNightHot } from './data/menuData';
 import LogoSVG from './components/LogoSVG';
 import Footer from './components/Footer';
+import AddToHomeScreenBanner from './components/AddToHomeScreenBanner';
 
 import './App.css';
 import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher';
@@ -154,6 +155,7 @@ function App() {
           </main>
           <Footer currentLang={currentLang} />
         </div>
+        <AddToHomeScreenBanner currentLang={currentLang} />
       </>
     );
   }

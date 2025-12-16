@@ -5237,7 +5237,7 @@ export const categoriesMetaNight = {
   },
   amari: {
     title: {
-      it: "Degestivi e Affini",
+      it: "Digestivi e Affini",
       en: "Digestifs and Similar",
       fr: "Digestifs et Similaires"
     },
@@ -5248,7 +5248,7 @@ export const categoriesMetaNight = {
     },
     icon: '/icone/negroni.png',
     shortTitle: {
-      it: 'Degestivi & Co.',
+      it: 'Digestivi & Co.',
       en: 'Digestifs & Co.',
       fr: 'Digestifs & Co.'
     }
@@ -5730,7 +5730,7 @@ export const categoriesMetaNightHot = {
   },
   amari: {
     title: {
-      it: "Degestivi e Affini",
+      it: "Digestivi e Affini",
       en: "Digestifs and Similar",
       fr: "Digestifs et Similaires"
     },
@@ -5741,7 +5741,7 @@ export const categoriesMetaNightHot = {
     },
     icon: '/icone/negroni.png',
     shortTitle: {
-      it: 'Degestivi & Co.',
+      it: 'Digestivi & Co.',
       en: 'Digestifs & Co.',
       fr: 'Digestifs & Co.'
     }
