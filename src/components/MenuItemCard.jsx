@@ -36,14 +36,14 @@ const MenuItemCard = ({ item, currentLang }) => {
       <div className="item-details">
         <div className="item-header">
           <h3 className="item-name">
-            {nameToDisplay}
+            <span translate="no">{nameToDisplay}</span>
           </h3>
           <span className="item-price">
             {localizedPrice}
           </span>
         </div>
         <p className="item-ingredients">
-          {ingredientsString}
+          <span translate="no">{ingredientsString}</span>
         </p>
       </div>
     </div>

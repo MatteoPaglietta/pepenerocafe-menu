@@ -39,7 +39,7 @@ const NavigationMenu = ({ categoriesMeta, activeCategoryKey, onCategorySelect, c
                 />
               )
             }
-            <span className="button-text">{category.buttonText}</span>
+            <span className="button-text" translate="no">{category.buttonText}</span>
           </button>
         ))}
       </nav>

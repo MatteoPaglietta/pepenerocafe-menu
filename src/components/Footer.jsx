@@ -35,17 +35,17 @@ export default function Footer({ currentLang }) {
         <footer className="main-footer">
             <div className="footer-content-wrapper">
                 <div className="footer-section hours-section">
-                    <h3>{translate('HOURS_TITLE')}</h3>
+                    <h3><span translate="no">{translate('HOURS_TITLE')}</span></h3>
                     <ul className="hours-list">
                         {openingHours.map((item) => (
                             <li key={item.key}>
-                                <strong>{translate(item.key)}:</strong> <span>{item.hours}</span>
+                                <strong><span translate="no">{translate(item.key)}:</span></strong> <span>{item.hours}</span>
                             </li>
                         ))}
                     </ul>
                 </div>
                 <div className="footer-section contact-section">
-                    <h3>{translate('CONTACTS_TITLE')}</h3>
+                    <h3><span translate="no">{translate('CONTACTS_TITLE')}</span></h3>
                     <p className="footer-map">
                         <MapPin size={20} />
                         <a
@@ -74,17 +74,17 @@ export default function Footer({ currentLang }) {
                     </div>
                 </div>
                 <div className="footer-section actions-section">
-                    <h3>{translate('ACTIONS_TITLE')}</h3>
+                    <h3><span translate="no">{translate('ACTIONS_TITLE')}</span></h3>
                     <button
                         className="reservation-button"
                         onClick={handleReservationClick}
                     >
-                        {translate('RESERVATION_BUTTON')}
+                        <span translate="no">{translate('RESERVATION_BUTTON')}</span>
                     </button>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p className="copyright-text">©{year} Pepenero Cafè. {translate('COPYRIGHT')}</p>
+                <p className="copyright-text">©{year} Pepenero Cafè. <span translate="no">{translate('COPYRIGHT')}</span></p>
             </div>
         </footer>
     );
