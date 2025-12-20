@@ -81,10 +81,10 @@ import roseImage from '../assets/immagini-drink/vino/vino-rose.jpg';
 export function getSeasonKey(date = new Date()) {
   const year = date.getFullYear();
 
-  const primaveraStart = new Date(year, 2, 21);
-  const estateStart = new Date(year, 5, 21);
-  const autunnoStart = new Date(year, 8, 23);
-  const invernoStart = new Date(year, 11, 22);
+  const primaveraStart = new Date(year, 2, 21, 6, 0, 0);
+  const estateStart = new Date(year, 5, 21, 6, 0, 0);
+  const autunnoStart = new Date(year, 8, 23, 6, 0, 0);
+  const invernoStart = new Date(year, 11, 22, 6, 0, 0);
 
   const nextPrimaveraStart = new Date(year + 1, 2, 21);
   if (date >= primaveraStart && date < estateStart) {
@@ -1204,82 +1204,82 @@ export const productsAperitif = {
     },
   ],
   stagionali: stagionalProductsAperitif[stagioneCorrente],
-  hotdrink:[
-      {
-        id: "hd1",
-        name: "Spritz Caldo",
-        ingredients: {
-          it: ["Aperol", "Vino Bianco", "Sidro di Mele", "Cannella"],
-          en: ["Aperol", "White Wine", "Apple Cider", "Cinnamon"],
-          fr: ["Aperol", "Vin Blanc", "Cidre de Pomme", "Cannelle"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+  hotdrink: [
+    {
+      id: "hd1",
+      name: "Spritz Caldo",
+      ingredients: {
+        it: ["Aperol", "Vino Bianco", "Sidro di Mele", "Cannella"],
+        en: ["Aperol", "White Wine", "Apple Cider", "Cinnamon"],
+        fr: ["Aperol", "Vin Blanc", "Cidre de Pomme", "Cannelle"],
       },
-      {
-        id: "hd2",
-        name: "Spritz Caldo N°2",
-        ingredients: {
-          it: ["Aperol", "Vino Bianco", "Succo d'Arancia", "Miele"],
-          en: ["Aperol", "White Wine", "Orange Juice", "Honey"],
-          fr: ["Aperol", "Vin Blanc", "Jus d'Orange", "Miel"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
       },
-      {
-        id: "hd3",
-        name: "Sangria Calda",
-        ingredients: {
-          it: ["Vino Rosso", "Rum Scuro", "Succo d'Arancia", "Zucchero", "Infuso di Frutti di Bosco"],
-          en: ["Red Wine", "Dark Rum", "Orange Juice", "Sugar", "Wild Berries Infusion"],
-          fr: ["Vin Rouge", "Rhum Ambré", "Jus d'Orange", "Sucre", "Infusion de Fruits des Bois"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd2",
+      name: "Spritz Caldo N°2",
+      ingredients: {
+        it: ["Aperol", "Vino Bianco", "Succo d'Arancia", "Miele"],
+        en: ["Aperol", "White Wine", "Orange Juice", "Honey"],
+        fr: ["Aperol", "Vin Blanc", "Jus d'Orange", "Miel"],
       },
-      {
-        id: "hd4",
-        name: "Sidrum",
-        ingredients: {
-          it: ["Rum", "Sidro di Mele"],
-          en: ["Rum", "Apple Cider"],
-          fr: ["Rhum", "Cidre de Pomme"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
       },
-      {
-        id: "hd5",
-        name: "Negroni Caldo",
-        ingredients: {
-          it: ["Campari", "Martini Rosso", "Succo d'Arancia"],
-          en: ["Campari", "Martini Rosso", "Orange Juice"],
-          fr: ["Campari", "Martini Rosso", "Jus d'Orange"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
-      }
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd3",
+      name: "Sangria Calda",
+      ingredients: {
+        it: ["Vino Rosso", "Rum Scuro", "Succo d'Arancia", "Zucchero", "Infuso di Frutti di Bosco"],
+        en: ["Red Wine", "Dark Rum", "Orange Juice", "Sugar", "Wild Berries Infusion"],
+        fr: ["Vin Rouge", "Rhum Ambré", "Jus d'Orange", "Sucre", "Infusion de Fruits des Bois"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd4",
+      name: "Sidrum",
+      ingredients: {
+        it: ["Rum", "Sidro di Mele"],
+        en: ["Rum", "Apple Cider"],
+        fr: ["Rhum", "Cidre de Pomme"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd5",
+      name: "Negroni Caldo",
+      ingredients: {
+        it: ["Campari", "Martini Rosso", "Succo d'Arancia"],
+        en: ["Campari", "Martini Rosso", "Orange Juice"],
+        fr: ["Campari", "Martini Rosso", "Jus d'Orange"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    }
   ],
   vini: [
     {
@@ -1453,14 +1453,14 @@ export const productsAperitif = {
       id: "bs1",
       name: "Stella Artois Media",
       ingredients: {
-        it: ["Lager", "4.5% vol", "0.4L"],
-        en: ["Lager", "4.5% vol", "0.4L"],
-        fr: ["Lager", "4.5% vol", "0.4L"],
+        it: ["Lager", "4.5% vol"],
+        en: ["Lager", "4.5% vol"],
+        fr: ["Lager", "4.5% vol"],
       },
       price: {
-        it: ["€6,00/0.4L"],
-        en: ["€6,00/0.4L"],
-        fr: ["€6,00/0.4L"],
+        it: ["€6,00/0.5L"],
+        en: ["€6,00/0.5L"],
+        fr: ["€6,00/0.5L"],
       },
       image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
     },
@@ -1468,9 +1468,9 @@ export const productsAperitif = {
       id: "bs2",
       name: "Stella Artois Piccola",
       ingredients: {
-        it: ["Lager", "4.5% vol", "0.25L"],
-        en: ["Lager", "4.5% vol", "0.25L"],
-        fr: ["Lager", "4.5% vol", "0.25L"],
+        it: ["Lager", "4.5% vol"],
+        en: ["Lager", "4.5% vol"],
+        fr: ["Lager", "4.5% vol"],
       },
       price: {
         it: ["€5,00/0.25L"],
@@ -1520,9 +1520,9 @@ export const productsAperitif = {
         fr: ["Lager Premium", "5.0% vol", "0.33L"],
       },
       price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bottiglia di Birra
     },
@@ -1535,9 +1535,9 @@ export const productsAperitif = {
         fr: ["Lager Mexicaine", "4.5% vol", "0.33L"],
       },
       price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -1550,9 +1550,9 @@ export const productsAperitif = {
         fr: ["Pale Lager", "5.0% vol", "0.33L"],
       },
       price: {
-        it: ["€5,50"],
-        en: ["€5,50"],
-        fr: ["€5,50"],
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -1601,6 +1601,21 @@ export const productsAperitif = {
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
+    {
+      id: "bb7",
+      name: "Ceres",
+      ingredients: {
+        it: ["Strong Lager", "7.7% vol", "0.33L"],
+        en: ["Strong Lager", "7.7% vol", "0.33L"],
+        fr: ["Strong Lager", "7.7% vol", "0.33L"],
+      },
+      price: {
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
+      },
+      image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWVyJTIwYm90dGxlfGVufDB8fHx8MTcwOTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+    },
   ],
   bibite: [
     {
@@ -1616,7 +1631,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
     },
     {
       id: "l2",
@@ -1631,7 +1646,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l3",
@@ -1646,112 +1661,112 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l4",
       name: "The Limone",
       ingredients: {
-        it: ["0.25L"],
-        en: ["0.25L"],
-        fr: ["0.25L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l5",
       name: "Sprite",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l6",
       name: "Fanta",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l7",
       name: "Lemon Soda",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l8",
       name: "Crodino",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.10L"],
+        en: ["0.10L"],
+        fr: ["0.10L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l9",
       name: "Chinotto",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l10",
       name: "Schweppes",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.18L"],
+        en: ["0.18L"],
+        fr: ["0.18L"],
       },
       price: {
         it: ["€5,00"],
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l11",
@@ -1766,7 +1781,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l12",
@@ -1781,7 +1796,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l13",
@@ -1796,7 +1811,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l14",
@@ -1811,7 +1826,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
       id: "l15",
@@ -1826,7 +1841,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
   ],
 };
@@ -3130,82 +3145,82 @@ export const productsNight = {
     },
   ],
   stagionali: stagionalProductsNight[stagioneCorrente],
-  hotdrink:[
-      {
-        id: "hd1",
-        name: "Spritz Caldo",
-        ingredients: {
-          it: ["Aperol", "Vino Bianco", "Sidro di Mele", "Cannella"],
-          en: ["Aperol", "White Wine", "Apple Cider", "Cinnamon"],
-          fr: ["Aperol", "Vin Blanc", "Cidre de Pomme", "Cannelle"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+  hotdrink: [
+    {
+      id: "hd1",
+      name: "Spritz Caldo",
+      ingredients: {
+        it: ["Aperol", "Vino Bianco", "Sidro di Mele", "Cannella"],
+        en: ["Aperol", "White Wine", "Apple Cider", "Cinnamon"],
+        fr: ["Aperol", "Vin Blanc", "Cidre de Pomme", "Cannelle"],
       },
-      {
-        id: "hd2",
-        name: "Spritz Caldo N°2",
-        ingredients: {
-          it: ["Aperol", "Vino Bianco", "Succo d'Arancia", "Miele"],
-          en: ["Aperol", "White Wine", "Orange Juice", "Honey"],
-          fr: ["Aperol", "Vin Blanc", "Jus d'Orange", "Miel"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
       },
-      {
-        id: "hd3",
-        name: "Sangria Calda",
-        ingredients: {
-          it: ["Vino Rosso", "Rum Scuro", "Succo d'Arancia", "Zucchero", "Infuso di Frutti di Bosco"],
-          en: ["Red Wine", "Dark Rum", "Orange Juice", "Sugar", "Wild Berries Infusion"],
-          fr: ["Vin Rouge", "Rhum Ambré", "Jus d'Orange", "Sucre", "Infusion de Fruits des Bois"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd2",
+      name: "Spritz Caldo N°2",
+      ingredients: {
+        it: ["Aperol", "Vino Bianco", "Succo d'Arancia", "Miele"],
+        en: ["Aperol", "White Wine", "Orange Juice", "Honey"],
+        fr: ["Aperol", "Vin Blanc", "Jus d'Orange", "Miel"],
       },
-      {
-        id: "hd4",
-        name: "Sidrum",
-        ingredients: {
-          it: ["Rum", "Sidro di Mele"],
-          en: ["Rum", "Apple Cider"],
-          fr: ["Rhum", "Cidre de Pomme"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
       },
-      {
-        id: "hd5",
-        name: "Negroni Caldo",
-        ingredients: {
-          it: ["Campari", "Martini Rosso", "Succo d'Arancia"],
-          en: ["Campari", "Martini Rosso", "Orange Juice"],
-          fr: ["Campari", "Martini Rosso", "Jus d'Orange"],
-        },
-        price: {
-          it: ["€7,00"],
-          en: ["€7,00"],
-          fr: ["€7,00"],
-        },
-        image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
-      }
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd3",
+      name: "Sangria Calda",
+      ingredients: {
+        it: ["Vino Rosso", "Rum Scuro", "Succo d'Arancia", "Zucchero", "Infuso di Frutti di Bosco"],
+        en: ["Red Wine", "Dark Rum", "Orange Juice", "Sugar", "Wild Berries Infusion"],
+        fr: ["Vin Rouge", "Rhum Ambré", "Jus d'Orange", "Sucre", "Infusion de Fruits des Bois"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd4",
+      name: "Sidrum",
+      ingredients: {
+        it: ["Rum", "Sidro di Mele"],
+        en: ["Rum", "Apple Cider"],
+        fr: ["Rhum", "Cidre de Pomme"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    },
+    {
+      id: "hd5",
+      name: "Negroni Caldo",
+      ingredients: {
+        it: ["Campari", "Martini Rosso", "Succo d'Arancia"],
+        en: ["Campari", "Martini Rosso", "Orange Juice"],
+        fr: ["Campari", "Martini Rosso", "Jus d'Orange"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+    }
   ],
   vini: [
     {
@@ -3384,9 +3399,9 @@ export const productsNight = {
         fr: ["Lager", "4.5% vol"],
       },
       price: {
-        it: ["€6,00/0.4L"],
-        en: ["€6,00/0.4L"],
-        fr: ["€6,00/0.4L"],
+        it: ["€5,50/0.5L"],
+        en: ["€5,50/0.5L"],
+        fr: ["€5,50/0.5L"],
       },
       image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
     },
@@ -3399,9 +3414,9 @@ export const productsNight = {
         fr: ["Lager", "4.5% vol"],
       },
       price: {
-        it: ["€3,50/0.25L"],
-        en: ["€3,50/0.25L"],
-        fr: ["€3,50/0.25L"],
+        it: ["€4,00/0.25L"],
+        en: ["€4,00/0.25L"],
+        fr: ["€4,00/0.25L"],
       },
       image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
     },
@@ -3446,9 +3461,9 @@ export const productsNight = {
         fr: ["Lager Premium", "5.0% vol", "0.33L"],
       },
       price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
+        it: ["€4,50"],
+        en: ["€4,50"],
+        fr: ["€4,50"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bottiglia di Birra
     },
@@ -3461,9 +3476,9 @@ export const productsNight = {
         fr: ["Lager Mexicaine", "4.5% vol", "0.33L"],
       },
       price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
+        it: ["€4,50"],
+        en: ["€4,50"],
+        fr: ["€4,50"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -3476,9 +3491,9 @@ export const productsNight = {
         fr: ["Pale Lager", "5.0% vol", "0.33L"],
       },
       price: {
-        it: ["€5,50"],
-        en: ["€5,50"],
-        fr: ["€5,50"],
+        it: ["€4,50"],
+        en: ["€4,50"],
+        fr: ["€4,50"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -3491,9 +3506,9 @@ export const productsNight = {
         fr: ["Lager Forte", "9.0% vol", "0.33L"],
       },
       price: {
-        it: ["€6,00"],
-        en: ["€6,00"],
-        fr: ["€6,00"],
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -3506,9 +3521,9 @@ export const productsNight = {
         fr: ["Lager Américaine", "5.0% vol", "0.33L"],
       },
       price: {
-        it: ["€6,00"],
-        en: ["€6,00"],
-        fr: ["€6,00"],
+        it: ["€4,50"],
+        en: ["€4,50"],
+        fr: ["€4,50"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -3521,11 +3536,26 @@ export const productsNight = {
         fr: ["Pale Lager", "4.7% vol", "0.33L"],
       },
       price: {
-        it: ["€6,00"],
-        en: ["€6,00"],
-        fr: ["€6,00"],
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "bb7",
+      name: "Ceres",
+      ingredients: {
+        it: ["Strong Lager", "7.7% vol", "0.33L"],
+        en: ["Strong Lager", "7.7% vol", "0.33L"],
+        fr: ["Strong Lager", "7.7% vol", "0.33L"],
+      },
+      price: {
+        it: ["€4,50"],
+        en: ["€4,50"],
+        fr: ["€4,50"],
+      },
+      image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWVyJTIwYm90dGxlfGVufDB8fHx8MTcwOTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
     },
   ],
   bibite: [
@@ -3578,9 +3608,9 @@ export const productsNight = {
       id: "l4",
       name: "The Limone",
       ingredients: {
-        it: ["0.25L"],
-        en: ["0.25L"],
-        fr: ["0.25L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -3593,9 +3623,9 @@ export const productsNight = {
       id: "l5",
       name: "Sprite",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -3608,9 +3638,9 @@ export const productsNight = {
       id: "l6",
       name: "Fanta",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -3623,9 +3653,9 @@ export const productsNight = {
       id: "l7",
       name: "Lemon Soda",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -3638,9 +3668,9 @@ export const productsNight = {
       id: "l8",
       name: "Crodino",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.10L"],
+        en: ["0.10L"],
+        fr: ["0.10L"],
       },
       price: {
         it: ["€5,00"],
@@ -3653,9 +3683,9 @@ export const productsNight = {
       id: "l9",
       name: "Chinotto",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -3668,9 +3698,9 @@ export const productsNight = {
       id: "l10",
       name: "Schweppes",
       ingredients: {
-        it: ["0.20L"],
-        en: ["0.20L"],
-        fr: ["0.20L"],
+        it: ["0.18L"],
+        en: ["0.18L"],
+        fr: ["0.18L"],
       },
       price: {
         it: ["€5,00"],
