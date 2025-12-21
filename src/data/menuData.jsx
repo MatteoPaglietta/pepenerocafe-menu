@@ -1181,9 +1181,9 @@ export const productsAperitif = {
         fr: ["IPA Sans Alcool", "0.0% vol", "0.33L"],
       },
       price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
       },
       image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -1196,9 +1196,9 @@ export const productsAperitif = {
         fr: ["Lager Sans Alcool", "0.0% vol", "0.33L"],
       },
       price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
       },
       image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -1725,6 +1725,21 @@ export const productsAperitif = {
     },
     {
       id: "l8",
+      name: "Redbull",
+      ingredients: {
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
+      },
+      price: {
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "l9",
       name: "Crodino",
       ingredients: {
         it: ["0.10L"],
@@ -1739,7 +1754,67 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l9",
+      id: "l10",
+      name: "Ginger Beer",
+      ingredients: {
+        it: ["0.20L"],
+        en: ["0.20L"],
+        fr: ["0.20L"],
+      },
+      price: {
+        it: ["€6,00"],
+        en: ["€6,00"],
+        fr: ["€6,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "l11",
+      name: "Campari Soda",
+      ingredients: {
+        it: ["0.10L"],
+        en: ["0.10L"],
+        fr: ["0.10L"],
+      },
+      price: {
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "l12",
+      name: "Aperol Soda",
+      ingredients: {
+        it: ["0.10L"],
+        en: ["0.10L"],
+        fr: ["0.10L"],
+      },
+      price: {
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "l13",
+      name: "San Bitter",
+      ingredients: {
+        it: ["0.10L"],
+        en: ["0.10L"],
+        fr: ["0.10L"],
+      },
+      price: {
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
+      },
+      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    },
+    {
+      id: "l14",
       name: "Chinotto",
       ingredients: {
         it: ["0.33L"],
@@ -1754,7 +1829,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l10",
+      id: "l15",
       name: "Schweppes",
       ingredients: {
         it: ["0.18L"],
@@ -1769,7 +1844,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l11",
+      id: "l16",
       name: "Succo Pesca",
       ingredients: {
         it: ["0.20L"],
@@ -1784,7 +1859,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l12",
+      id: "l17",
       name: "Succo Pera",
       ingredients: {
         it: ["0.20L"],
@@ -1799,7 +1874,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l13",
+      id: "l18",
       name: "Succo Mirtillo",
       ingredients: {
         it: ["0.20L"],
@@ -1814,7 +1889,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l14",
+      id: "l19",
       name: "Succo Ananas",
       ingredients: {
         it: ["0.20L"],
@@ -1829,7 +1904,7 @@ export const productsAperitif = {
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
     {
-      id: "l15",
+      id: "l20",
       name: "Succo Pompelmo",
       ingredients: {
         it: ["0.20L"],
@@ -3666,11 +3741,11 @@ export const productsNight = {
     },
     {
       id: "l8",
-      name: "Crodino",
+      name: "Redbull",
       ingredients: {
-        it: ["0.10L"],
-        en: ["0.10L"],
-        fr: ["0.10L"],
+        it: ["0.33L"],
+        en: ["0.33L"],
+        fr: ["0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -4959,7 +5034,7 @@ export const categoriesMetaAperitif = {
   },
   birreSpina: {
     title: {
-      it: "Alla Spina",
+      it: "Birre Alla Spina",
       en: "Draft Beers",
       fr: "Bières Pression"
     },
@@ -4977,9 +5052,9 @@ export const categoriesMetaAperitif = {
   },
   birreBott: {
     title: {
-      it: "Bottiglie",
-      en: "Bottles",
-      fr: "Bouteilles"
+      it: "Birre in bottiglia",
+      en: "Bottled Beers",
+      fr: "Bières en bouteilles"
     },
     subtitle: {
       it: "Le nostre birre in bottiglia, da sorseggiare fredde e condividere con gli amici durante l'aperitivo.",
@@ -5159,7 +5234,7 @@ export const categoriesMetaNight = {
   },
   birreSpina: {
     title: {
-      it: "Alla Spina",
+      it: "Birre Alla Spina",
       en: "Draft Beers",
       fr: "Bières Pression"
     },
@@ -5177,9 +5252,9 @@ export const categoriesMetaNight = {
   },
   birreBott: {
     title: {
-      it: "Bottiglie",
-      en: "Bottles",
-      fr: "Bouteilles"
+      it: "Birra in bottiglia",
+      en: "Bottled Beers",
+      fr: "Bières en bouteilles"
     },
     subtitle: {
       it: "Birre in bottiglia, nazionali e internazionali, da gustare fredde in ogni momento della serata",
@@ -5433,7 +5508,7 @@ export const categoriesMetaAperitifHot = {
   },
   birreSpina: {
     title: {
-      it: "Alla Spina",
+      it: "Birre Alla Spina",
       en: "Draft Beers",
       fr: "Bières Pression"
     },
@@ -5451,9 +5526,9 @@ export const categoriesMetaAperitifHot = {
   },
   birreBott: {
     title: {
-      it: "Bottiglie",
-      en: "Bottles",
-      fr: "Bouteilles"
+      it: 'Birre in bottiglia',
+      en: 'Bottled Beers',
+      fr: 'Bières en bouteille'
     },
     subtitle: {
       it: "Le nostre birre in bottiglia, da sorseggiare fredde e condividere con gli amici durante l'aperitivo.",
@@ -5462,9 +5537,9 @@ export const categoriesMetaAperitifHot = {
     },
     icon: '/icone/birrebottiglia.png',
     shortTitle: {
-      it: 'Bottiglie',
-      en: 'Bottles',
-      fr: 'Bouteilles'
+      it: "Bottiglie",
+      en: "Bottles",
+      fr: "Bouteilles"
     }
   },
   bibite: {
@@ -5652,7 +5727,7 @@ export const categoriesMetaNightHot = {
   },
   birreSpina: {
     title: {
-      it: "Alla Spina",
+      it: "Birre alla spina",
       en: "Draft Beers",
       fr: "Bières Pression"
     },
@@ -5670,9 +5745,9 @@ export const categoriesMetaNightHot = {
   },
   birreBott: {
     title: {
-      it: "Bottiglie",
-      en: "Bottles",
-      fr: "Bouteilles"
+      it: "Birre in bottiglia",
+      en: "Bottled Beers",
+      fr: "Bières en bouteilles"
     },
     subtitle: {
       it: "Birre in bottiglia, nazionali e internazionali, da gustare fredde in ogni momento della serata",
