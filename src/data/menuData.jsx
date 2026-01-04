@@ -1174,26 +1174,11 @@ export const productsAperitif = {
     },
     {
       id: "anap5",
-      name: "Ipa No Alcol",
+      name: "Beck's No Alcol",
       ingredients: {
-        it: ["IPA Analcolica", "0.0% vol", "0.33L"],
-        en: ["Non-Alcoholic IPA", "0.0% vol", "0.33L"],
-        fr: ["IPA Sans Alcool", "0.0% vol", "0.33L"],
-      },
-      price: {
-        it: ["€6,00"],
-        en: ["€6,00"],
-        fr: ["€6,00"],
-      },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    },
-    {
-      id: "anap6",
-      name: "Lager No Alcol",
-      ingredients: {
-        it: ["Lager Analcolica", "0.0% vol", "0.33L"],
-        en: ["Non-Alcoholic Lager", "0.0% vol", "0.33L"],
-        fr: ["Lager Sans Alcool", "0.0% vol", "0.33L"],
+        it: ["Beck's Analcolica", "0.0% vol", "0.33L"],
+        en: ["Non-Alcoholic Beck's", "0.0% vol", "0.33L"],
+        fr: ["Beck's Sans Alcool", "0.0% vol", "0.33L"],
       },
       price: {
         it: ["€6,00"],
@@ -1918,6 +1903,428 @@ export const productsAperitif = {
       },
       image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
     },
+  ],
+  gin: [
+    {
+      "id": "g1",
+      "name": "Tanqueray 0.0",
+      "ingredients": {
+        "it": ["Gin analcolico stile London Dry, prodotto in Inghilterra."],
+        "en": ["Non-alcoholic London Dry style gin, made in England."],
+        "fr": ["Gin sans alcool style London Dry, produit en Angleterre."]
+      },
+      "price": {
+        "it": ["€8,00"],
+        "en": ["€8,00"],
+        "fr": ["€8,00"]
+      },
+      "image": tanqueray00Image
+    },
+    {
+      "id": "g2",
+      "name": "Tanqueray",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), profilo classico, distillato in Inghilterra."],
+        "en": ["Dry (London Dry) gin, classic profile, distilled in England."],
+        "fr": ["Gin sec (London Dry), profil classique, distillé en Angleterre."]
+      },
+      "price": {
+        "it": ["€8,00"],
+        "en": ["€8,00"],
+        "fr": ["€8,00"]
+      },
+      "image": tanquerayImage
+    },
+    {
+      "id": "g3",
+      "name": "Tanq. Sevilla",
+      "ingredients": {
+        "it": ["Gin aromatico e agrumato all'arancia, prodotto in Inghilterra."],
+        "en": ["Aromatic and citrus (orange) gin, made in England."],
+        "fr": ["Gin aromatique et d'agrumes (orange), produit en Angleterre."]
+      },
+      "price": {
+        "it": ["€8,00"],
+        "en": ["€8,00"],
+        "fr": ["€8,00"]
+      },
+      "image": tanqueraySevillaImage
+    },
+    {
+      "id": "g4",
+      "name": "Tanq. Rangpur",
+      "ingredients": {
+        "it": ["Gin aromatico e speziato con lime Rangpur, prodotto in Inghilterra."],
+        "en": ["Aromatic and spiced gin with Rangpur lime, made in England."],
+        "fr": ["Gin aromatique et épicé avec citron vert Rangpur, produit en Angleterre."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": tanquerayRangpurImage
+    },
+    {
+      "id": "g5",
+      "name": "Bombay Sapphire",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), aromatico e floreale, prodotto in Inghilterra."],
+        "en": ["Dry (London Dry) gin, aromatic and floral, made in England."],
+        "fr": ["Gin sec (London Dry), aromatique et floral, produit en Angleterre."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": bombayImage
+    },
+    {
+      "id": "g6",
+      "name": "Portobello Road",
+      "ingredients": {
+        "it": ["Gin secco (London Dry) dal profilo tradizionale, prodotto nel Regno Unito."],
+        "en": ["Dry (London Dry) gin with a traditional profile, made in the United Kingdom."],
+        "fr": ["Gin sec (London Dry) au profil traditionnel, produit au Royaume-Uni."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": portobelloImage
+    },
+    {
+      "id": "g7",
+      "name": "Barber's",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), classico e pulito, dal Regno Unito."],
+        "en": ["Dry (London Dry) gin, classic and clean, from the United Kingdom."],
+        "fr": ["Gin sec (London Dry), classique et net, du Royaume-Uni."]
+      },
+      "price": {
+        "it": ["€8,00"],
+        "en": ["€8,00"],
+        "fr": ["€8,00"]
+      },
+      "image": barbersImage
+    },
+    {
+      "id": "g8",
+      "name": "Bulldog",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), moderno, con note floreali ed erbacee, dal Regno Unito."],
+        "en": ["Dry (London Dry) gin, modern, with floral and herbal notes, from the United Kingdom."],
+        "fr": ["Gin sec (London Dry), moderne, aux notes florales et herbacées, du Royaume-Uni."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": bulldogImage
+    },
+    {
+      "id": "g9",
+      "name": "Fifty Pounds",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), classico con dominante di ginepro, dall'Inghilterra."],
+        "en": ["Dry (London Dry) gin, classic with a dominant juniper profile, from England."],
+        "fr": ["Gin sec (London Dry), classique à dominante de genièvre, d'Angleterre."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": fiftyPoundsImage
+    },
+    {
+      "id": "g10",
+      "name": "Citadelle",
+      "ingredients": {
+        "it": ["Gin aromatico, speziato e floreale con 19 botaniche, dalla Francia."],
+        "en": ["Aromatic gin, spicy and floral with 19 botanicals, from France."],
+        "fr": ["Gin aromatique, épicé et floral avec 19 plantes, de France."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": citadelleImage
+    },
+    {
+      "id": "g11",
+      "name": "Hendrick's",
+      "ingredients": {
+        "it": ["Gin aromatico e floreale con infusione di rosa e cetriolo, dalla Scozia."],
+        "en": ["Aromatic and floral gin infused with rose and cucumber, from Scotland."],
+        "fr": ["Gin aromatique et floral infusé à la rose et au concombre, d'Écosse."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": hendricksImage
+    },
+    {
+      "id": "g12",
+      "name": "Haymans Old Tom",
+      "ingredients": {
+        "it": ["Gin Old Tom (leggermente dolce e morbido), dal profilo agrumato, dall'Inghilterra."],
+        "en": ["Old Tom gin (slightly sweet and soft), with a citrus profile, from England."],
+        "fr": ["Gin Old Tom (légèrement doux et moelleux), au profil d'agrumes, d'Angleterre."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": haymansImage
+    },
+    {
+      "id": "g13",
+      "name": "Nordes",
+      "ingredients": {
+        "it": ["Gin aromatico e fruttato (base Albariño) con note marine, dalla Spagna (Galizia)."],
+        "en": ["Aromatic and fruity gin (Albariño base) with marine notes, from Spain (Galicia)."],
+        "fr": ["Gin aromatique et fruité (base Albariño) aux notes marines, d'Espagne (Galice)."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": nordesImage
+    },
+    {
+      "id": "g14",
+      "name": "Elephant",
+      "ingredients": {
+        "it": ["Gin aromatico ed erbaceo con botaniche africane, prodotto in Germania."],
+        "en": ["Aromatic and herbal gin with African botanicals, made in Germany."],
+        "fr": ["Gin aromatique et herbacé avec des plantes africaines, produit en Allemagne."]
+      },
+      "price": {
+        "it": ["€12,00"],
+        "en": ["€12,00"],
+        "fr": ["€12,00"]
+      },
+      "image": elephantImage
+    },
+    {
+      "id": "g15",
+      "name": "Monbasa",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), aromatico e speziato, ispirato al Kenya ma dal Regno Unito."],
+        "en": ["Dry (London Dry) gin, aromatic and spicy, inspired by Kenya but from the United Kingdom."],
+        "fr": ["Gin sec (London Dry), aromatique et épicé, inspiré du Kenya mais du Royaume-Uni."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": mombasaImage
+    },
+    {
+      "id": "g16",
+      "name": "Monkey",
+      "ingredients": {
+        "it": ["Gin dry (Schwarzwald Dry Gin), complesso con 47 botaniche, dalla Germania."],
+        "en": ["Dry (Schwarzwald Dry Gin), complex with 47 botanicals, from Germany."],
+        "fr": ["Gin sec (Schwarzwald Dry Gin), complexe avec 47 plantes, d'Allemagne."]
+      },
+      "price": {
+        "it": ["€12,00"],
+        "en": ["€12,00"],
+        "fr": ["€12,00"]
+      },
+      "image": monkeyImage
+    },
+    {
+      "id": "g17",
+      "name": "N° 0",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), classico e agrumato (No. 0 London Dry), dal Regno Unito."],
+        "en": ["Dry (London Dry) gin, classic and citrusy (No. 0 London Dry), from the United Kingdom."],
+        "fr": ["Gin sec (London Dry), classique et d'agrumes (No. 0 London Dry), du Royaume-Uni."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": n0Image
+    },
+    {
+      "id": "g18",
+      "name": "Mare",
+      "ingredients": {
+        "it": ["Gin aromatico e mediterraneo (oliva, basilico, timo), dalla Spagna."],
+        "en": ["Aromatic and Mediterranean gin (olive, basil, thyme), from Spain."],
+        "fr": ["Gin aromatique et méditerranéen (olive, basilic, thym), d'Espagne."]
+      },
+      "price": {
+        "it": ["€11,00"],
+        "en": ["€11,00"],
+        "fr": ["€11,00"]
+      },
+      "image": mareImage
+    },
+    {
+      "id": "g19",
+      "name": "Roku",
+      "ingredients": {
+        "it": ["Gin aromatico e fresco, bilanciato con 6 botaniche Giapponesi, dal Giappone."],
+        "en": ["Aromatic and fresh gin, balanced with 6 Japanese botanicals, from Japan."],
+        "fr": ["Gin aromatique et frais, équilibré avec 6 plantes japonaises, du Japon."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": rokuImage
+    },
+    {
+      "id": "g20",
+      "name": "Malfy",
+      "ingredients": {
+        "it": ["Gin secco (stile Dry), classico con ginepro e limoni, dall'Italia."],
+        "en": ["Dry style gin, classic with juniper and lemons, from Italy."],
+        "fr": ["Gin sec (style Dry), classique avec genièvre et citrons, d'Italie."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": malfyImage
+    },
+    {
+      "id": "g21",
+      "name": "Malfy Limone",
+      "ingredients": {
+        "it": ["Gin aromatico e fresco con scorze di limone d'Amalfi, dall'Italia."],
+        "en": ["Aromatic and fresh gin with Amalfi lemon peels, from Italy."],
+        "fr": ["Gin aromatique et frais avec des écorces de citron d'Amalfi, d'Italie."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": malfyLimoneImage
+    },
+    {
+      "id": "g22",
+      "name": "Malfy Arancia",
+      "ingredients": {
+        "it": ["Gin aromatico con scorze di arancia rossa di Sicilia, dall'Italia."],
+        "en": ["Aromatic gin with blood orange peels from Sicily, from Italy."],
+        "fr": ["Gin aromatique avec des écorces d'orange sanguine de Sicile, d'Italie."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": malfyAranciaImage
+    },
+    {
+      "id": "g23",
+      "name": "Malfy Pompelmo",
+      "ingredients": {
+        "it": ["Gin aromatico e fruttato con pompelmo rosa di Sicilia, dall'Italia."],
+        "en": ["Aromatic and fruity gin with pink grapefruit from Sicily, from Italy."],
+        "fr": ["Gin aromatique et fruité au pamplemousse rose de Sicile, d'Italie."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": malfyPompelmoImage
+    },
+    {
+      "id": "g24",
+      "name": "Bordiga",
+      "ingredients": {
+        "it": ["Gin secco alpino (Occitan Gin), botaniche raccolte sulle Alpi, dall'Italia (Piemonte)."],
+        "en": ["Dry alpine gin (Occitan Gin), botanicals collected in the Alps, from Italy (Piedmont)."],
+        "fr": ["Gin sec alpin (Occitan Gin), plantes cueillies dans les Alpes, d'Italie (Piémont)."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": bordigaImage
+    },
+    {
+      "id": "g25",
+      "name": "Mazzetti",
+      "ingredients": {
+        "it": ["Gin secco (London Dry), balsamico e speziato, dall'Italia (Piemonte)."],
+        "en": ["Dry (London Dry) gin, balsamic and spicy, from Italy (Piedmont)."],
+        "fr": ["Gin sec (London Dry), balsamique et épicé, d'Italie (Piémont)."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": mazzettiImage
+    },
+    {
+      "id": "g26",
+      "name": "The London No. 1",
+      "ingredients": {
+        "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra, si distingue per il suo colore blu acquamarina."],
+        "en": ["Premium gin, quadruple-distilled, with 12 botanicals. Produced in England, it is distinguished by its aquamarine blue color."],
+        "fr": ["Gin premium, quadruple distillation, avec 12 plantes. Produit en Angleterre, il se distingue par sa couleur bleu aigue-marine."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": londoN1Image
+    },
+    {
+      "id": "g27",
+      "name": "Etsu",
+      "ingredients": {
+        "it": ["Gin aromatico (Japanese Gin) con note di yuzu, floreali e tè, dal Giappone."],
+        "en": ["Aromatic (Japanese Gin) with yuzu, floral and tea notes, from Japan."],
+        "fr": ["Gin aromatique (Gin Japonais) aux notes de yuzu, florales et de thé, du Japon."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": etsuImage
+    },
+    {
+      "id": "g28",
+      "name": "Xoriguer Mahón",
+      "ingredients": {
+        "it": ["Gin tradizionale e artigianale, distillato in alambicchi di rame. Prodotto a Minorca (Spagna), ha un sapore deciso e marino."],
+        "en": ["Traditional and artisanal gin, distilled in copper stills. Produced in Menorca (Spain), it has a strong, marine flavor."],
+        "fr": ["Gin traditionnel et artisanal, distillé dans des alambics en cuivre. Produit à Minorque (Espagne), il a une saveur forte et marine."]
+      },
+      "price": {
+        "it": ["€9,00"],
+        "en": ["€9,00"],
+        "fr": ["€9,00"]
+      },
+      "image": xoriguerImage
+    }
   ],
 };
 
@@ -3190,26 +3597,11 @@ export const productsNight = {
     },
     {
       id: "anap5",
-      name: "Ipa No Alcol",
+      name: "Beck's No Alcol",
       ingredients: {
-        it: ["IPA Analcolica", "0.0% vol", "0.33L"],
-        en: ["Non-Alcoholic IPA", "0.0% vol", "0.33L"],
-        fr: ["IPA Sans Alcool", "0.0% vol", "0.33L"],
-      },
-      price: {
-        it: ["€5,00"],
-        en: ["€5,00"],
-        fr: ["€5,00"],
-      },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    },
-    {
-      id: "anap6",
-      name: "Lager No Alcol",
-      ingredients: {
-        it: ["Lager Analcolica", "0.0% vol", "0.33L"],
-        en: ["Non-Alcoholic Lager", "0.0% vol", "0.33L"],
-        fr: ["Lager Sans Alcool", "0.0% vol", "0.33L"],
+        it: ["Beck's Analcolica", "0.0% vol", "0.33L"],
+        en: ["Non-Alcoholic Beck's", "0.0% vol", "0.33L"],
+        fr: ["Beck's Sans Alcool", "0.0% vol", "0.33L"],
       },
       price: {
         it: ["€5,00"],
@@ -3551,9 +3943,9 @@ export const productsNight = {
         fr: ["Lager Mexicaine", "4.5% vol", "0.33L"],
       },
       price: {
-        it: ["€4,50"],
-        en: ["€4,50"],
-        fr: ["€4,50"],
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -3596,9 +3988,9 @@ export const productsNight = {
         fr: ["Lager Américaine", "5.0% vol", "0.33L"],
       },
       price: {
-        it: ["€4,50"],
-        en: ["€4,50"],
-        fr: ["€4,50"],
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
       },
       image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     },
@@ -3626,9 +4018,9 @@ export const productsNight = {
         fr: ["Strong Lager", "7.7% vol", "0.33L"],
       },
       price: {
-        it: ["€4,50"],
-        en: ["€4,50"],
-        fr: ["€4,50"],
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"],
       },
       image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWVyJTIwYm90dGxlfGVufDB8fHx8MTcwOTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
     },
@@ -5086,6 +5478,24 @@ export const categoriesMetaAperitif = {
       fr: 'Boissons'
     }
   },
+  gin: {
+    title: {
+      it: "Gin",
+      en: "Gin",
+      fr: "Gin"
+    },
+    subtitle: {
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
+      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
+      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Gin',
+      en: 'Gin',
+      fr: 'Gin'
+    }
+  },
 };
 export const categoriesMetaNight = {
   classici: {
@@ -5558,6 +5968,24 @@ export const categoriesMetaAperitifHot = {
       it: 'Bibite',
       en: 'Cans',
       fr: 'Boissons'
+    }
+  },
+  gin: {
+    title: {
+      it: "Gin",
+      en: "Gin",
+      fr: "Gin"
+    },
+    subtitle: {
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per l'aperitivo",
+      en: "All our gins, to be enjoyed pure or mixed in unique aperitif cocktails",
+      fr: "Tous nos gins, à déguster purs ou en cocktails apéritifs uniques."
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Gin',
+      en: 'Gin',
+      fr: 'Gin'
     }
   },
 };
