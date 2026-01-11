@@ -1174,11 +1174,11 @@ export const productsAperitif = {
     },
     {
       id: "anap5",
-      name: "Beck's No Alcol",
+      name: "Heineken No Alcol",
       ingredients: {
-        it: ["Beck's Analcolica", "0.0% vol", "0.33L"],
-        en: ["Non-Alcoholic Beck's", "0.0% vol", "0.33L"],
-        fr: ["Beck's Sans Alcool", "0.0% vol", "0.33L"],
+        it: ["Heineken Analcolica", "0.0% vol", "0.33L"],
+        en: ["Non-Alcoholic Heineken", "0.0% vol", "0.33L"],
+        fr: ["Heineken Sans Alcool", "0.0% vol", "0.33L"],
       },
       price: {
         it: ["€6,00"],
@@ -3597,11 +3597,11 @@ export const productsNight = {
     },
     {
       id: "anap5",
-      name: "Beck's No Alcol",
+      name: "Heineken No Alcol",
       ingredients: {
-        it: ["Beck's Analcolica", "0.0% vol", "0.33L"],
-        en: ["Non-Alcoholic Beck's", "0.0% vol", "0.33L"],
-        fr: ["Beck's Sans Alcool", "0.0% vol", "0.33L"],
+        it: ["Heineken Analcolica", "0.0% vol", "0.33L"],
+        en: ["Non-Alcoholic Heineken", "0.0% vol", "0.33L"],
+        fr: ["Heineken Sans Alcool", "0.0% vol", "0.33L"],
       },
       price: {
         it: ["€5,00"],
