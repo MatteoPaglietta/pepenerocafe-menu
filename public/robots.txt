@@ -1,12 +1,7 @@
 User-agent: *
 Allow: /
 
-# Blocca le cartelle tecniche o non pubbliche
-Disallow: /wp-admin/
-Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /admin/
 
-# Sitemap e riferimento
-Sitemap: https://pepenerocafe-menu.netlify.app/assets/sitemap.xml
-Host: https://pepenerocafe-menu.netlify.app
+Sitemap: https://pepenerocafe-menu.netlify.app/sitemap.xml
