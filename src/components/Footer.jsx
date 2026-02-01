@@ -84,7 +84,7 @@ export default function Footer({ currentLang }) {
                 </div>
             </div>
             <div className="footer-bottom">
-                <p className="copyright-text">©{year} Pepenero Cafè. <span translate="no">{translate('COPYRIGHT')}</span></p>
+                <p className="copyright-text" translate="no">©{year} Pepenero Cafè. <span translate="no">{translate('COPYRIGHT')}</span></p>
             </div>
         </footer>
     );

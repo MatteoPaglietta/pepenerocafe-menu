@@ -1,28 +1,176 @@
-import belliniImage from '../assets/immagini-drink/bellini.png';
-import cosmopolitanImage from '../assets/immagini-drink/cosmopolitan.png';
-import ginFizzImage from '../assets/immagini-drink/gin-fizz.png';
-import ginTonicImage from '../assets/immagini-drink/gin-tonic.png';
-import margaritaImage from '../assets/immagini-drink/margarita.png';
-import mojitoImage from '../assets/immagini-drink/mojito.png';
-import moscowMuleImage from '../assets/immagini-drink/moscow-mule.png';
-import pinacoladaImage from '../assets/immagini-drink/pinacolada.png';
-import rossiniImage from '../assets/immagini-drink/rossini.png';
+//Classici
+import belliniImage from '../assets/immagini-drink/classici-ape/bellini.png';
+import cosmopolitanImage from '../assets/immagini-drink/classici-ape/cosmopolitan.png';
+import ginFizzImage from '../assets/immagini-drink/classici-ape/gin-fizz.png';
+import ginTonicImage from '../assets/immagini-drink/classici-ape/gin-tonic.png';
+import margaritaImage from '../assets/immagini-drink/classici-ape/margarita.png';
+import mojitoImage from '../assets/immagini-drink/classici-ape/mojito.png';
+import moscowMuleImage from '../assets/immagini-drink/classici-ape/moscow-mule.png';
+import pinacoladaImage from '../assets/immagini-drink/classici-ape/pinacolada.png';
+import rossiniImage from '../assets/immagini-drink/classici-ape/rossini.png';
+
+//Spritz
+import spritzAperolImage from '../assets/immagini-drink/spritz/spritz-aperol.png';
+import spritzCampariImage from '../assets/immagini-drink/spritz/spritz-campari.png';
 import spritzVenturoImage from '../assets/immagini-drink/spritz/spritz-venturo.png';
 import spritzViolaImage from '../assets/immagini-drink/spritz/spritz-viola.png';
 import spritzFragolaImage from '../assets/immagini-drink/spritz/spritz-fragola.png';
-import spritzZenzeroImage from '../assets/immagini-drink/spritz/spritz-zenzero.png';
 import spritzLimoneImage from '../assets/immagini-drink/spritz/spritz-limone.png';
 import hugoImage from '../assets/immagini-drink/spritz/spritz-hugo.png';
 import spritzFruttiBoscoImage from '../assets/immagini-drink/spritz/spritz-fruttibosco.png';
 import spritzRosaImage from '../assets/immagini-drink/spritz/spritz-rosa.png';
 import spritzEsoticoImage from '../assets/immagini-drink/spritz/spritz-esotico.png';
 import spritzChinottoImage from '../assets/immagini-drink/spritz/spritz-chinotto.png';
-import negritoImage from '../assets/immagini-drink/negrito.png';
-import negroniSbagliatoImage from '../assets/immagini-drink/negroni-sbagliato.png';
 
-import spericoladaImage from '../assets/immagini-drink/spericolada.png';
-import pescacoladaImage from '../assets/immagini-drink/pescacolada.png';
-import virgincoladaImage from '../assets/immagini-drink/virgincolada.png';
+//Negroni
+import negroniImage from '../assets/immagini-drink/negroni/negroni.png';
+import negroniEsoticoImage from '../assets/immagini-drink/negroni/negroni-esotico.png';
+import negroniBoscoImage from '../assets/immagini-drink/negroni/negroni-bosco.png';
+import negrottoImage from '../assets/immagini-drink/negroni/negrotto.png';
+
+//Analcolici
+import floridaImage from '../assets/immagini-drink/analcolici/florida.png';
+import havanaAnalImage from '../assets/immagini-drink/analcolici/havana.png';
+import strawberryVirginColadaImage from '../assets/immagini-drink/analcolici/strawberry-virgin-colada.png';
+import AngelImage from '../assets/immagini-drink/analcolici/angel.png';
+import AppleFreshImage from '../assets/immagini-drink/analcolici/apple-fresh.png';
+import NewSensationImage from '../assets/immagini-drink/analcolici/new-sensation.png';
+import PeterImage from '../assets/immagini-drink/analcolici/peter.png';
+import spericoladaImage from '../assets/immagini-drink/analcolici/spericolada.png';
+import pescacoladaImage from '../assets/immagini-drink/analcolici/pesca-colada.png';
+import virgincoladaImage from '../assets/immagini-drink/analcolici/virgin-colada.png';
+
+//Analcolici premium
+import heinekenNoAlcolImage from '../assets/immagini-drink/analcolici-premium/heineken.png';
+import ginTonic0Image from '../assets/immagini-drink/analcolici-premium/gin-tonic0.png';
+import spritzZeroImage from '../assets/immagini-drink/analcolici-premium/spritz-zero.png';
+
+//Drink Caldi
+import SpritzCaldo2Image from '../assets/immagini-drink/drink-caldi/spritz-caldo.png';
+import SpritzCaldoImage from '../assets/immagini-drink/drink-caldi/spritz-caldo2.png';
+import SidrumImage from '../assets/immagini-drink/drink-caldi/sidrum.png';
+import SangriaImage from '../assets/immagini-drink/drink-caldi/sangria.png';
+import NegroniCaldoImage from '../assets/immagini-drink/drink-caldi/negroni-caldo.png';
+
+//Spina
+import LeffeBiondaImage from '../assets/immagini-drink/spina/leffe-bionda.png';
+import LeffeRossaImage from '../assets/immagini-drink/spina/leffe-rossa.png';
+import StellaMediaImage from '../assets/immagini-drink/spina/stella-media.png';
+import StellaPiccolaImage from '../assets/immagini-drink/spina/stella-piccola.png';
+
+//Stagionali
+import SpritzInvernalImage from '../assets/immagini-drink/stagionali/sw-spritz-invernal.png';
+import WinterSpritzImage from '../assets/immagini-drink/stagionali/sw-winter-spritz.png';
+import NegroniPolareImage from '../assets/immagini-drink/stagionali/sw-negroni-polare.png';
+import NegroniMandarinoImage from '../assets/immagini-drink/stagionali/sw-negroni-mandarino.png';
+import MandarinMuleImage from '../assets/immagini-drink/stagionali/sw-mandarin-mule.png';
+import ForestFizzImage from '../assets/immagini-drink/stagionali/sw-forest-fizz.png';
+import MojitoKiwiImage from '../assets/immagini-drink/stagionali/sw-mojito-kiwi.png';
+
+//Birre bottiglia
+import tennentsImage from '../assets/immagini-drink/bottiglie/tennents.png';
+import ichnusaImage from '../assets/immagini-drink/bottiglie/ichnusa.png';
+import becksImage from '../assets/immagini-drink/bottiglie/becks.png';
+import heinekenImage from '../assets/immagini-drink/bottiglie/heineken.png';
+import coronaImage from '../assets/immagini-drink/bottiglie/corona.png';
+import budImage from '../assets/immagini-drink/bottiglie/bud.png';
+import ceresImage from '../assets/immagini-drink/bottiglie/ceres.png';
+
+//Bibite
+import fantaImage from '../assets/immagini-drink/bibite/fanta.png';
+import cocaColaImage from '../assets/immagini-drink/bibite/coca-cola.png';
+import cocaColaZeroImage from '../assets/immagini-drink/bibite/coca-cola0.png';
+import spriteImage from '../assets/immagini-drink/bibite/sprite.png';
+import chinottoImage from '../assets/immagini-drink/bibite/chinotto.png';
+import gingerBeerImage from '../assets/immagini-drink/bibite/ginger-beer.png';
+import lemonSodaImage from '../assets/immagini-drink/bibite/lemon-soda.png';
+import redbullImage from '../assets/immagini-drink/bibite/redbull.png';
+import schweppesImage from '../assets/immagini-drink/bibite/schweppes.png';
+import succoAnanasImage from '../assets/immagini-drink/bibite/succo-ananas.png';
+import succoPeraImage from '../assets/immagini-drink/bibite/succo-pera.png';
+import succoPescaImage from '../assets/immagini-drink/bibite/succo-pesca.png';
+import succoMirtilloImage from '../assets/immagini-drink/bibite/succo-mirtillo.png';
+import succoPompelmoImage from '../assets/immagini-drink/bibite/succo-pompelmo.png';
+import thePescaImage from '../assets/immagini-drink/bibite/the-pesca.png';
+import theLimoneImage from '../assets/immagini-drink/bibite/the-limone.png';
+import crodinoImage from '../assets/immagini-drink/bibite/crodino.png';
+import campariSodaImage from '../assets/immagini-drink/bibite/campari-soda.png';
+import aperolSodaImage from '../assets/immagini-drink/bibite/aperol-soda.png';
+import sanbitterImage from '../assets/immagini-drink/bibite/sanbitter.png';
+
+//Sexy
+import sexBeachImage from '../assets/immagini-drink/sexy/sex-beach.png';
+import sexHenryImage from '../assets/immagini-drink/sexy/sex-henry.png';
+import sexSofaImage from '../assets/immagini-drink/sexy/sex-sofa.png';
+import sexCityImage from '../assets/immagini-drink/sexy/sex-city.png';
+import sexHouseImage from '../assets/immagini-drink/sexy/sex-house.png';
+
+//Iced
+import longIcedImage from '../assets/immagini-drink/iced/long-iced.png';
+import japaneseIcedImage from '../assets/immagini-drink/iced/japanese-iced.png';
+import miamiIcedImage from '../assets/immagini-drink/iced/miami-iced.png';
+import italianIcedImage from '../assets/immagini-drink/iced/italian-iced.png';
+import mexicanIcedImage from '../assets/immagini-drink/iced/mexican-iced.png';
+
+//Pestati
+import blackMojitoImage from '../assets/immagini-drink/pestati/black-mojito.jpg';
+import boschettoImage from '../assets/immagini-drink/pestati/boschetto.jpg';
+import caipirinhaImage from '../assets/immagini-drink/pestati/caipirinha.jpg';
+import caipiroskaImage from '../assets/immagini-drink/pestati/caipiroska.jpg';
+import mojitoLimoncelloImage from '../assets/immagini-drink/pestati/mojito-limoncello.jpg';
+import mojitoMirtilloImage from '../assets/immagini-drink/pestati/mojito-mirtillo.jpg';
+import mojitoZenzeroImage from '../assets/immagini-drink/pestati/mojito-zenzero.jpg';
+import rumCoolerImage from '../assets/immagini-drink/pestati/rum-cooler.jpg';
+
+//Whisky Images
+import jamesonImage from '../assets/immagini-drink/whisky/jameson.jpg';
+import bulleitBourbonImage from '../assets/immagini-drink/whisky/bulleit-bourbon.jpg';
+import glenGrantImage from '../assets/immagini-drink/whisky/glen-grant.jpg';
+import jebImage from '../assets/immagini-drink/whisky/j&b.jpg';
+import jackMieleImage from '../assets/immagini-drink/whisky/jack-miele.jpg';
+import jackImage from '../assets/immagini-drink/whisky/jack.jpg';
+import jamesonBarrelImage from '../assets/immagini-drink/whisky/jameson-barrel.jpg';
+import johnnieWalkerImage from '../assets/immagini-drink/whisky/johnnie-walker.jpg';
+import laphroaigImage from '../assets/immagini-drink/whisky/laphroaig.jpg';
+import taliskerImage from '../assets/immagini-drink/whisky/talisker.jpg';
+import tullamoreImage from '../assets/immagini-drink/whisky/tullamore.jpg';
+
+//Digestivi
+import limoncelloImage from '../assets/immagini-drink/digestivi/limoncello.jpg';
+import animaAmaraImage from '../assets/immagini-drink/digestivi/anima-amara.jpg';
+import zeddaPirasImage from '../assets/immagini-drink/digestivi/zedda-piras.jpg';
+import baileysImage from '../assets/immagini-drink/digestivi/baileys.jpg';
+import barricataImage from '../assets/immagini-drink/digestivi/barricata.jpg';
+import capoImage from '../assets/immagini-drink/digestivi/capo.jpg';
+import disaronnoImage from '../assets/immagini-drink/digestivi/disaronno.jpg';
+import genepyImage from '../assets/immagini-drink/digestivi/genepy.jpg';
+import genzianaImage from '../assets/immagini-drink/digestivi/genziana.jpg';
+import grappaPeraImage from '../assets/immagini-drink/digestivi/grappa-pera.jpg';
+import grappaImage from '../assets/immagini-drink/digestivi/grappa.jpg';
+import jagermaisterImage from '../assets/immagini-drink/digestivi/jagermaister.jpg';
+import montenegroImage from '../assets/immagini-drink/digestivi/montenegro.jpg';
+import sambucaImage from '../assets/immagini-drink/digestivi/sambuca.jpg';
+import sandemanImage from '../assets/immagini-drink/digestivi/sandeman.jpg';
+import sanSimoneImage from '../assets/immagini-drink/digestivi/sansimone.jpg';
+import serpilloImage from '../assets/immagini-drink/digestivi/serpillo.jpg';
+import cynarImage from '../assets/immagini-drink/digestivi/cynar.jpg';
+import amaroLucanoImage from '../assets/immagini-drink/digestivi/amaro-lucano.jpg';
+import unicumImage from '../assets/immagini-drink/digestivi/unicum.jpg';
+import amaroRamazzottiImage from '../assets/immagini-drink/digestivi/amaro-ramazzotti.jpg';
+import fernetBrancaImage from '../assets/immagini-drink/digestivi/fernet-branca.jpg';
+import chinaMartiniImage from '../assets/immagini-drink/digestivi/china-martini.jpg';
+
+//Classici sera
+import amarettoCoolerImage from '../assets/immagini-drink/classici-sera/amaretto-cooler.png';
+import electricLemonadeImage from '../assets/immagini-drink/classici-sera/electric-lemonade.png';
+import ladyCirocImage from '../assets/immagini-drink/classici-sera/lady-ciroc.png';
+import midoriSourImage from '../assets/immagini-drink/classici-sera/midori-sour.png';
+import tequilaSunriseImage from '../assets/immagini-drink/classici-sera/tequila-sunrise.png';
+import negroniSeraleImage from '../assets/immagini-drink/classici-sera/negroni.png';
+import americanoImage from '../assets/immagini-drink/classici-sera/americano.png';
+import boulevardierImage from '../assets/immagini-drink/classici-sera/boulevardier.png';
+import negroniBoscoSeraleImage from '../assets/immagini-drink/classici-sera/negroni-bosco.png';
+import ginLemonImage from '../assets/immagini-drink/classici-sera/gin-lemon.png';
 
 //Rum Images
 import brugalImage from '../assets/immagini-drink/rum/brugal.jpg';
@@ -75,6 +223,7 @@ import traminerImage from '../assets/immagini-drink/vino/traminer.jpg';
 import trevisoImage from '../assets/immagini-drink/vino/treviso.jpg';
 import valdobbiadeneImage from '../assets/immagini-drink/vino/valdobbiadene.jpg';
 import roseImage from '../assets/immagini-drink/vino/vino-rose.jpg';
+import nebbioloImage from '../assets/immagini-drink/vino/nebbiolo.png';
 
 
 
@@ -345,7 +494,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzInvernalImage,
     },
     {
       id: "sw2",
@@ -360,7 +509,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NegroniPolareImage,
     },
     {
       id: "sw3",
@@ -375,7 +524,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ForestFizzImage,
     },
     {
       id: "sw4",
@@ -390,7 +539,7 @@ export const stagionalProductsAperitif = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MandarinMuleImage,
     },
     {
       id: "sw5",
@@ -405,7 +554,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: WinterSpritzImage,
     },
     {
       id: "sw6",
@@ -420,7 +569,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NegroniMandarinoImage,
     },
   ],
   estate: [
@@ -669,7 +818,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: spritzVenturoImage,
+      image: spritzAperolImage,
     },
     {
       id: "spz2",
@@ -684,7 +833,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: spritzVenturoImage,
+      image: spritzCampariImage,
     },
     {
       id: "spz3",
@@ -744,7 +893,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: spritzZenzeroImage,
+      image: spritzAperolImage,
     },
     {
       id: "spz7",
@@ -851,7 +1000,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: negritoImage,
+      image: negroniImage,
     },
     {
       id: "neg2",
@@ -866,7 +1015,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: negritoImage,
+      image: negroniImage,
     },
     {
       id: "neg3",
@@ -881,7 +1030,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: negroniSbagliatoImage,
+      image: negroniImage,
     },
     {
       id: "neg4",
@@ -896,7 +1045,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniImage,
     },
     {
       id: "neg5",
@@ -911,7 +1060,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negrottoImage,
     },
     {
       id: "neg6",
@@ -926,7 +1075,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwZnJ1dHRpJTIwZGklMjBib3Njb3xlbnwxfHx8fDE3NjM5NjU0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniBoscoImage,
     },
     {
       id: "neg7",
@@ -941,7 +1090,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1631527756184-7a3562637f95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbWVyaWNhbm8lMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjM5NjU0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniImage,
     },
     {
       id: "neg8",
@@ -956,7 +1105,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniEsoticoImage,
     },
   ],
   analcolici: [
@@ -1018,7 +1167,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: strawberryVirginColadaImage,
     },
     {
       id: "ana5",
@@ -1033,7 +1182,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: floridaImage,
     },
     {
       id: "ana6",
@@ -1048,7 +1197,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: AppleFreshImage,
     },
     {
       id: "ana7",
@@ -1063,7 +1212,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NewSensationImage,
     },
     {
       id: "ana8",
@@ -1078,7 +1227,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: AngelImage,
     },
     {
       id: "ana9",
@@ -1093,7 +1242,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: PeterImage,
     },
     {
       id: "ana10",
@@ -1108,7 +1257,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: havanaAnalImage,
     },
   ],
   analcoliciPremium: [
@@ -1125,7 +1274,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1634496064950-02f043806b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ginTonic0Image,
     },
     {
       id: "anap2",
@@ -1140,7 +1289,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniImage,
     },
     {
       id: "anap3",
@@ -1155,7 +1304,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negrottoImage,
     },
     {
       id: "anap4",
@@ -1170,7 +1319,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: spritzZeroImage,
     },
     {
       id: "anap5",
@@ -1185,7 +1334,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: heinekenNoAlcolImage,
     },
   ],
   stagionali: stagionalProductsAperitif[stagioneCorrente],
@@ -1203,7 +1352,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SpritzCaldoImage,
     },
     {
       id: "hd2",
@@ -1218,7 +1367,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SpritzCaldo2Image,
     },
     {
       id: "hd3",
@@ -1233,7 +1382,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SangriaImage,
     },
     {
       id: "hd4",
@@ -1248,7 +1397,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SidrumImage,
     },
     {
       id: "hd5",
@@ -1263,7 +1412,7 @@ export const productsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: NegroniCaldoImage,
     }
   ],
   vini: [
@@ -1280,7 +1429,7 @@ export const productsAperitif = {
         en: ["€7,00/glass"],
         fr: ["€7,00/verre"],
       },
-      image: "https://images.unsplash.com/photo-1598516087522-875c742c019d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjB3aW5lJTIwZ2xhc3NfMi9lbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Red Wine
+      image: nebbioloImage,
     },
     {
       id: "v2",
@@ -1419,11 +1568,11 @@ export const productsAperitif = {
     },
     {
       id: "v11",
-      name: "Rosé",
+      name: "Bollé Rosé",
       ingredients: {
-        it: ["Glera e Pinot Nero", "Valdobbiadene (Veneto)", "Rosé"],
-        en: ["Glera and Pinot Noir", "Valdobbiadene (Veneto)", "Rosé"],
-        fr: ["Glera et Pinot Noir", "Valdobbiadene (Vénétie)", "Rosé"]
+        it: ["Glera e Pinot Nero", "Veneto", "Rosé"],
+        en: ["Glera and Pinot Noir", "Veneto", "Rosé"],
+        fr: ["Glera et Pinot Noir", "Vénétie", "Rosé"]
       },
       price: {
         it: ["€7,00/calice"],
@@ -1447,7 +1596,7 @@ export const productsAperitif = {
         en: ["€6,00/0.5L"],
         fr: ["€6,00/0.5L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
+      image: StellaMediaImage,
     },
     {
       id: "bs2",
@@ -1462,7 +1611,7 @@ export const productsAperitif = {
         en: ["€5,00/0.25L"],
         fr: ["€5,00/0.25L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
+      image: StellaPiccolaImage,
     },
     {
       id: "bs3",
@@ -1477,7 +1626,7 @@ export const productsAperitif = {
         en: ["€6,00/0.4L"],
         fr: ["€6,00/0.4L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: LeffeRossaImage,
     },
     {
       id: "bs4",
@@ -1492,7 +1641,7 @@ export const productsAperitif = {
         en: ["€6,00/0.4L"],
         fr: ["€6,00/0.4L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: LeffeBiondaImage,
     },
   ],
   birreBott: [
@@ -1509,7 +1658,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bottiglia di Birra
+      image: becksImage,
     },
     {
       id: "bb2",
@@ -1524,7 +1673,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: coronaImage,
     },
     {
       id: "bb3",
@@ -1539,7 +1688,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: heinekenImage,
     },
     {
       id: "bb4",
@@ -1554,7 +1703,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: tennentsImage,
     },
     {
       id: "bb5",
@@ -1569,7 +1718,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: budImage,
     },
     {
       id: "bb6",
@@ -1584,7 +1733,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ichnusaImage,
     },
     {
       id: "bb7",
@@ -1599,7 +1748,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWVyJTIwYm90dGxlfGVufDB8fHx8MTcwOTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: ceresImage,
     },
   ],
   bibite: [
@@ -1616,7 +1765,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: cocaColaImage,
     },
     {
       id: "l2",
@@ -1631,7 +1780,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: cocaColaZeroImage,
     },
     {
       id: "l3",
@@ -1646,7 +1795,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: thePescaImage,
     },
     {
       id: "l4",
@@ -1661,7 +1810,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: theLimoneImage,
     },
     {
       id: "l5",
@@ -1676,7 +1825,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: spriteImage,
     },
     {
       id: "l6",
@@ -1691,7 +1840,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: fantaImage,
     },
     {
       id: "l7",
@@ -1706,7 +1855,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: lemonSodaImage,
     },
     {
       id: "l8",
@@ -1721,7 +1870,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: redbullImage,
     },
     {
       id: "l9",
@@ -1736,7 +1885,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: crodinoImage,
     },
     {
       id: "l10",
@@ -1751,7 +1900,7 @@ export const productsAperitif = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: gingerBeerImage,
     },
     {
       id: "l11",
@@ -1766,7 +1915,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: campariSodaImage,
     },
     {
       id: "l12",
@@ -1781,7 +1930,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: aperolSodaImage,
     },
     {
       id: "l13",
@@ -1796,7 +1945,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: sanbitterImage,
     },
     {
       id: "l14",
@@ -1811,7 +1960,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: chinottoImage,
     },
     {
       id: "l15",
@@ -1826,7 +1975,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: schweppesImage,
     },
     {
       id: "l16",
@@ -1841,7 +1990,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoPescaImage,
     },
     {
       id: "l17",
@@ -1856,7 +2005,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoPeraImage,
     },
     {
       id: "l18",
@@ -1871,7 +2020,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoMirtilloImage,
     },
     {
       id: "l19",
@@ -1886,7 +2035,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoAnanasImage,
     },
     {
       id: "l20",
@@ -1901,7 +2050,7 @@ export const productsAperitif = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoPompelmoImage,
     },
   ],
   gin: [
@@ -2284,9 +2433,9 @@ export const productsAperitif = {
       "id": "g26",
       "name": "The London No. 1",
       "ingredients": {
-        "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra, si distingue per il suo colore blu acquamarina."],
-        "en": ["Premium gin, quadruple-distilled, with 12 botanicals. Produced in England, it is distinguished by its aquamarine blue color."],
-        "fr": ["Gin premium, quadruple distillation, avec 12 plantes. Produit en Angleterre, il se distingue par sa couleur bleu aigue-marine."]
+        "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra."],
+        "en": ["Premium gin, quadruple-distilled, with 12 botanicals. Produced in England."],
+        "fr": ["Gin premium, quadruple distillation, avec 12 plantes. Produit en Angleterre."]
       },
       "price": {
         "it": ["€10,00"],
@@ -2602,7 +2751,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzInvernalImage,
     },
     {
       id: "sw2",
@@ -2617,7 +2766,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NegroniPolareImage,
     },
     {
       id: "sw3",
@@ -2632,7 +2781,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ForestFizzImage,
     },
     {
       id: "sw4",
@@ -2647,7 +2796,7 @@ export const stagionalProductsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MandarinMuleImage,
     },
     {
       id: "sw5",
@@ -2662,40 +2811,10 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: WinterSpritzImage,
     },
     {
       id: "sw6",
-      name: "Spritz Caldo",
-      ingredients: {
-        it: ["Aperol", "Vino Bianco", "Sidro di Mele", "Cannella"],
-        en: ["Aperol", "White Wine", "Apple Cider", "Cinnamon"],
-        fr: ["Aperol", "Vin Blanc", "Cidre de Pomme", "Cannelle"],
-      },
-      price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
-      },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    },
-    {
-      id: "sw7",
-      name: "Spritz Caldo N°2",
-      ingredients: {
-        it: ["Aperol", "Succo Arancia", "Vino Bianco", "Miele"],
-        en: ["Aperol", "Orange Juice", "White Wine", "Honey"],
-        fr: ["Aperol", "Jus d'Orange", "Vin Blanc", "Miel"],
-      },
-      price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
-      },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    },
-    {
-      id: "sw8",
       name: "Mojito al Kiwi",
       ingredients: {
         it: ["Zucchero", "Lime", "Menta", "Rum", "Soda", "Kiwi"],
@@ -2707,7 +2826,7 @@ export const stagionalProductsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1579207037706-e7e0e7a2d48d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx3aW50ZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MojitoKiwiImage,
     },
   ],
   estate: [
@@ -2803,6 +2922,7 @@ export const stagionalProductsNight = {
     },
   ],
 };
+
 export const productsNight = {
   classici: [
     {
@@ -2818,7 +2938,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ginFizzImage,
     },
     {
       id: "c2",
@@ -2833,7 +2953,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: americanoImage,
     },
     {
       id: "c3",
@@ -2848,7 +2968,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniSeraleImage,
     },
     {
       id: "c4",
@@ -2863,7 +2983,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniSeraleImage,
     },
     {
       id: "c5",
@@ -2878,7 +2998,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: boulevardierImage,
     },
     {
       id: "c6",
@@ -2893,7 +3013,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniBoscoSeraleImage,
     },
     {
       id: "c7",
@@ -2908,7 +3028,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ginTonicImage,
     },
     {
       id: "c8",
@@ -2923,7 +3043,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ginLemonImage,
     },
     {
       id: "c9",
@@ -2938,7 +3058,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ginFizzImage,
     },
     {
       id: "c10",
@@ -2953,7 +3073,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: tequilaSunriseImage,
     },
     {
       id: "c11",
@@ -2968,7 +3088,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: cosmopolitanImage
     },
     {
       id: "c12",
@@ -2983,7 +3103,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: amarettoCoolerImage,
     },
     {
       id: "c13",
@@ -2998,7 +3118,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: electricLemonadeImage,
     },
     {
       id: "c14",
@@ -3013,7 +3133,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: margaritaImage,
     },
     {
       id: "c15",
@@ -3028,7 +3148,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: rossiniImage,
     },
     {
       id: "c16",
@@ -3043,7 +3163,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: belliniImage,
     },
     {
       id: "c17",
@@ -3058,7 +3178,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: midoriSourImage,
     },
     {
       id: "c18",
@@ -3073,7 +3193,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ladyCirocImage,
     },
     {
       id: "c19",
@@ -3088,7 +3208,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: moscowMuleImage,
     },
     {
       id: "c20",
@@ -3103,7 +3223,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: moscowMuleImage,
     },
   ],
   pestati: [
@@ -3120,7 +3240,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: caipiroskaImage,
     },
     {
       id: "p2",
@@ -3135,7 +3255,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: caipirinhaImage,
     },
     {
       id: "p3",
@@ -3150,7 +3270,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: rumCoolerImage,
     },
     {
       id: "p4",
@@ -3165,7 +3285,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: mojitoZenzeroImage,
     },
     {
       id: "p5",
@@ -3180,7 +3300,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: blackMojitoImage,
     },
     {
       id: "p6",
@@ -3195,7 +3315,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: mojitoLimoncelloImage,
     },
     {
       id: "p7",
@@ -3210,7 +3330,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: mojitoMirtilloImage,
     },
     {
       id: "p8",
@@ -3225,7 +3345,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: mojitoZenzeroImage,
     },
     {
       id: "p9",
@@ -3240,7 +3360,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: boschettoImage,
     },
   ],
   icedTea: [
@@ -3257,7 +3377,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: longIcedImage,
     },
     {
       id: "it2",
@@ -3272,7 +3392,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: italianIcedImage,
     },
     {
       id: "it3",
@@ -3287,7 +3407,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: japaneseIcedImage,
     },
     {
       id: "it4",
@@ -3302,7 +3422,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: miamiIcedImage,
     },
     {
       id: "it5",
@@ -3317,7 +3437,7 @@ export const productsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: mexicanIcedImage,
     },
   ],
   sexy: [
@@ -3334,7 +3454,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: sexBeachImage,
     },
     {
       id: "sex2",
@@ -3349,7 +3469,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: sexSofaImage,
     },
     {
       id: "sex3",
@@ -3364,7 +3484,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: sexCityImage,
     },
     {
       id: "sex4",
@@ -3379,7 +3499,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: sexHouseImage,
     },
     {
       id: "sex5",
@@ -3394,7 +3514,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628104889509-32204c32b504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjb2NrdGFpbCUyMGdyb3VwX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: sexHenryImage,
     },
   ],
   analcolici: [
@@ -3411,7 +3531,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: pescacoladaImage,
     },
     {
       id: "a2",
@@ -3426,7 +3546,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: virgincoladaImage,
     },
     {
       id: "a3",
@@ -3441,7 +3561,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: strawberryVirginColadaImage,
     },
     {
       id: "a4",
@@ -3456,7 +3576,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: floridaImage,
     },
     {
       id: "a5",
@@ -3471,7 +3591,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: AppleFreshImage,
     },
     {
       id: "a6",
@@ -3486,7 +3606,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NewSensationImage,
     },
     {
       id: "a7",
@@ -3501,7 +3621,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: havanaAnalImage,
     },
     {
       id: "a8",
@@ -3516,7 +3636,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: AngelImage,
     },
     {
       id: "a9",
@@ -3531,7 +3651,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"],
       },
-      image: "https://images.unsplash.com/photo-1514326640560-7d063ef2a99d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NrdGFpbCUyMGZyZXNoX2VufDF8fHx8MTc2MjQyNjg2OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: PeterImage,
     },
   ],
   analcoliciPremium: [
@@ -3548,7 +3668,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1634496064950-02f043806b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ginTonic0Image,
     },
     {
       id: "anap2",
@@ -3563,7 +3683,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negroniImage,
     },
     {
       id: "anap3",
@@ -3578,7 +3698,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: negrottoImage,
     },
     {
       id: "anap4",
@@ -3593,7 +3713,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: spritzZeroImage,
     },
     {
       id: "anap5",
@@ -3608,7 +3728,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1673090431108-014275c62265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhbmFsY29saWNpJTIwZHJpbmt8ZW58MXx8fHwxNzYzOTY1NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: heinekenNoAlcolImage,
     },
   ],
   stagionali: stagionalProductsNight[stagioneCorrente],
@@ -3626,7 +3746,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SpritzCaldoImage,
     },
     {
       id: "hd2",
@@ -3641,7 +3761,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SpritzCaldo2Image,
     },
     {
       id: "hd3",
@@ -3656,7 +3776,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SangriaImage,
     },
     {
       id: "hd4",
@@ -3671,7 +3791,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: SidrumImage,
     },
     {
       id: "hd5",
@@ -3686,7 +3806,7 @@ export const productsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: NegroniCaldoImage,
     }
   ],
   vini: [
@@ -3703,7 +3823,7 @@ export const productsNight = {
         en: ["€6,00/glass"],
         fr: ["€6,00/verre"],
       },
-      image: "https://images.unsplash.com/photo-1598516087522-875c742c019d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjB3aW5lJTIwZ2xhc3NfMi9lbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Red Wine
+      image: nebbioloImage,
     },
     {
       id: "v2",
@@ -3842,11 +3962,11 @@ export const productsNight = {
     },
     {
       id: "v11",
-      name: "Rosé",
+      name: "Bollé Rosé",
       ingredients: {
-        it: ["Glera e Pinot Nero", "Valdobbiadene (Veneto)", "Rosé"],
-        en: ["Glera and Pinot Noir", "Valdobbiadene (Veneto)", "Rosé"],
-        fr: ["Glera et Pinot Noir", "Valdobbiadene (Vénétie)", "Rosé"]
+        it: ["Glera e Pinot Nero", "Veneto", "Rosé"],
+        en: ["Glera and Pinot Noir", "Veneto", "Rosé"],
+        fr: ["Glera et Pinot Noir", "Vénétie", "Rosé"]
       },
       price: {
         it: ["€6,00/calice"],
@@ -3870,7 +3990,7 @@ export const productsNight = {
         en: ["€5,50/0.5L"],
         fr: ["€5,50/0.5L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
+      image: StellaMediaImage,
     },
     {
       id: "bs2",
@@ -3885,7 +4005,7 @@ export const productsNight = {
         en: ["€4,00/0.25L"],
         fr: ["€4,00/0.25L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Birra alla Spina
+      image: StellaPiccolaImage,
     },
     {
       id: "bs3",
@@ -3900,7 +4020,7 @@ export const productsNight = {
         en: ["€6,00/0.4L"],
         fr: ["€6,00/0.4L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: LeffeRossaImage,
     },
     {
       id: "bs4",
@@ -3915,7 +4035,7 @@ export const productsNight = {
         en: ["€6,00/0.4L"],
         fr: ["€6,00/0.4L"],
       },
-      image: "https://images.unsplash.com/photo-1571219972740-1a66e6c21e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaXJyYSUyMGFsbGElMjBzcGluYXxlbnwxfHx8fDE3NjI0MjY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: LeffeBiondaImage,
     },
   ],
   birreBott: [
@@ -3932,7 +4052,7 @@ export const productsNight = {
         en: ["€4,50"],
         fr: ["€4,50"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bottiglia di Birra
+      image: becksImage,
     },
     {
       id: "bb2",
@@ -3947,7 +4067,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: coronaImage,
     },
     {
       id: "bb3",
@@ -3962,7 +4082,7 @@ export const productsNight = {
         en: ["€4,50"],
         fr: ["€4,50"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: heinekenImage,
     },
     {
       id: "bb4",
@@ -3977,7 +4097,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: tennentsImage,
     },
     {
       id: "bb5",
@@ -3992,7 +4112,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: budImage,
     },
     {
       id: "bb6",
@@ -4007,7 +4127,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1543884393-d78401340156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxiZWVyJTIwYm90dGxlfGVufDF8fHx8MTc2MjQyNjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: ichnusaImage,
     },
     {
       id: "bb7",
@@ -4022,7 +4142,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1608270586620-248524c67de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWVyJTIwYm90dGxlfGVufDB8fHx8MTcwOTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      image: ceresImage,
     },
   ],
   bibite: [
@@ -4039,7 +4159,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", // Immagine Bibite
+      image: cocaColaImage,
     },
     {
       id: "l2",
@@ -4054,7 +4174,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: cocaColaZeroImage,
     },
     {
       id: "l3",
@@ -4069,7 +4189,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: thePescaImage,
     },
     {
       id: "l4",
@@ -4084,7 +4204,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: theLimoneImage,
     },
     {
       id: "l5",
@@ -4099,7 +4219,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: spriteImage,
     },
     {
       id: "l6",
@@ -4114,7 +4234,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: fantaImage,
     },
     {
       id: "l7",
@@ -4129,7 +4249,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: lemonSodaImage,
     },
     {
       id: "l8",
@@ -4144,7 +4264,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: redbullImage,
     },
     {
       id: "l9",
@@ -4159,7 +4279,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: chinottoImage,
     },
     {
       id: "l10",
@@ -4174,7 +4294,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: schweppesImage,
     },
     {
       id: "l11",
@@ -4189,7 +4309,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoPescaImage,
     },
     {
       id: "l12",
@@ -4204,7 +4324,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoPeraImage,
     },
     {
       id: "l13",
@@ -4219,7 +4339,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoMirtilloImage,
     },
     {
       id: "l14",
@@ -4234,7 +4354,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoAnanasImage,
     },
     {
       id: "l15",
@@ -4249,7 +4369,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"],
       },
-      image: "https://images.unsplash.com/photo-1558223617-6d2746401037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWRhJTIwYm90dGxlJTIwZmFudGElMjBjb2NhY29sYXxlbnwxfHx8fDE3NjI0MjY4MjZ8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: succoPompelmoImage,
     },
   ],
   gin: [
@@ -4632,9 +4752,9 @@ export const productsNight = {
       "id": "g26",
       "name": "The London No. 1",
       "ingredients": {
-        "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra, si distingue per il suo colore blu acquamarina."],
-        "en": ["Premium gin, quadruple-distilled, with 12 botanicals. Produced in England, it is distinguished by its aquamarine blue color."],
-        "fr": ["Gin premium, quadruple distillation, avec 12 plantes. Produit en Angleterre, il se distingue par sa couleur bleu aigue-marine."]
+        "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra."],
+        "en": ["Premium gin, quadruple-distilled, with 12 botanicals. Produced in England."],
+        "fr": ["Gin premium, quadruple distillation, avec 12 plantes. Produit en Angleterre."]
       },
       "price": {
         "it": ["€10,00"],
@@ -4810,7 +4930,7 @@ export const productsNight = {
         "en": ["€8,00"],
         "fr": ["€8,00"]
       },
-      "image": "jAndBImage"
+      "image": jebImage
     },
     {
       "id": "w2",
@@ -4825,7 +4945,7 @@ export const productsNight = {
         "en": ["€8,00"],
         "fr": ["€8,00"]
       },
-      "image": "jamesonStandardImage"
+      "image": jamesonImage
     },
     {
       "id": "w3",
@@ -4840,7 +4960,7 @@ export const productsNight = {
         "en": ["€9,00"],
         "fr": ["€9,00"]
       },
-      "image": "barrelWhiskeyImage"
+      "image": jamesonBarrelImage
     },
     {
       "id": "w4",
@@ -4855,7 +4975,7 @@ export const productsNight = {
         "en": ["€12,00"],
         "fr": ["€12,00"]
       },
-      "image": "taliskerImage"
+      "image": taliskerImage
     },
     {
       "id": "w5",
@@ -4870,7 +4990,7 @@ export const productsNight = {
         "en": ["€12,00"],
         "fr": ["€12,00"]
       },
-      "image": "laphroaigImage"
+      "image": laphroaigImage
     },
     {
       "id": "w6",
@@ -4885,7 +5005,7 @@ export const productsNight = {
         "en": ["€8,00"],
         "fr": ["€8,00"]
       },
-      "image": "jackDanielsImage"
+      "image": jackImage
     },
     {
       "id": "w7",
@@ -4900,11 +5020,11 @@ export const productsNight = {
         "en": ["€8,00"],
         "fr": ["€8,00"]
       },
-      "image": "jackDanielsHoneyImage"
+      "image": jackMieleImage
     },
     {
       "id": "w8",
-      "name": "Red Label",
+      "name": "Johnnie Walker",
       "ingredients": {
         "it": ["Blended Scotch Whisky, vivace, speziato e affumicato leggero. Origine: Scozia."],
         "en": ["Blended Scotch Whisky, vibrant, spicy, and lightly smoky. Origin: Scotland."],
@@ -4915,7 +5035,7 @@ export const productsNight = {
         "en": ["€9,00"],
         "fr": ["€9,00"]
       },
-      "image": "redLabelImage"
+      "image": johnnieWalkerImage
     },
     {
       "id": "w9",
@@ -4930,7 +5050,7 @@ export const productsNight = {
         "en": ["€8,00"],
         "fr": ["€8,00"]
       },
-      "image": "glenGrantImage"
+      "image": glenGrantImage
     },
     {
       "id": "w10",
@@ -4945,7 +5065,7 @@ export const productsNight = {
         "en": ["€8,00"],
         "fr": ["€8,00"]
       },
-      "image": "tullamoreImage"
+      "image": tullamoreImage
     },
     {
       "id": "w11",
@@ -4960,24 +5080,9 @@ export const productsNight = {
         "en": ["€10,00"],
         "fr": ["€10,00"]
       },
-      "image": "bulleitBourbonImage"
-    },
-    {
-      "id": "w12",
-      "name": "Oban",
-      "ingredients": {
-        "it": ["Single Malt Scotch (Western Highlands), maltato, marittimo e affumicato. Origine: Scozia (Highlands)."],
-        "en": ["Single Malt Scotch (Western Highlands), malty, maritime, and smoky. Origin: Scotland (Highlands)."],
-        "fr": ["Single Malt Scotch (Western Highlands), malté, maritime et fumé. Origine: Écosse (Highlands)."]
-      },
-      "price": {
-        "it": ["€14,00"],
-        "en": ["€14,00"],
-        "fr": ["€14,00"]
-      },
-      "image": "obanImage"
+      "image": bulleitBourbonImage
     }
-  ],
+  ],  
   amari: [
     {
       id: "a1",
@@ -4992,7 +5097,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "limoncelloImage"
+      image: limoncelloImage
     },
     {
       id: "a2",
@@ -5007,7 +5112,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "animaAmaraImage"
+      image: animaAmaraImage
     },
     {
       id: "a3",
@@ -5022,7 +5127,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "montenegroImage"
+      image: montenegroImage
     },
     {
       id: "a4",
@@ -5037,7 +5142,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "sanSimoneImage"
+      image: sanSimoneImage
     },
     {
       id: "a5",
@@ -5052,7 +5157,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"]
       },
-      image: "disaronnoImage"
+      image: disaronnoImage
     },
     {
       id: "a6",
@@ -5067,7 +5172,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "jagermeisterImage"
+      image: jagermaisterImage
     },
     {
       id: "a7",
@@ -5082,7 +5187,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "sambucaImage"
+      image: sambucaImage
     },
     {
       id: "a8",
@@ -5097,7 +5202,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"]
       },
-      image: "baileysImage"
+      image: baileysImage
     },
     {
       id: "a9",
@@ -5112,7 +5217,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "unicumImage"
+      image: unicumImage
     },
     {
       id: "a10",
@@ -5127,7 +5232,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "amaroLucanoImage"
+      image: amaroLucanoImage
     },
     {
       id: "a11",
@@ -5142,7 +5247,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "cynarImage"
+      image: cynarImage
     },
     {
       id: "a12",
@@ -5157,7 +5262,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "ramazzottiImage"
+      image: amaroRamazzottiImage 
     },
     {
       id: "a13",
@@ -5172,7 +5277,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "chinaMartiniImage"
+      image: chinaMartiniImage
     },
     {
       id: "a14",
@@ -5187,7 +5292,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "fernetBrancaImage"
+      image: fernetBrancaImage
     },
     {
       id: "a15",
@@ -5202,7 +5307,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "mirtoZeddaPirasImage"
+      image: zeddaPirasImage
     },
     {
       id: "a16",
@@ -5217,7 +5322,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: "amaroDelCapoImage"
+      image: capoImage
     },
     {
       id: "a17",
@@ -5232,7 +5337,7 @@ export const productsNight = {
         en: ["€6,00"],
         fr: ["€6,00"]
       },
-      image: "grappaBarricataImage"
+      image: barricataImage
     },
     {
       id: "a18",
@@ -5247,7 +5352,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"]
       },
-      image: "grappaImage"
+      image: grappaImage
     },
     {
       id: "a19",
@@ -5262,7 +5367,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"]
       },
-      image: "grappaPeraImage"
+      image: grappaPeraImage
     },
     {
       id: "a20",
@@ -5277,7 +5382,7 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"]
       },
-      image: "genepySerpilloImage"
+      image: serpilloImage
     },
     {
       id: "a21",
@@ -5292,7 +5397,37 @@ export const productsNight = {
         en: ["€5,00"],
         fr: ["€5,00"]
       },
-      image: "genzianaImage"
+      image: genzianaImage
+    },
+    {
+      id: "a22",
+      name: "Porto Sandeman",
+      ingredients: {
+        it: ["Vino liquoroso portoghese della valle del Douro, ricco e avvolgente."],
+        en: ["Portuguese fortified wine from the Douro Valley, rich and smooth."],
+        fr: ["Vin fortifié portugais de la vallée du Douro, riche et enveloppant."]
+      },
+      price: {
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"]
+      },
+      image: sandemanImage
+    },
+    {
+      id: "a23",
+      name: "Genepy",
+      ingredients: {
+        it: ["Liquore alpino alle erbe di montagna, fresco, aromatico e dal gusto intenso."],
+        en: ["Alpine herbal liqueur made from mountain herbs, fresh and aromatic."],
+        fr: ["Liqueur alpine aux herbes de montagne, fraîche et aromatique."]
+      },
+      price: {
+        it: ["€5,00"],
+        en: ["€5,00"],
+        fr: ["€5,00"]
+      },
+      image: genepyImage
     }
   ]
 };
@@ -5413,7 +5548,7 @@ export const categoriesMetaAperitif = {
       fr: "Vins"
     },
     subtitle: {
-      it: "La nostra selezione di vini bianchi, rossi e rosè perfetta da gustare da sola o durante l'aperitivo in compagnia.",
+      it: "La nostra selezione di vini bianchi, rossi e rosé perfetta da gustare da sola o durante l'aperitivo in compagnia.",
       en: "Our selection of white, red, and rosé wines, perfect to enjoy on their own or during an aperitif with friends.",
       fr: "Notre sélection de vins blancs, rouges et rosés, idéale à déguster seule ou pendant l'apéro entre amis."
     },
@@ -5497,6 +5632,7 @@ export const categoriesMetaAperitif = {
     }
   },
 };
+
 export const categoriesMetaNight = {
   classici: {
     title: {
@@ -5631,9 +5767,9 @@ export const categoriesMetaNight = {
       fr: "Vins"
     },
     subtitle: {
-      it: "Selezione di rossi, bianchi e rosè, perfetti da gustare a cena o in compagnia",
-      en: "Selection of reds, whites, and rosè wines, perfect to enjoy at dinner or with company",
-      fr: "Sélection de vins rouges, blancs et rosè, parfaits à déguster au dîner ou entre amis"
+      it: "Selezione di rossi, bianchi e rosé, perfetti da gustare a cena o in compagnia",
+      en: "Selection of reds, whites, and rosé wines, perfect to enjoy at dinner or with company",
+      fr: "Sélection de vins rouges, blancs et rosé, parfaits à déguster au dîner ou entre amis"
     },
     icon: '/icone/vino.png',
     shortTitle: {
@@ -5905,7 +6041,7 @@ export const categoriesMetaAperitifHot = {
       fr: "Vins"
     },
     subtitle: {
-      it: "La nostra selezione di vini bianchi, rossi e rosè perfetta da gustare da sola o durante l'aperitivo in compagnia.",
+      it: "La nostra selezione di vini bianchi, rossi e rosé perfetta da gustare da sola o durante l'aperitivo in compagnia.",
       en: "Our selection of white, red, and rosé wines, perfect to enjoy on their own or during an aperitif with friends.",
       fr: "Notre sélection de vins blancs, rouges et rosés, idéale à déguster seule ou pendant l'apéro entre amis."
     },
@@ -5989,6 +6125,7 @@ export const categoriesMetaAperitifHot = {
     }
   },
 };
+
 export const categoriesMetaNightHot = {
   classici: {
     title: {
@@ -6142,9 +6279,9 @@ export const categoriesMetaNightHot = {
       fr: "Vins"
     },
     subtitle: {
-      it: "Selezione di rossi, bianchi e rosè, perfetti da gustare a cena o in compagnia",
-      en: "Selection of reds, whites, and rosè wines, perfect to enjoy at dinner or with company",
-      fr: "Sélection de vins rouges, blancs et rosè, parfaits à déguster au dîner ou entre amis"
+      it: "Selezione di rossi, bianchi e rosé, perfetti da gustare a cena o in compagnia",
+      en: "Selection of reds, whites, and rosé wines, perfect to enjoy at dinner or with company",
+      fr: "Sélection de vins rouges, blancs et rosé, parfaits à déguster au dîner ou entre amis"
     },
     icon: '/icone/vino.png',
     shortTitle: {

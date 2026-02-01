@@ -133,7 +133,7 @@ const LanguageSwitcher = ({ currentLang, onLangChange }) => {
                 className="flag-option"
               >
                 <DropdownFlagComponent width="25" height="25" className="flag-icon" />
-                <span className="lang-text">{LangMeta.text}</span>
+                <span className="lang-text" translate="no">{LangMeta.text}</span>
               </button>
             );
           })}
