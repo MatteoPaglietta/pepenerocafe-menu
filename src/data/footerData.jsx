@@ -27,7 +27,7 @@ export const FOOTER_TEXTS = {
     
     DAY_MON: { it: "Lunedì", en: "Monday", fr: "Lundi" },
     DAY_TUE: { it: "Martedì", en: "Tuesday", fr: "Mardi" },
-    DAY_WED: { it: "Mercoledì", en: "Mercredi", fr: "Mercredi" },
+    DAY_WED: { it: "Mercoledì", en: "Wednesday", fr: "Mercredi" },
     DAY_THU: { it: "Giovedì", en: "Thursday", fr: "Jeudi" },
     DAY_FRI: { it: "Venerdì", en: "Friday", fr: "Vendredi" },
     DAY_SAT: { it: "Sabato", en: "Saturday", fr: "Samedi" },
