@@ -1,4 +1,7 @@
+import { useState } from 'react';
+
 const MenuItemCard = ({ item, currentLang }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
   const lang = currentLang || 'it';
   const isNameObject = typeof item.name === 'object' && item.name !== null;
   const nameToDisplay = isNameObject
@@ -23,14 +26,20 @@ const MenuItemCard = ({ item, currentLang }) => {
   }
   const ingredientsString = ingredientsToDisplay.join(', ');
 
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className="menu-item-card">
       <div className="item-image-container">
+        {!imageLoaded && <div className="skeleton-loader"></div>}
         <img
           src={item.image}
           alt={nameToDisplay}
-          className="item-image"
+          className={`item-image ${imageLoaded ? 'loaded' : 'loading'}`}
           loading="lazy"
+          onLoad={handleImageLoad}
         />
       </div>
       <div className="item-details">

@@ -229,6 +229,7 @@ import tanquerayRangpurImage from '../assets/immagini-drink/gin/tanqueray-rangpu
 // Wine Images
 import arneisImage from '../assets/immagini-drink/vino/arneis.jpg';
 import barberaAstiImage from '../assets/immagini-drink/vino/barbera-asti.jpg';
+import barberaAstiSuperioreImage from '../assets/immagini-drink/vino/barbera-asti-superiore.jpg';
 import barberaBifaImage from '../assets/immagini-drink/vino/barbera-bifa.jpg';
 import falanghinaImage from '../assets/immagini-drink/vino/falanghina.jpg';
 import kikeImage from '../assets/immagini-drink/vino/kike.jpg';
@@ -1462,6 +1463,21 @@ export const productsAperitif = {
     },
     {
       id: "v3",
+      name: "Barbera Superiore",
+      ingredients: {
+        it: ["Barbera", "Piemonte", "Rosso"],
+        en: ["Barbera", "Piedmont", "Red"],
+        fr: ["Barbera", "Piémont", "Rouge"],
+      },
+      price: {
+        it: ["€8,00/calice"],
+        en: ["€8,00/glass"],
+        fr: ["€8,00/verre"],
+      },
+      image: barberaAstiSuperioreImage
+    },
+    {
+      id: "v4",
       name: "La Bifa",
       ingredients: {
         it: ["Barbera", "Pinerolese (Piemonte)", "Rosso"],
@@ -1476,7 +1492,7 @@ export const productsAperitif = {
       image: barberaBifaImage
     },
     {
-      id: "v4",
+      id: "v5",
       name: "Primitivo",
       ingredients: {
         it: ["Primitivo", "Puglia", "Rosso"],
@@ -1491,7 +1507,7 @@ export const productsAperitif = {
       image: primitivoImage
     },
     {
-      id: "v5",
+      id: "v6",
       name: "Valdobbiadene",
       ingredients: {
         it: ["Glera", "Veneto", "Prosecco"],
@@ -1506,7 +1522,7 @@ export const productsAperitif = {
       image: valdobbiadeneImage
     },
     {
-      id: "v6",
+      id: "v7",
       name: "Treviso",
       ingredients: {
         it: ["Glera", "Veneto", "Prosecco"],
@@ -1521,7 +1537,7 @@ export const productsAperitif = {
       image: trevisoImage
     },
     {
-      id: "v7",
+      id: "v8",
       name: "Arneis",
       ingredients: {
         it: ["Arneis", "Piemonte", "Bianco Fermo"],
@@ -1536,7 +1552,7 @@ export const productsAperitif = {
       image: arneisImage
     },
     {
-      id: "v8",
+      id: "v9",
       name: "Gewürztraminer",
       ingredients: {
         it: ["Gewürztraminer", "Alto Adige", "Bianco Fermo"],
@@ -1551,7 +1567,7 @@ export const productsAperitif = {
       image: traminerImage
     },
     {
-      id: "v9",
+      id: "v10",
       name: "Falanghina",
       ingredients: {
         it: ["Falanghina", "Campania", "Bianco Fermo"],
@@ -1566,7 +1582,7 @@ export const productsAperitif = {
       image: falanghinaImage
     },
     {
-      id: "v10",
+      id: "v11",
       name: "Kikè",
       ingredients: {
         it: ["Moscato", "Sicilia", "Bianco Fermo"],
@@ -1581,7 +1597,7 @@ export const productsAperitif = {
       image: kikeImage
     },
     {
-      id: "v11",
+      id: "v12",
       name: "Bollé Rosé",
       ingredients: {
         it: ["Glera e Pinot Nero", "Veneto", "Rosé"],
@@ -3856,6 +3872,21 @@ export const productsNight = {
     },
     {
       id: "v3",
+      name: "Barbera Superiore",
+      ingredients: {
+        it: ["Barbera", "Piemonte", "Rosso"],
+        en: ["Barbera", "Piedmont", "Red"],
+        fr: ["Barbera", "Piémont", "Rouge"],
+      },
+      price: {
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
+      },
+      image: barberaAstiSuperioreImage
+    },
+    {
+      id: "v4",
       name: "La Bifa",
       ingredients: {
         it: ["Barbera", "Pinerolese (Piemonte)", "Rosso"],
@@ -3870,7 +3901,7 @@ export const productsNight = {
       image: barberaBifaImage
     },
     {
-      id: "v4",
+      id: "v5",
       name: "Primitivo",
       ingredients: {
         it: ["Primitivo", "Puglia", "Rosso"],
@@ -3885,7 +3916,7 @@ export const productsNight = {
       image: primitivoImage
     },
     {
-      id: "v5",
+      id: "v6",
       name: "Valdobbiadene",
       ingredients: {
         it: ["Glera", "Veneto", "Prosecco"],
@@ -3900,7 +3931,7 @@ export const productsNight = {
       image: valdobbiadeneImage
     },
     {
-      id: "v6",
+      id: "v7",
       name: "Treviso",
       ingredients: {
         it: ["Glera", "Veneto", "Prosecco"],
@@ -3915,7 +3946,7 @@ export const productsNight = {
       image: trevisoImage
     },
     {
-      id: "v7",
+      id: "v8",
       name: "Arneis",
       ingredients: {
         it: ["Arneis", "Piemonte", "Bianco Fermo"],
@@ -3930,7 +3961,7 @@ export const productsNight = {
       image: arneisImage
     },
     {
-      id: "v8",
+      id: "v9",
       name: "Gewürztraminer",
       ingredients: {
         it: ["Gewürztraminer", "Alto Adige", "Bianco Fermo"],
@@ -3945,7 +3976,7 @@ export const productsNight = {
       image: traminerImage
     },
     {
-      id: "v9",
+      id: "v10",
       name: "Falanghina",
       ingredients: {
         it: ["Falanghina", "Campania", "Bianco Fermo"],
@@ -3960,7 +3991,7 @@ export const productsNight = {
       image: falanghinaImage
     },
     {
-      id: "v10",
+      id: "v11",
       name: "Kikè",
       ingredients: {
         it: ["Moscato", "Sicilia", "Bianco Fermo"],
@@ -3975,7 +4006,7 @@ export const productsNight = {
       image: kikeImage
     },
     {
-      id: "v11",
+      id: "v12",
       name: "Bollé Rosé",
       ingredients: {
         it: ["Glera e Pinot Nero", "Veneto", "Rosé"],

@@ -6,6 +6,7 @@ import { productsAperitif, productsNight, categoriesMetaAperitif, categoriesMeta
 import LogoSVG from './components/LogoSVG';
 import Footer from './components/Footer';
 import AddToHomeScreenBanner from './components/AddToHomeScreenBanner';
+import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher';
@@ -155,6 +156,7 @@ function App() {
           </main>
           <Footer currentLang={currentLang} />
         </div>
+        <ScrollToTop containerRef={containerRef} />
         <AddToHomeScreenBanner currentLang={currentLang} />
       </>
     );
