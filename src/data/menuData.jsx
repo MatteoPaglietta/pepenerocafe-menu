@@ -844,9 +844,9 @@ export const productsAperitif = {
         fr: ["Campari", "Prosecco", "Soda"],
       },
       price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
+        it: ["€7,50"],
+        en: ["€7,50"],
+        fr: ["€7,50"],
       },
       image: spritzCampariImage,
     },
