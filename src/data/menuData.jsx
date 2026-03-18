@@ -1515,9 +1515,9 @@ export const productsAperitif = {
         fr: ["Glera", "Vénétie", "Prosecco"],
       },
       price: {
-        it: ["€7,00/calice"],
-        en: ["€7,00/glass"],
-        fr: ["€7,00/verre"],
+        it: ["€8,00/calice"],
+        en: ["€8,00/glass"],
+        fr: ["€8,00/verre"],
       },
       image: valdobbiadeneImage
     },
@@ -3924,9 +3924,9 @@ export const productsNight = {
         fr: ["Glera", "Vénétie", "Prosecco"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: valdobbiadeneImage
     },
