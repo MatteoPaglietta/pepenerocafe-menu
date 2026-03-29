@@ -80,6 +80,15 @@ import MojitoFragolaImage from '../assets/immagini-drink/stagionali/sp-mojito-fr
 import SpritzFraBasilImage from '../assets/immagini-drink/stagionali/sp-spritz-fra-e-basil.png';
 import SpritzCiliegiaImage from '../assets/immagini-drink/stagionali/sp-spritz-ciliegia.png';
 import SpritzPrimaverileImage from '../assets/immagini-drink/stagionali/sp-spritz-primaverile.png';
+import SpritzPescaImage from '../assets/immagini-drink/stagionali/ss-spritz-pesca.png';
+import SpritzEstivoImage from '../assets/immagini-drink/stagionali/ss-spritz-estivo.png';
+import SpritzLimoneBasilicoImage from '../assets/immagini-drink/stagionali/ss-spritz-limone-basilico.png';
+import NegroniLightImage from '../assets/immagini-drink/stagionali/ss-negroni-light.png';
+import AmaroniImage from '../assets/immagini-drink/stagionali/ss-amaroni.png';
+import MuleEstivoImage from '../assets/immagini-drink/stagionali/ss-mule-estivo.png';
+import GinFizzEstivoImage from '../assets/immagini-drink/stagionali/ss-gin-fizz-estivo.png';
+import MojitoEstivoImage from '../assets/immagini-drink/stagionali/ss-mojito-estivo.png';
+import MojitoPescaBasilicoImage from '../assets/immagini-drink/stagionali/ss-mojito-pesca-basilico.png';
 
 //Birre bottiglia
 import tennentsImage from '../assets/immagini-drink/bottiglie/tennents.png';
@@ -601,7 +610,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzEstivoImage,
     },
     {
       id: "se2",
@@ -616,7 +625,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzLimoneBasilicoImage,
     },
     {
       id: "se3",
@@ -631,7 +640,7 @@ export const stagionalProductsAperitif = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: AmaroniImage,
     },
     {
       id: "se4",
@@ -646,7 +655,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NegroniLightImage,
     },
     {
       id: "se5",
@@ -661,7 +670,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzPescaImage,
     },
     {
       id: "se6",
@@ -676,7 +685,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&lib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: GinFizzEstivoImage,
     },
   ],
 };
@@ -2873,7 +2882,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: AmaroniImage,
     },
     {
       id: "se2",
@@ -2888,7 +2897,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: GinFizzEstivoImage,
     },
     {
       id: "se3",
@@ -2903,7 +2912,7 @@ export const stagionalProductsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MuleEstivoImage,
     },
     {
       id: "se4",
@@ -2918,7 +2927,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzPescaImage,
     },
     {
       id: "se5",
@@ -2933,7 +2942,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MojitoEstivoImage,
     },
     {
       id: "se6",
@@ -2948,7 +2957,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1543339396-981f33f06b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzdW1tZXIlMjBjb2NrdGFpbHxlbnwxfHx8fDE3NjY1Nzc5MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MojitoPescaBasilicoImage,
     },
   ],
 };
@@ -5127,7 +5136,7 @@ export const productsNight = {
       },
       "image": bulleitBourbonImage
     }
-  ],  
+  ],
   amari: [
     {
       id: "a1",
@@ -5307,7 +5316,7 @@ export const productsNight = {
         en: ["€4,00"],
         fr: ["€4,00"]
       },
-      image: amaroRamazzottiImage 
+      image: amaroRamazzottiImage
     },
     {
       id: "a13",
@@ -5496,6 +5505,24 @@ export const categoriesMetaAperitif = {
       fr: 'Classiques Contemporains'
     }
   },
+  gin: {
+    title: {
+      it: "Gin",
+      en: "Gin",
+      fr: "Gin"
+    },
+    subtitle: {
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
+      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
+      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Gin',
+      en: 'Gin',
+      fr: 'Gin'
+    }
+  },
   spritz: {
     title: {
       it: "Spritz e Affini",
@@ -5658,24 +5685,6 @@ export const categoriesMetaAperitif = {
       fr: 'Boissons'
     }
   },
-  gin: {
-    title: {
-      it: "Gin",
-      en: "Gin",
-      fr: "Gin"
-    },
-    subtitle: {
-      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
-      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
-      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
-    },
-    icon: '/icone/negroni.png',
-    shortTitle: {
-      it: 'Gin',
-      en: 'Gin',
-      fr: 'Gin'
-    }
-  },
 };
 
 export const categoriesMetaNight = {
@@ -5695,6 +5704,24 @@ export const categoriesMetaNight = {
       it: 'Classici',
       en: 'Classics',
       fr: 'Classiques'
+    }
+  },
+  gin: {
+    title: {
+      it: "Gin",
+      en: "Gin",
+      fr: "Gin"
+    },
+    subtitle: {
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
+      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
+      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Gin',
+      en: 'Gin',
+      fr: 'Gin'
     }
   },
   pestati: {
@@ -5877,24 +5904,6 @@ export const categoriesMetaNight = {
       fr: 'Boissons'
     }
   },
-  gin: {
-    title: {
-      it: "Gin",
-      en: "Gin",
-      fr: "Gin"
-    },
-    subtitle: {
-      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
-      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
-      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
-    },
-    icon: '/icone/negroni.png',
-    shortTitle: {
-      it: 'Gin',
-      en: 'Gin',
-      fr: 'Gin'
-    }
-  },
   rum: {
     title: {
       it: "Rum",
@@ -5968,6 +5977,24 @@ export const categoriesMetaAperitifHot = {
       it: 'Classici Contemporanei',
       en: 'Contemporary Classics',
       fr: 'Classiques Contemporains'
+    }
+  },
+  gin: {
+    title: {
+      it: "Gin",
+      en: "Gin",
+      fr: "Gin"
+    },
+    subtitle: {
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per l'aperitivo",
+      en: "All our gins, to be enjoyed pure or mixed in unique aperitif cocktails",
+      fr: "Tous nos gins, à déguster purs ou en cocktails apéritifs uniques."
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Gin',
+      en: 'Gin',
+      fr: 'Gin'
     }
   },
   spritz: {
@@ -6151,24 +6178,6 @@ export const categoriesMetaAperitifHot = {
       fr: 'Boissons'
     }
   },
-  gin: {
-    title: {
-      it: "Gin",
-      en: "Gin",
-      fr: "Gin"
-    },
-    subtitle: {
-      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per l'aperitivo",
-      en: "All our gins, to be enjoyed pure or mixed in unique aperitif cocktails",
-      fr: "Tous nos gins, à déguster purs ou en cocktails apéritifs uniques."
-    },
-    icon: '/icone/negroni.png',
-    shortTitle: {
-      it: 'Gin',
-      en: 'Gin',
-      fr: 'Gin'
-    }
-  },
 };
 
 export const categoriesMetaNightHot = {
@@ -6188,6 +6197,24 @@ export const categoriesMetaNightHot = {
       it: 'Classici',
       en: 'Classics',
       fr: 'Classiques'
+    }
+  },
+  gin: {
+    title: {
+      it: "Gin",
+      en: "Gin",
+      fr: "Gin"
+    },
+    subtitle: {
+      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
+      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
+      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
+    },
+    icon: '/icone/negroni.png',
+    shortTitle: {
+      it: 'Gin',
+      en: 'Gin',
+      fr: 'Gin'
     }
   },
   pestati: {
@@ -6387,24 +6414,6 @@ export const categoriesMetaNightHot = {
       it: 'Bibite',
       en: 'Cans',
       fr: 'Boissons'
-    }
-  },
-  gin: {
-    title: {
-      it: "Gin",
-      en: "Gin",
-      fr: "Gin"
-    },
-    subtitle: {
-      it: "Tutti i nostri gin, da gustare puri o miscelati in cocktail unici per la serata",
-      en: "All our gins, to enjoy neat or in unique cocktails for the evening",
-      fr: "Tous nos gins, à déguster purs ou en cocktails uniques pour la soirée"
-    },
-    icon: '/icone/negroni.png',
-    shortTitle: {
-      it: 'Gin',
-      en: 'Gin',
-      fr: 'Gin'
     }
   },
   rum: {
