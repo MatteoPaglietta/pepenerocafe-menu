@@ -89,6 +89,20 @@ import MuleEstivoImage from '../assets/immagini-drink/stagionali/ss-mule-estivo.
 import GinFizzEstivoImage from '../assets/immagini-drink/stagionali/ss-gin-fizz-estivo.png';
 import MojitoEstivoImage from '../assets/immagini-drink/stagionali/ss-mojito-estivo.png';
 import MojitoPescaBasilicoImage from '../assets/immagini-drink/stagionali/ss-mojito-pesca-basilico.png';
+import AutumnFizzImage from '../assets/immagini-drink/stagionali/sa-autumn-fizz.png';
+import FizzZeroImage from '../assets/immagini-drink/stagionali/sa-fizz-zero.png';
+import GinFikImage from '../assets/immagini-drink/stagionali/sa-gin-fik.png';
+import GinSpritzImage from '../assets/immagini-drink/stagionali/sa-gin-spritz.png';
+import HugoAutunnaleImage from '../assets/immagini-drink/stagionali/sa-hugo-autunnale.png';
+import MagillaImage from '../assets/immagini-drink/stagionali/sa-magilla.png';
+import MojitoFicoImage from '../assets/immagini-drink/stagionali/sa-mojito-fico.png';
+import MojitoPeraImage from '../assets/immagini-drink/stagionali/sa-mojito-pera.png';
+import MuleAutunnaleImage from '../assets/immagini-drink/stagionali/sa-mule-autunnale.png';
+import NegroniAutunnaleImage from '../assets/immagini-drink/stagionali/sa-negroni-autunnale.png';
+import NoSpritzImage from '../assets/immagini-drink/stagionali/sa-no-spritz.png';
+import SourAutunnaleImage from '../assets/immagini-drink/stagionali/sa-sour-autunnale.png';
+import SpritzAutunnaleSeraImage from '../assets/immagini-drink/stagionali/sa-spritz-autunnale-sera.png';
+import SpritzAutunnaleImage from '../assets/immagini-drink/stagionali/sa-spritz-autunnale.png';
 
 //Birre bottiglia
 import tennentsImage from '../assets/immagini-drink/bottiglie/tennents.png';
@@ -289,7 +303,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1601057421832-75d3ec6b7d56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGVybyUyMHNwcml0eiUyMGF1dHVubmFsZXxlbnwxfHx8fDE3NjM5NjU0MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: FizzZeroImage,
     },
     {
       id: "sta2",
@@ -304,7 +318,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1601057421832-75d3ec6b7d56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGVybyUyMHNwcml0eiUyMGF1dHVubmFsZXxlbnwxfHx8fDE3NjM5NjU0MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzAutunnaleImage,
     },
     {
       id: "sta3",
@@ -319,7 +333,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1654677608880-51f63b5dee97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZWdyb25pJTIwY29ja3RhaWx8ZW58MXx8fHwxNzYzOTY1NDMzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NegroniAutunnaleImage,
     },
     {
       id: "sta4",
@@ -334,7 +348,7 @@ export const stagionalProductsAperitif = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1549234812-d0ec20188ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2ppdG8lMjBjb2NrdGFpbCUyMHBlcmF8ZW58MXx8fHwxNzYzOTY1NDMzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MojitoPeraImage,
     },
     {
       id: "sta5",
@@ -349,7 +363,7 @@ export const stagionalProductsAperitif = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1507008781498-b80c1dfd4c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxNb3Njb3clMjBNdWxlJTIwYXV0dW5ub3xlbnwxfHx8fDE3NjM5NjU0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MuleAutunnaleImage,
     },
     {
       id: "sta6",
@@ -364,7 +378,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1551532053-1574d32f5053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxzZWFzb25hbCUyMGNvb2t0YWlsJTIwYXV0dW1ufGVufDF8fHx8MTc2Mzk2NTQzNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SourAutunnaleImage,
     },
     {
       id: "sta7",
@@ -379,7 +393,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1616782352103-6f4a8618e7c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXJ0aW5pJTIwZ2luJTIwZml6enxlbnwxfHx8fDE3NjM5NjU0Mjh8MA&ixlib=rb-4.1.0&q=80&utm_source=figma&utm_medium=referral",
+      image: AutumnFizzImage,
     },
     {
       id: "sta8",
@@ -394,7 +408,7 @@ export const stagionalProductsAperitif = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1628169228498-f2911b30e32f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGVybyUyMHNwcml0eiUyMGF1dHVubmFsZXxlbnwxfHx8fDE3NjM5NjU0MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: GinFikImage,
     },
   ],
   primavera: [
@@ -2305,7 +2319,7 @@ export const productsAperitif = {
     },
     {
       "id": "g15",
-      "name": "Monbasa",
+      "name": "Mombasa",
       "ingredients": {
         "it": ["Gin secco (London Dry), aromatico e speziato, ispirato al Kenya ma dal Regno Unito."],
         "en": ["Dry (London Dry) gin, aromatic and spicy, inspired by Kenya but from the United Kingdom."],
@@ -2531,7 +2545,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdXR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: NoSpritzImage,
     },
     {
       id: "sta2",
@@ -2546,7 +2560,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: GinSpritzImage,
     },
     {
       id: "sta3",
@@ -2561,7 +2575,7 @@ export const stagionalProductsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MojitoFicoImage,
     },
     {
       id: "sta4",
@@ -2576,7 +2590,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: GinFikImage,
     },
     {
       id: "sta5",
@@ -2591,7 +2605,7 @@ export const stagionalProductsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MojitoPeraImage,
     },
     {
       id: "sta6",
@@ -2606,7 +2620,7 @@ export const stagionalProductsNight = {
         en: ["€8,00"],
         fr: ["€8,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MuleAutunnaleImage,
     },
     {
       id: "sta7",
@@ -2621,7 +2635,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: MagillaImage,
     },
     {
       id: "sta8",
@@ -2636,7 +2650,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: SpritzAutunnaleSeraImage,
     },
     {
       id: "sta9",
@@ -2651,7 +2665,7 @@ export const stagionalProductsNight = {
         en: ["€7,00"],
         fr: ["€7,00"],
       },
-      image: "https://images.unsplash.com/photo-1596700862082-969c36239167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxhaHR1bW4lMjBjb2NrdGFpbF9lbnwxfHx8fDE3NjI0MjY4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: HugoAutunnaleImage,
     },
   ],
   primavera: [
@@ -4639,7 +4653,7 @@ export const productsNight = {
     },
     {
       "id": "g15",
-      "name": "Monbasa",
+      "name": "Mombasa",
       "ingredients": {
         "it": ["Gin secco (London Dry), aromatico e speziato, ispirato al Kenya ma dal Regno Unito."],
         "en": ["Dry (London Dry) gin, aromatic and spicy, inspired by Kenya but from the United Kingdom."],
