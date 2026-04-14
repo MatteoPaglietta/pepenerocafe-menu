@@ -3872,9 +3872,9 @@ export const productsNight = {
         fr: ["Nebbiolo", "Piémont", "Rouge"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: nebbioloImage,
     },
@@ -3887,9 +3887,9 @@ export const productsNight = {
         fr: ["Barbera", "Piémont", "Rouge"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: barberaAstiImage
     },
@@ -3917,9 +3917,9 @@ export const productsNight = {
         fr: ["Barbera", "Pinerolese (Piémont)", "Rouge"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"]
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"]
       },
       image: barberaBifaImage
     },
@@ -3932,9 +3932,9 @@ export const productsNight = {
         fr: ["Primitivo", "Pouilles", "Rouge"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"]
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"]
       },
       image: primitivoImage
     },
@@ -3962,9 +3962,9 @@ export const productsNight = {
         fr: ["Glera", "Vénétie", "Prosecco"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"],
       },
       image: trevisoImage
     },
@@ -3977,9 +3977,9 @@ export const productsNight = {
         fr: ["Arneis", "Piémont", "Blanc tranquille"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"],
       },
       image: arneisImage
     },
@@ -3992,9 +3992,9 @@ export const productsNight = {
         fr: ["Gewürztraminer", "Haut-Adige", "Blanc tranquille"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"],
       },
       image: traminerImage
     },
@@ -4007,9 +4007,9 @@ export const productsNight = {
         fr: ["Falanghina", "Campanie", "Blanc tranquille"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"],
       },
       image: falanghinaImage
     },
@@ -4022,9 +4022,9 @@ export const productsNight = {
         fr: ["Moscato", "Sicile", "Blanc tranquille"],
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"],
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"],
       },
       image: kikeImage
     },
@@ -4037,9 +4037,9 @@ export const productsNight = {
         fr: ["Glera et Pinot Noir", "Vénétie", "Rosé"]
       },
       price: {
-        it: ["€6,00/calice"],
-        en: ["€6,00/glass"],
-        fr: ["€6,00/verre"]
+        it: ["7,00/calice"],
+        en: ["7,00/glass"],
+        fr: ["7,00/verre"]
       },
       image: roseImage
     },
@@ -4054,9 +4054,9 @@ export const productsNight = {
         fr: ["Lager", "4.5% vol"],
       },
       price: {
-        it: ["€5,50/0.5L"],
-        en: ["€5,50/0.5L"],
-        fr: ["€5,50/0.5L"],
+        it: ["€6,00/0.5L"],
+        en: ["€6,00/0.5L"],
+        fr: ["€6,00/0.5L"],
       },
       image: StellaMediaImage,
     },
