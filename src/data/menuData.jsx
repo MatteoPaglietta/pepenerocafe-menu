@@ -1145,6 +1145,21 @@ export const productsAperitif = {
       },
       image: negroniEsoticoImage,
     },
+    {
+      id: "neg9",
+      name: "Boulevardier",
+      ingredients: {
+        it: ["Vermouth Rosso", "Campari", "Rye Whiskey"],
+        en: ["Sweet Vermouth", "Campari", "Rye Whiskey"],
+        fr: ["Vermouth Rouge", "Campari", "Whiskey de Seigle"],
+      },
+      price: {
+        it: ["€8,00"],
+        en: ["€8,00"],
+        fr: ["€8,00"],
+      },
+      image: negroniImage,
+    },
   ],
   analcolici: [
     {
@@ -1675,9 +1690,9 @@ export const productsAperitif = {
         fr: ["Dubbel", "6.6% vol"],
       },
       price: {
-        it: ["€6,00/0.4L"],
-        en: ["€6,00/0.4L"],
-        fr: ["€6,00/0.4L"],
+        it: ["7,00/0.4L"],
+        en: ["7,00/0.4L"],
+        fr: ["7,00/0.4L"],
       },
       image: LeffeRossaImage,
     },
@@ -1690,9 +1705,9 @@ export const productsAperitif = {
         fr: ["Blonde Ale", "6.6% vol"],
       },
       price: {
-        it: ["€6,00/0.4L"],
-        en: ["€6,00/0.4L"],
-        fr: ["€6,00/0.4L"],
+        it: ["€7,00/0.4L"],
+        en: ["€7,00/0.4L"],
+        fr: ["€7,00/0.4L"],
       },
       image: LeffeBiondaImage,
     },
