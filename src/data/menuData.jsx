@@ -3293,6 +3293,36 @@ export const productsNight = {
       },
       image: moscowMuleImage,
     },
+    {
+      id: "c21",
+      name: "Spritz Aperol",
+      ingredients: {
+        it: ["Aperol", "Prosecco", "Soda"],
+        en: ["Aperol", "Prosecco", "Soda"],
+        fr: ["Aperol", "Prosecco", "Soda"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: spritzAperolImage,
+    },
+    {
+      id: "c22",
+      name: "Spritz Campari",
+      ingredients: {
+        it: ["Campari", "Prosecco", "Soda"],
+        en: ["Campari", "Prosecco", "Soda"],
+        fr: ["Campari", "Prosecco", "Soda"],
+      },
+      price: {
+        it: ["€7,50"],
+        en: ["€7,50"],
+        fr: ["€7,50"],
+      },
+      image: spritzCampariImage,
+    },
   ],
   pestati: [
     {
