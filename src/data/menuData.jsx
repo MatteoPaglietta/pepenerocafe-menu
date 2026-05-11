@@ -775,9 +775,9 @@ export const productsAperitif = {
         fr: ["Tequila", "Triple sec", "Citron vert", "Sucre", "Croûte de sel"],
       },
       price: {
-        it: ["€8,00"],
-        en: ["€8,00"],
-        fr: ["€8,00"],
+        it: ["€9,00"],
+        en: ["€9,00"],
+        fr: ["€9,00"],
       },
       image: margaritaImage,
     },
@@ -2131,9 +2131,9 @@ export const productsAperitif = {
         "fr": ["Gin sans alcool style London Dry, produit en Angleterre."]
       },
       "price": {
-        "it": ["€8,00"],
-        "en": ["€8,00"],
-        "fr": ["€8,00"]
+        "it": ["€7,00"],
+        "en": ["€7,00"],
+        "fr": ["€7,00"]
       },
       "image": tanqueray00Image
     },
@@ -2753,9 +2753,9 @@ export const stagionalProductsNight = {
         fr: ["Tequila", "Triple Sec", "Citron Vert", "Fraise"],
       },
       price: {
-        it: ["€8,00"],
-        en: ["€8,00"],
-        fr: ["€8,00"],
+        it: ["€9,00"],
+        en: ["€9,00"],
+        fr: ["€9,00"],
       },
       image: MargaritaFragolaImage,
     },
@@ -3197,9 +3197,9 @@ export const productsNight = {
         fr: ["Tequila Casamigos", "Triple Sec", "Sour", "Citron Vert"],
       },
       price: {
-        it: ["€8,00"],
-        en: ["€8,00"],
-        fr: ["€8,00"],
+        it: ["€9,00"],
+        en: ["€9,00"],
+        fr: ["€9,00"],
       },
       image: margaritaImage,
     },
@@ -4495,9 +4495,9 @@ export const productsNight = {
         "fr": ["Gin sans alcool style London Dry, produit en Angleterre."]
       },
       "price": {
-        "it": ["€8,00"],
-        "en": ["€8,00"],
-        "fr": ["€8,00"]
+        "it": ["€7,00"],
+        "en": ["€7,00"],
+        "fr": ["€7,00"]
       },
       "image": tanqueray00Image
     },
