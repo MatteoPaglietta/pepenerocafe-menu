@@ -43,7 +43,6 @@ import virgincoladaImage from '../assets/immagini-drink/analcolici/virgin-colada
 //Analcolici premium
 import heinekenNoAlcolImage from '../assets/immagini-drink/analcolici-premium/heineken.png';
 import ginTonic0Image from '../assets/immagini-drink/analcolici-premium/gin-tonic0.png';
-import spritzZeroImage from '../assets/immagini-drink/analcolici-premium/spritz-zero.png';
 
 //Drink Caldi
 import SpritzCaldo2Image from '../assets/immagini-drink/drink-caldi/spritz-caldo.png';
@@ -1361,21 +1360,6 @@ export const productsAperitif = {
     },
     {
       id: "anap4",
-      name: "Spritz Zero",
-      ingredients: {
-        it: ["Freely Aperol", "Tonica"],
-        en: ["Freely Aperol", "Tonic Water"],
-        fr: ["Freely Aperol", "Eau tonique"],
-      },
-      price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
-      },
-      image: spritzZeroImage,
-    },
-    {
-      id: "anap5",
       name: "Heineken No Alcol",
       ingredients: {
         it: ["Heineken Analcolica", "0.0% vol", "0.33L"],
@@ -3800,21 +3784,6 @@ export const productsNight = {
     },
     {
       id: "anap4",
-      name: "Spritz Zero",
-      ingredients: {
-        it: ["Freely Aperol", "Tonica"],
-        en: ["Freely Aperol", "Tonic Water"],
-        fr: ["Freely Aperol", "Eau tonique"],
-      },
-      price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
-      },
-      image: spritzZeroImage,
-    },
-    {
-      id: "anap5",
       name: "Heineken No Alcol",
       ingredients: {
         it: ["Heineken Analcolica", "0.0% vol", "0.33L"],
