@@ -1,5 +1,6 @@
 import { Instagram, Phone, MapPin } from 'lucide-react';
 import { FOOTER_TEXTS } from '../data/footerData';
+import { useEffect } from 'react';
 
 const openingHours = [
     { key: 'DAY_MON', hours: '17:00 – 00:00' },
@@ -31,6 +32,26 @@ export default function Footer({ currentLang }) {
         window.open(CONTACT_INFO.reservationDM, '_blank');
     };
     const translate = (key) => getLocalizedText(FOOTER_TEXTS[key], currentLang);
+    const LegalLinks = () => {
+        useEffect(() => {
+            const handleLoad = () => {
+                const s = document.createElement("script");
+                const tag = document.getElementsByTagName("script")[0];
+                s.src = "https://cdn.iubenda.com/iubenda.js";
+                if (tag && tag.parentNode) {
+                    tag.parentNode.insertBefore(s, tag);
+                } else {
+                    document.head.appendChild(s);
+                }
+            };
+            if (document.readyState === "complete") {
+                handleLoad();
+            } else {
+                window.addEventListener("load", handleLoad);
+                return () => window.removeEventListener("load", handleLoad);
+            }
+        }, []);
+    }
     return (
         <footer className="main-footer">
             <div className="footer-content-wrapper">
@@ -84,7 +105,23 @@ export default function Footer({ currentLang }) {
                 </div>
             </div>
             <div className="footer-bottom">
-                <p className="copyright-text" translate="no">©{year} Pepenero Cafè. <span translate="no">{translate('COPYRIGHT')}</span></p>
+                <div className="legal-links-container">
+                    <p className="copyright-text" translate="no">©{year} Pepenero Cafè. <span translate="no">{translate('COPYRIGHT')}</span></p>
+                    <a
+                        href="https://www.iubenda.com/privacy-policy/62152832"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="iubenda-white iubenda-noiframe iubenda-embed"
+                        title="Privacy Policy"
+                    > Privacy Policy  </a>
+                    <a
+                        href="https://www.iubenda.com/privacy-policy/62152832/cookie-policy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="iubenda-white iubenda-noiframe iubenda-embed"
+                        title="Cookie Policy"
+                    > Cookie Policy</a>
+                </div>
             </div>
         </footer>
     );
