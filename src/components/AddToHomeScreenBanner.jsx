@@ -87,10 +87,25 @@ function AddToHomeScreenBanner({ currentLang }) {
     const standalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
     setIsStandalone(standalone);
     const dismissed = localStorage.getItem(STORAGE_KEY) === 'true';
-    if (mobile && !standalone && !dismissed) {
-      const timer = setTimeout(() => setIsVisible(true), 2000); 
-      return () => clearTimeout(timer);
+
+    if (!mobile || standalone || dismissed) {
+      return;
     }
+
+    let timer;
+    const scheduleShow = () => {
+      timer = setTimeout(() => setIsVisible(true), 2000);
+    };
+
+    if (localStorage.getItem('cookie_consent')) {
+      scheduleShow();
+    } else {
+      const onConsentDecided = () => scheduleShow();
+      window.addEventListener('cookie-consent-decided', onConsentDecided, { once: true });
+      return () => window.removeEventListener('cookie-consent-decided', onConsentDecided);
+    }
+
+    return () => clearTimeout(timer);
   }, []);
 
     const handleClose = () => {

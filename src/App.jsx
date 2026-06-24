@@ -6,6 +6,7 @@ import { productsAperitif, productsNight, categoriesMetaAperitif, categoriesMeta
 import LogoSVG from './components/LogoSVG';
 import Footer from './components/Footer';
 import AddToHomeScreenBanner from './components/AddToHomeScreenBanner';
+import CookieConsentBanner from './components/CookieConsentBanner';
 import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
@@ -158,6 +159,7 @@ function App() {
         </div>
         <ScrollToTop containerRef={containerRef} />
         <AddToHomeScreenBanner currentLang={currentLang} />
+        <CookieConsentBanner currentLang={currentLang} />
       </>
     );
   }

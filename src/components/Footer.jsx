@@ -1,5 +1,6 @@
 import { Instagram, Phone, MapPin } from 'lucide-react';
 import { FOOTER_TEXTS } from '../data/footerData';
+import { reopenCookiePreferences } from './CookieConsentBanner';
 
 const openingHours = [
     { key: 'DAY_MON', hours: '17:00 – 00:00' },
@@ -90,7 +91,6 @@ export default function Footer({ currentLang }) {
                         href="https://www.iubenda.com/privacy-policy/62152832"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="iubenda-white iubenda-noiframe iubenda-embed"
                         title="Privacy Policy"
                     >
                         Privacy Policy
@@ -99,11 +99,17 @@ export default function Footer({ currentLang }) {
                         href="https://www.iubenda.com/privacy-policy/62152832/cookie-policy"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="iubenda-white iubenda-noiframe iubenda-embed"
                         title="Cookie Policy"
                     >
                         Cookie Policy
                     </a>
+                    <button
+                        type="button"
+                        className="footer-cookie-preferences-btn"
+                        onClick={reopenCookiePreferences}
+                    >
+                        <span translate="no">{translate('COOKIE_PREFERENCES')}</span>
+                    </button>
                 </div>
             </div>
         </footer>

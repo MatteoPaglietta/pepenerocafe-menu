@@ -24,7 +24,13 @@ export const FOOTER_TEXTS = {
         en: "All rights reserved.",
         fr: "Tous droits réservés.",
     },
-    
+
+    COOKIE_PREFERENCES: {
+        it: "Preferenze Cookie",
+        en: "Cookie Preferences",
+        fr: "Préférences Cookies",
+    },
+
     DAY_MON: { it: "Lunedì", en: "Monday", fr: "Lundi" },
     DAY_TUE: { it: "Martedì", en: "Tuesday", fr: "Mardi" },
     DAY_WED: { it: "Mercoledì", en: "Wednesday", fr: "Mercredi" },
