@@ -35,7 +35,7 @@
     content="Cocktail artigianali, birre alla spina, vini e analcolici: vieni a scoprire il nostro menù nel cuore di Pinerolo.">
   <meta property="og:image" content="https://pepenerocafe-menu.netlify.app/og-image.jpg">
   <meta property="og:url" content="https://pepenerocafe-menu.netlify.app/">
-  <meta property="og:type" content="lounge bar">
+  <meta property="og:type" content="business.business">
   <meta property="og:locale" content="it_IT">
   <meta property="og:site_name" content="Pepenero Cafè">
 
@@ -52,12 +52,8 @@
   <meta name="geo.position" content="44.8854;7.3316">
   <meta name="ICBM" content="44.8854, 7.3316">
 
-  <!-- CANONICAL & ALTERNATE -->
+  <!-- CANONICAL -->
   <link rel="canonical" href="https://pepenerocafe-menu.netlify.app/">
-  <!-- Versione italiana -->
-  <link rel="alternate" href="https://pepenerocafe-menu.netlify.app/" hreflang="it">
-  <!-- Default fallback -->
-  <link rel="alternate" href="https://pepenerocafe-menu.netlify.app/" hreflang="x-default">
 
   <!-- STRUCTURED DATA JSON-LD -->
   <script type="application/ld+json">
@@ -65,7 +61,7 @@
   "@context": "https://schema.org",
   "@type": "CafeOrCoffeeShop",
   "name": "Pepenero Cafè",
-  "image": "https://pepenerocafe-menu.netlify.app/public/og-image.jpg",
+  "image": "https://pepenerocafe-menu.netlify.app/og-image.jpg",
   "url": "https://pepenerocafe-menu.netlify.app/",
   "telephone": "0121 302472",
   "priceRange": "€€",
@@ -105,51 +101,47 @@
         "@type": "MenuSection",
         "name": "Cocktail & Miscelazione",
         "hasMenuItem": [
-          {"@type": "MenuItem", "name": "Negroni", "description": "Gin, Vermouth rosso, Bitter"},
-          {"@type": "MenuItem", "name": "Mojito", "description": "Rum bianco, menta, lime, zucchero, soda"},
-          {"@type": "MenuItem", "name": "Spritz", "description": "Aperol, Prosecco, soda"}
+          {"@type": "MenuItem", "name": "Negroni", "description": "Vermouth rosso, Campari, Gin", "offers": {"@type": "Offer", "price": "7.50", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Mojito", "description": "Lime, zucchero, menta, rum, soda", "offers": {"@type": "Offer", "price": "8.00", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Spritz Aperol", "description": "Aperol, Prosecco, soda", "offers": {"@type": "Offer", "price": "7.00", "priceCurrency": "EUR"}}
         ]
       },
       {
         "@type": "MenuSection",
         "name": "Birre alla Spina",
         "hasMenuItem": [
-          {"@type": "MenuItem", "name": "Leffe Rossa"},
-          {"@type": "MenuItem", "name": "Leffe Bionda"},
-          {"@type": "MenuItem", "name": "Stella Artois"}
+          {"@type": "MenuItem", "name": "Leffe Rossa", "description": "Dubbel, 6.6% vol", "offers": {"@type": "Offer", "price": "7.00", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Leffe Bionda", "description": "Blonde Ale, 6.6% vol", "offers": {"@type": "Offer", "price": "7.00", "priceCurrency": "EUR"}}
         ]
       },
       {
         "@type": "MenuSection",
         "name": "Birre in Bottiglia",
         "hasMenuItem": [
-          {"@type": "MenuItem", "name": "Beck's"},
-          {"@type": "MenuItem", "name": "Heineken"},
-          {"@type": "MenuItem", "name": "Corona"}
+          {"@type": "MenuItem", "name": "Beck's", "description": "Premium Lager, 5.0% vol, 0.33L", "offers": {"@type": "Offer", "price": "6.00", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Heineken", "description": "Pale Lager, 5.0% vol, 0.33L", "offers": {"@type": "Offer", "price": "6.00", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Corona", "description": "Lager Messicana, 4.5% vol, 0.33L", "offers": {"@type": "Offer", "price": "6.00", "priceCurrency": "EUR"}}
         ]
       },
       {
         "@type": "MenuSection",
         "name": "Analcolici",
         "hasMenuItem": [
-          {"@type": "MenuItem", "name": "Cocktail Virgin Mojito"},
-          {"@type": "MenuItem", "name": "Succhi di frutta", "description": "Mela, pesca, ananas, ACE"},
-          {"@type": "MenuItem", "name": "Bibite classiche", "description": "Coca-Cola, Fanta, Sprite"}
+          {"@type": "MenuItem", "name": "Coca-Cola", "description": "0.33L", "offers": {"@type": "Offer", "price": "5.00", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Coca-Cola Zero", "description": "0.33L", "offers": {"@type": "Offer", "price": "5.00", "priceCurrency": "EUR"}}
         ]
       },
       {
         "@type": "MenuSection",
         "name": "Vini",
         "hasMenuItem": [
-          {"@type": "MenuItem", "name": "Prosecco DOC"},
-          {"@type": "MenuItem", "name": "Barbera d’Asti DOCG"},
-          {"@type": "MenuItem", "name": "Rosé Bollé"}
+          {"@type": "MenuItem", "name": "Barbera", "description": "Barbera, Piemonte, Rosso", "offers": {"@type": "Offer", "price": "7.00", "priceCurrency": "EUR"}},
+          {"@type": "MenuItem", "name": "Bollé Rosé", "description": "Glera e Pinot Nero, Veneto, Rosé", "offers": {"@type": "Offer", "price": "7.00", "priceCurrency": "EUR"}}
         ]
       }
     ]
   },
   "sameAs": [
-    "https://www.facebook.com/pepe.nerocafe/",
     "https://www.instagram.com/pepenerocafe_pinerolo/"
   ]
 }
@@ -163,11 +155,10 @@
 }
 </script>
   <meta name="robots" content="index, follow">
-  <!-- GOOGLE ANALYTICS -->
-  <script type="text/plain" class="_iub_cs_activate" data-iub-purposes="4" async
-    src="https://www.googletagmanager.com/gtag/js?id=G-MCJPHFFPBT"></script>
+  <!-- GOOGLE ANALYTICS (bloccato/attivato automaticamente da Iubenda - Blocco automatico) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCJPHFFPBT"></script>
 
-  <script type="text/plain" class="_iub_cs_activate" data-iub-purposes="4">
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
