@@ -155,12 +155,21 @@
 }
 </script>
   <meta name="robots" content="index, follow">
-  <!-- GOOGLE ANALYTICS (bloccato/attivato automaticamente da Iubenda - Blocco automatico) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCJPHFFPBT"></script>
-
+  <!-- GOOGLE ANALYTICS con Google Consent Mode: consenso negato di default, -->
+  <!-- Iubenda invia l'update di consenso quando l'utente accetta/rifiuta la categoria "Misurazione" -->
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied'
+  });
+</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCJPHFFPBT"></script>
+
+  <script>
   gtag('js', new Date());
   gtag('config', 'G-MCJPHFFPBT');
 </script>
