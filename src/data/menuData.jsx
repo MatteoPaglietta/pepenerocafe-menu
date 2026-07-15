@@ -247,6 +247,8 @@ import xoriguerImage from '../assets/immagini-drink/gin/xoriguer.webp';
 import portobelloImage from '../assets/immagini-drink/gin/portobello.webp';
 import rokuImage from '../assets/immagini-drink/gin/roku.webp';
 import tanquerayRangpurImage from '../assets/immagini-drink/gin/tanqueray-rangpur.webp';
+import anotherHendricksImage from '../assets/immagini-drink/gin/another-hendricks.webp';
+import etsuDoubleImage from '../assets/immagini-drink/gin/etsu-double.webp';
 
 // Wine Images
 import arneisImage from '../assets/immagini-drink/vino/arneis.webp';
@@ -1337,9 +1339,9 @@ export const productsAperitif = {
         fr: ["Freely Vermouth", "Freely Bitter", "Gin Tanqueray 0.0"],
       },
       price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
+        it: ["€7,50"],
+        en: ["€7,50"],
+        fr: ["€7,50"],
       },
       image: negroniImage,
     },
@@ -1352,9 +1354,9 @@ export const productsAperitif = {
         fr: ["Freely Vermouth", "Freely Bitter", "Soda"],
       },
       price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
+        it: ["€7,50"],
+        en: ["€7,50"],
+        fr: ["€7,50"],
       },
       image: negrottoImage,
     },
@@ -2273,6 +2275,21 @@ export const productsAperitif = {
     },
     {
       "id": "g12",
+      "name": "Another Hendrick's",
+      "ingredients": {
+        "it": ["Un gin inusuale dal carattere vellutato e agrumato, infuso con fiori d'arancio e cacao, distillato in Scozia."],
+        "en": ["An unusual gin with a velvety and citrus-forward character, infused with orange blossom and cacao, distilled in Scotland."],
+        "fr": ["Un gin insolite au caractère velouté et citronné, infusé de fleurs d'oranger et de cacao, distillé en Écosse."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": anotherHendricksImage
+    },
+    {
+      "id": "g13",
       "name": "Haymans Old Tom",
       "ingredients": {
         "it": ["Gin Old Tom (leggermente dolce e morbido), dal profilo agrumato, dall'Inghilterra."],
@@ -2287,7 +2304,7 @@ export const productsAperitif = {
       "image": haymansImage
     },
     {
-      "id": "g13",
+      "id": "g14",
       "name": "Nordes",
       "ingredients": {
         "it": ["Gin aromatico e fruttato (base Albariño) con note marine, dalla Spagna (Galizia)."],
@@ -2302,7 +2319,7 @@ export const productsAperitif = {
       "image": nordesImage
     },
     {
-      "id": "g14",
+      "id": "g15",
       "name": "Elephant",
       "ingredients": {
         "it": ["Gin aromatico ed erbaceo con botaniche africane, prodotto in Germania."],
@@ -2317,7 +2334,7 @@ export const productsAperitif = {
       "image": elephantImage
     },
     {
-      "id": "g15",
+      "id": "g16",
       "name": "Mombasa",
       "ingredients": {
         "it": ["Gin secco (London Dry), aromatico e speziato, ispirato al Kenya ma dal Regno Unito."],
@@ -2332,7 +2349,7 @@ export const productsAperitif = {
       "image": mombasaImage
     },
     {
-      "id": "g16",
+      "id": "g17",
       "name": "Monkey",
       "ingredients": {
         "it": ["Gin dry (Schwarzwald Dry Gin), complesso con 47 botaniche, dalla Germania."],
@@ -2347,7 +2364,7 @@ export const productsAperitif = {
       "image": monkeyImage
     },
     {
-      "id": "g17",
+      "id": "g18",
       "name": "N° 0",
       "ingredients": {
         "it": ["Gin secco (London Dry), classico e agrumato (No. 0 London Dry), dal Regno Unito."],
@@ -2362,7 +2379,7 @@ export const productsAperitif = {
       "image": n0Image
     },
     {
-      "id": "g18",
+      "id": "g19",
       "name": "Mare",
       "ingredients": {
         "it": ["Gin aromatico e mediterraneo (oliva, basilico, timo), dalla Spagna."],
@@ -2377,7 +2394,7 @@ export const productsAperitif = {
       "image": mareImage
     },
     {
-      "id": "g19",
+      "id": "g20",
       "name": "Roku",
       "ingredients": {
         "it": ["Gin aromatico e fresco, bilanciato con 6 botaniche Giapponesi, dal Giappone."],
@@ -2392,7 +2409,7 @@ export const productsAperitif = {
       "image": rokuImage
     },
     {
-      "id": "g20",
+      "id": "g21",
       "name": "Malfy",
       "ingredients": {
         "it": ["Gin secco (stile Dry), classico con ginepro e limoni, dall'Italia."],
@@ -2407,7 +2424,7 @@ export const productsAperitif = {
       "image": malfyImage
     },
     {
-      "id": "g21",
+      "id": "g22",
       "name": "Malfy Limone",
       "ingredients": {
         "it": ["Gin aromatico e fresco con scorze di limone d'Amalfi, dall'Italia."],
@@ -2422,7 +2439,7 @@ export const productsAperitif = {
       "image": malfyLimoneImage
     },
     {
-      "id": "g22",
+      "id": "g23",
       "name": "Malfy Arancia",
       "ingredients": {
         "it": ["Gin aromatico con scorze di arancia rossa di Sicilia, dall'Italia."],
@@ -2437,7 +2454,7 @@ export const productsAperitif = {
       "image": malfyAranciaImage
     },
     {
-      "id": "g23",
+      "id": "g24",
       "name": "Malfy Pompelmo",
       "ingredients": {
         "it": ["Gin aromatico e fruttato con pompelmo rosa di Sicilia, dall'Italia."],
@@ -2452,7 +2469,7 @@ export const productsAperitif = {
       "image": malfyPompelmoImage
     },
     {
-      "id": "g24",
+      "id": "g25",
       "name": "Bordiga",
       "ingredients": {
         "it": ["Gin secco alpino (Occitan Gin), botaniche raccolte sulle Alpi, dall'Italia (Piemonte)."],
@@ -2467,7 +2484,7 @@ export const productsAperitif = {
       "image": bordigaImage
     },
     {
-      "id": "g25",
+      "id": "g26",
       "name": "Mazzetti",
       "ingredients": {
         "it": ["Gin secco (London Dry), balsamico e speziato, dall'Italia (Piemonte)."],
@@ -2482,7 +2499,7 @@ export const productsAperitif = {
       "image": mazzettiImage
     },
     {
-      "id": "g26",
+      "id": "g27",
       "name": "The London No. 1",
       "ingredients": {
         "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra."],
@@ -2497,7 +2514,7 @@ export const productsAperitif = {
       "image": londoN1Image
     },
     {
-      "id": "g27",
+      "id": "g28",
       "name": "Etsu",
       "ingredients": {
         "it": ["Gin aromatico (Japanese Gin) con note di yuzu, floreali e tè, dal Giappone."],
@@ -2512,7 +2529,22 @@ export const productsAperitif = {
       "image": etsuImage
     },
     {
-      "id": "g28",
+      "id": "g29",
+      "name": "Etsu Double Yuzu",
+      "ingredients": {
+        "it": ["Un gin giapponese caratterizzato da una doppia infusione di yuzu, delicate note di tè matcha e liquirizia."],
+        "en": ["An Japanese gin, featuring a double infusion of yuzu, delicate notes of matcha tea and licorice."],
+        "fr": ["Un gin japonais caractérisé par une double infusion de yuzu, de délicates notes de thé matcha et de réglisse."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": etsuDoubleImage
+    },
+    {
+      "id": "g30",
       "name": "Xoriguer Mahón",
       "ingredients": {
         "it": ["Gin tradizionale e artigianale, distillato in alambicchi di rame. Prodotto a Minorca (Spagna), ha un sapore deciso e marino."],
@@ -3761,9 +3793,9 @@ export const productsNight = {
         fr: ["Freely Vermouth", "Freely Bitter", "Gin Tanqueray 0.0"],
       },
       price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
+        it: ["€7,50"],
+        en: ["€7,50"],
+        fr: ["€7,50"],
       },
       image: negroniImage,
     },
@@ -3776,9 +3808,9 @@ export const productsNight = {
         fr: ["Freely Vermouth", "Freely Bitter", "Soda"],
       },
       price: {
-        it: ["€7,00"],
-        en: ["€7,00"],
-        fr: ["€7,00"],
+        it: ["€7,50"],
+        en: ["€7,50"],
+        fr: ["€7,50"],
       },
       image: negrottoImage,
     },
@@ -4622,6 +4654,21 @@ export const productsNight = {
     },
     {
       "id": "g12",
+      "name": "Another Hendrick's",
+      "ingredients": {
+        "it": ["Un gin inusuale infuso con fiori d'arancio e cacao, distillato in Scozia."],
+        "en": ["An unusual gin infused with orange blossom and cacao, distilled in Scotland."],
+        "fr": ["Un gin insolite infusé de fleurs d'oranger et de cacao, distillé en Écosse."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": anotherHendricksImage
+    },
+    {
+      "id": "g13",
       "name": "Haymans Old Tom",
       "ingredients": {
         "it": ["Gin Old Tom (leggermente dolce e morbido), dal profilo agrumato, dall'Inghilterra."],
@@ -4636,7 +4683,7 @@ export const productsNight = {
       "image": haymansImage
     },
     {
-      "id": "g13",
+      "id": "g14",
       "name": "Nordes",
       "ingredients": {
         "it": ["Gin aromatico e fruttato (base Albariño) con note marine, dalla Spagna (Galizia)."],
@@ -4651,7 +4698,7 @@ export const productsNight = {
       "image": nordesImage
     },
     {
-      "id": "g14",
+      "id": "g15",
       "name": "Elephant",
       "ingredients": {
         "it": ["Gin aromatico ed erbaceo con botaniche africane, prodotto in Germania."],
@@ -4666,7 +4713,7 @@ export const productsNight = {
       "image": elephantImage
     },
     {
-      "id": "g15",
+      "id": "g16",
       "name": "Mombasa",
       "ingredients": {
         "it": ["Gin secco (London Dry), aromatico e speziato, ispirato al Kenya ma dal Regno Unito."],
@@ -4681,7 +4728,7 @@ export const productsNight = {
       "image": mombasaImage
     },
     {
-      "id": "g16",
+      "id": "g17",
       "name": "Monkey",
       "ingredients": {
         "it": ["Gin dry (Schwarzwald Dry Gin), complesso con 47 botaniche, dalla Germania."],
@@ -4696,7 +4743,7 @@ export const productsNight = {
       "image": monkeyImage
     },
     {
-      "id": "g17",
+      "id": "g18",
       "name": "N° 0",
       "ingredients": {
         "it": ["Gin secco (London Dry), classico e agrumato (No. 0 London Dry), dal Regno Unito."],
@@ -4711,7 +4758,7 @@ export const productsNight = {
       "image": n0Image
     },
     {
-      "id": "g18",
+      "id": "g19",
       "name": "Mare",
       "ingredients": {
         "it": ["Gin aromatico e mediterraneo (oliva, basilico, timo), dalla Spagna."],
@@ -4726,7 +4773,7 @@ export const productsNight = {
       "image": mareImage
     },
     {
-      "id": "g19",
+      "id": "g20",
       "name": "Roku",
       "ingredients": {
         "it": ["Gin aromatico e fresco, bilanciato con 6 botaniche Giapponesi, dal Giappone."],
@@ -4741,7 +4788,7 @@ export const productsNight = {
       "image": rokuImage
     },
     {
-      "id": "g20",
+      "id": "g21",
       "name": "Malfy",
       "ingredients": {
         "it": ["Gin secco (stile Dry), classico con ginepro e limoni, dall'Italia."],
@@ -4756,7 +4803,7 @@ export const productsNight = {
       "image": malfyImage
     },
     {
-      "id": "g21",
+      "id": "g22",
       "name": "Malfy Limone",
       "ingredients": {
         "it": ["Gin aromatico e fresco con scorze di limone d'Amalfi, dall'Italia."],
@@ -4771,7 +4818,7 @@ export const productsNight = {
       "image": malfyLimoneImage
     },
     {
-      "id": "g22",
+      "id": "g23",
       "name": "Malfy Arancia",
       "ingredients": {
         "it": ["Gin aromatico con scorze di arancia rossa di Sicilia, dall'Italia."],
@@ -4786,7 +4833,7 @@ export const productsNight = {
       "image": malfyAranciaImage
     },
     {
-      "id": "g23",
+      "id": "g24",
       "name": "Malfy Pompelmo",
       "ingredients": {
         "it": ["Gin aromatico e fruttato con pompelmo rosa di Sicilia, dall'Italia."],
@@ -4801,7 +4848,7 @@ export const productsNight = {
       "image": malfyPompelmoImage
     },
     {
-      "id": "g24",
+      "id": "g25",
       "name": "Bordiga",
       "ingredients": {
         "it": ["Gin secco alpino (Occitan Gin), botaniche raccolte sulle Alpi, dall'Italia (Piemonte)."],
@@ -4816,7 +4863,7 @@ export const productsNight = {
       "image": bordigaImage
     },
     {
-      "id": "g25",
+      "id": "g26",
       "name": "Mazzetti",
       "ingredients": {
         "it": ["Gin secco (London Dry), balsamico e speziato, dall'Italia (Piemonte)."],
@@ -4831,7 +4878,7 @@ export const productsNight = {
       "image": mazzettiImage
     },
     {
-      "id": "g26",
+      "id": "g27",
       "name": "The London No. 1",
       "ingredients": {
         "it": ["Gin premium distillato quattro volte, con 12 botaniche. Prodotto in Inghilterra."],
@@ -4846,7 +4893,7 @@ export const productsNight = {
       "image": londoN1Image
     },
     {
-      "id": "g27",
+      "id": "g28",
       "name": "Etsu",
       "ingredients": {
         "it": ["Gin aromatico (Japanese Gin) con note di yuzu, floreali e tè, dal Giappone."],
@@ -4861,7 +4908,22 @@ export const productsNight = {
       "image": etsuImage
     },
     {
-      "id": "g28",
+      "id": "g29",
+      "name": "Etsu Double Yuzu",
+      "ingredients": {
+        "it": ["Un gin giapponese caratterizzato da una doppia infusione di yuzu, delicate note di tè matcha e liquirizia."],
+        "en": ["An Japanese gin, featuring a double infusion of yuzu, delicate notes of matcha tea and licorice."],
+        "fr": ["Un gin japonais caractérisé par une double infusion de yuzu, de délicates notes de thé matcha et de réglisse."]
+      },
+      "price": {
+        "it": ["€10,00"],
+        "en": ["€10,00"],
+        "fr": ["€10,00"]
+      },
+      "image": etsuDoubleImage
+    },
+    {
+      "id": "g30",
       "name": "Xoriguer Mahón",
       "ingredients": {
         "it": ["Gin tradizionale e artigianale, distillato in alambicchi di rame. Prodotto a Minorca (Spagna), ha un sapore deciso e marino."],
