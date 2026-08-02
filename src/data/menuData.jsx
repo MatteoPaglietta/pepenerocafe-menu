@@ -88,6 +88,7 @@ import MuleEstivoImage from '../assets/immagini-drink/stagionali/ss-mule-estivo.
 import GinFizzEstivoImage from '../assets/immagini-drink/stagionali/ss-gin-fizz-estivo.webp';
 import MojitoEstivoImage from '../assets/immagini-drink/stagionali/ss-mojito-estivo.webp';
 import MojitoPescaBasilicoImage from '../assets/immagini-drink/stagionali/ss-mojito-pesca-basilico.webp';
+import TintoDeVeranoImage from '../assets/immagini-drink/stagionali/ss-tinto-de-verano.webp';
 import AutumnFizzImage from '../assets/immagini-drink/stagionali/sa-autumn-fizz.webp';
 import FizzZeroImage from '../assets/immagini-drink/stagionali/sa-fizz-zero.webp';
 import GinFikImage from '../assets/immagini-drink/stagionali/sa-gin-fik.webp';
@@ -701,6 +702,21 @@ export const stagionalProductsAperitif = {
         fr: ["€7,00"],
       },
       image: GinFizzEstivoImage,
+    },
+    {
+      id: "se7",
+      name: "Tinto de verano",
+      ingredients: {
+        it: ["Vino rosso", "Zucchero", "Lemon Soda"],
+        en: ["Red Wine", "Sugar", "Lemon Soda"],
+        fr: ["Vin rouge", "Sucre", "Soda au Citron"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: TintoDeVeranoImage,
     },
   ],
 };
@@ -3003,6 +3019,21 @@ export const stagionalProductsNight = {
         fr: ["€7,00"],
       },
       image: MojitoPescaBasilicoImage,
+    },
+    {
+      id: "se7",
+      name: "Tinto de verano",
+      ingredients: {
+        it: ["Vino rosso", "Zucchero", "Lemon Soda"],
+        en: ["Red Wine", "Sugar", "Lemon Soda"],
+        fr: ["Vin rouge", "Sucre", "Soda au Citron"],
+      },
+      price: {
+        it: ["€7,00"],
+        en: ["€7,00"],
+        fr: ["€7,00"],
+      },
+      image: TintoDeVeranoImage,
     },
   ],
 };
