@@ -272,7 +272,7 @@ export function getSeasonKey(date = new Date()) {
 
   const primaveraStart = new Date(year, 2, 21, 6, 0, 0);
   const estateStart = new Date(year, 5, 21, 6, 0, 0);
-  const autunnoStart = new Date(year, 8, 23, 6, 0, 0);
+  const autunnoStart = new Date(year, 8, 28, 6, 0, 0); //da rimettere 23
   const invernoStart = new Date(year, 11, 22, 6, 0, 0);
 
   const nextPrimaveraStart = new Date(year + 1, 2, 21);
