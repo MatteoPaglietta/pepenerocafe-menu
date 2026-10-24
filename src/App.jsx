@@ -8,11 +8,13 @@ import Footer from './components/Footer';
 import AddToHomeScreenBanner from './components/AddToHomeScreenBanner';
 import CookieConsentBanner from './components/CookieConsentBanner';
 import ScrollToTop from './components/ScrollToTop';
+import PartyHero, { isPartyActive } from './components/PartyHero';
 
 import './App.css';
 import LanguageSwitcher, { getBrowserDefaultLanguage } from './components/LanguageSwitcher';
 
 const stagioneCorrente = getSeasonKey();
+const partyActive = isPartyActive();
 
 export function getActiveMenu() {
   const currentHour = new Date().getHours();
@@ -120,7 +122,7 @@ function App() {
 
     return (
       <>
-        <div className="app-main-container" ref={containerRef}>
+        <div className={`app-main-container${partyActive ? ' party-theme' : ''}`} ref={containerRef}>
           <header className="main-header">
             <div className="social-logo">
               <a
@@ -147,6 +149,7 @@ function App() {
           </header>
 
           <main className="menu-content">
+            {partyActive && <PartyHero currentLang={currentLang} />}
             <Section
               key={activeCategoryKey}
               title={localizedTitle}

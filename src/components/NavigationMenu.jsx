@@ -1,5 +1,8 @@
 import { getSeasonKey } from '../data/menuData';
 import {getActiveMenu} from '../App';
+import { isPartyActive } from './PartyHero';
+
+const partyActive = isPartyActive();
 
 const NavigationMenu = ({ categoriesMeta, activeCategoryKey, onCategorySelect, currentLang }) => {
 
@@ -31,13 +34,20 @@ const NavigationMenu = ({ categoriesMeta, activeCategoryKey, onCategorySelect, c
             onClick={() => onCategorySelect(category.key)}
           >
             {
-              category.iconUrl && typeof category.iconUrl === 'string' && (
+              category.iconUrl && typeof category.iconUrl === 'string' && (partyActive ? (
+                <span
+                  role="img"
+                  aria-label={category.buttonText}
+                  className="button-icon party-icon"
+                  style={{ WebkitMaskImage: `url(${category.iconUrl})`, maskImage: `url(${category.iconUrl})` }}
+                />
+              ) : (
                 <img
                   src={category.iconUrl}
                   alt={category.buttonText}
                   className="button-icon"
                 />
-              )
+              ))
             }
             <span className="button-text" translate="no">{category.buttonText}</span>
           </button>
