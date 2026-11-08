@@ -264,6 +264,7 @@ import trevisoImage from '../assets/immagini-drink/vino/treviso.webp';
 import valdobbiadeneImage from '../assets/immagini-drink/vino/valdobbiadene.webp';
 import roseImage from '../assets/immagini-drink/vino/vino-rose.webp';
 import nebbioloImage from '../assets/immagini-drink/vino/nebbiolo.webp';
+import moscatoImage from '../assets/immagini-drink/vino/moscato.webp';
 
 
 
@@ -272,7 +273,7 @@ export function getSeasonKey(date = new Date()) {
 
   const primaveraStart = new Date(year, 2, 21, 6, 0, 0);
   const estateStart = new Date(year, 5, 21, 6, 0, 0);
-  const autunnoStart = new Date(year, 8, 28, 6, 0, 0); //da rimettere 23
+  const autunnoStart = new Date(year, 8, 23, 6, 0, 0); 
   const invernoStart = new Date(year, 11, 22, 6, 0, 0);
 
   const nextPrimaveraStart = new Date(year + 1, 2, 21);
@@ -1575,6 +1576,21 @@ export const productsAperitif = {
         fr: ["€7,00/verre"],
       },
       image: trevisoImage
+    },
+    {
+      id: "v13",
+      name: "Moscato",
+      ingredients: {
+        it: ["Moscato", "Piemonte", "Spumante Dolce"],
+        en: ["Moscato", "Piedmont", "Sweet Sparkling"],
+        fr: ["Moscato", "Piémont", "Mousseux Doux"],
+      },
+      price: {
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
+      },
+      image: moscatoImage
     },
     {
       id: "v8",
@@ -3994,9 +4010,9 @@ export const productsNight = {
         fr: ["Barbera", "Pinerolese (Piémont)", "Rouge"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"]
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"]
       },
       image: barberaBifaImage
     },
@@ -4009,9 +4025,9 @@ export const productsNight = {
         fr: ["Primitivo", "Pouilles", "Rouge"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"]
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"]
       },
       image: primitivoImage
     },
@@ -4039,11 +4055,26 @@ export const productsNight = {
         fr: ["Glera", "Vénétie", "Prosecco"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: trevisoImage
+    },
+    {
+      id: "v13",
+      name: "Moscato",
+      ingredients: {
+        it: ["Moscato", "Piemonte", "Spumante Dolce"],
+        en: ["Moscato", "Piedmont", "Sweet Sparkling"],
+        fr: ["Moscato", "Piémont", "Mousseux Doux"],
+      },
+      price: {
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
+      },
+      image: moscatoImage
     },
     {
       id: "v8",
@@ -4054,9 +4085,9 @@ export const productsNight = {
         fr: ["Arneis", "Piémont", "Blanc tranquille"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: arneisImage
     },
@@ -4069,9 +4100,9 @@ export const productsNight = {
         fr: ["Gewürztraminer", "Haut-Adige", "Blanc tranquille"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: traminerImage
     },
@@ -4084,9 +4115,9 @@ export const productsNight = {
         fr: ["Falanghina", "Campanie", "Blanc tranquille"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: falanghinaImage
     },
@@ -4099,9 +4130,9 @@ export const productsNight = {
         fr: ["Moscato", "Sicile", "Blanc tranquille"],
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"],
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"],
       },
       image: kikeImage
     },
@@ -4114,9 +4145,9 @@ export const productsNight = {
         fr: ["Glera et Pinot Noir", "Vénétie", "Rosé"]
       },
       price: {
-        it: ["7,00/calice"],
-        en: ["7,00/glass"],
-        fr: ["7,00/verre"]
+        it: ["€7,00/calice"],
+        en: ["€7,00/glass"],
+        fr: ["€7,00/verre"]
       },
       image: roseImage
     },
